@@ -1,0 +1,13 @@
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 2
+names: ['BSD', 'BSV']
+
+roboflow:
+  workspace: switer
+  project: lp-detection-fcvzv-lzvin
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/switer/lp-detection-fcvzv-lzvin/dataset/1
