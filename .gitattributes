@@ -1,0 +1,10 @@
+*.pt filter=lfs diff=lfs merge=lfs -text
+*.mp4 filter=lfs diff=lfs merge=lfs -text
+*.avi filter=lfs diff=lfs merge=lfs -text
+*.mkv filter=lfs diff=lfs merge=lfs -text
+*.zip filter=lfs diff=lfs merge=lfs -text
+*.jpg filter=lfs diff=lfs merge=lfs -text
+*.png filter=lfs diff=lfs merge=lfs -text
+runs/* filter=lfs diff=lfs merge=lfs -text
+Data/* filter=lfs diff=lfs merge=lfs -text
+DataSet/* filter=lfs diff=lfs merge=lfs -text
