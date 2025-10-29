@@ -1,184 +1,183 @@
-import string
-import easyocr
+
 import re
 import cv2
+import pytesseract
 
+# --- Cấu hình Tesseract ---
+pytesseract.pytesseract.tesseract_cmd = r"D:\Program Files\Tesseract-OCR\tesseract.exe"
+
+# --- Bảng ký tự cho phép ---
 VIETNAM_PLATE_ALLOW_LIST = 'ABCDEFGHIJKLMNPSTUVXYZ0123456789'
 
-# Initialize the OCR reader
-reader = easyocr.Reader(['en', 'vi'], gpu=False)
+# --- Chuyển đổi ký tự dễ nhầm ---
+CHAR_FIX_MAP = {
+    'O': '0', 'D': '0',
+    'I': '1', 'L': '1',
+    'Z': '2',
+    'S': '5',
+    'B': '8',
+    'G': '6',
+    'Q': '9'
+}
+def fix_plate_chars_smart(text):
+    text = text.upper()
+    # Biển số VN dạng 30A12345
+    if len(text) >= 7:
+        head = text[:2]  # 2 số đầu
+        letter = text[2]  # chữ cái
+        tail = text[3:]  # phần số còn lại
 
-# Mapping dictionaries for character conversion
-dict_char_to_int = {'O': '0',
-                    'I': '1',
-                    'J': '3',
-                    'A': '4',
-                    'G': '6',
-                    'S': '5'}
+        # Map chữ cái nếu OCR nhầm thành số
+        letter_map = {'0': 'O', '6': 'G', '1': 'I', '5': 'S'}
+        letter = letter_map.get(letter, letter)
 
-dict_int_to_char = {'0': 'O',
-                    '1': 'I',
-                    '3': 'J',
-                    '4': 'A',
-                    '6': 'G',
-                    '5': 'S'}
+        # Map các ký tự nhầm trong phần số
+        tail = ''.join(CHAR_FIX_MAP.get(ch, ch) for ch in tail)
 
-def write_csv(results, filename):
-    with open(filename, 'w') as f:
-        f.write('{},{},{},{},{},{},{}\n'.format('frame_nmr', 'car_id', 'car_box',
-                                                'license_plate_bbox', 'license_plate_bbox_score',
-                                                'license_number', 'license_number_score'))
+        return head + letter + tail
+    return text
 
-        for frame_nmr in results.keys():
-            for car_id in results[frame_nmr].keys():
-                print(results[frame_nmr][car_id])
-                if 'car' in results[frame_nmr][car_id].keys() and \
-                    'license_plate' in results[frame_nmr][car_id].keys() and \
-                    'text' in results[frame_nmr][car_id]['license_plate'].keys():
-                    f.write('{},{},{},{},{},{},{}\n'.format(frame_nmr,
-                                                            car_id,
-                                                            '[{} {} {} {}]'.format(
-                                                                results[frame_nmr][car_id]['car']['bbox'][0],
-                                                                results[frame_nmr][car_id]['car']['bbox'][1],
-                                                                results[frame_nmr][car_id]['car']['bbox'][2],
-                                                                results[frame_nmr][car_id]['car']['bbox'][3]),
-                                                            '[{} {} {} {}]'.format(
-                                                                results[frame_nmr][car_id]['license_plate']['bbox'][0],
-                                                                results[frame_nmr][car_id]['license_plate']['bbox'][1],
-                                                                results[frame_nmr][car_id]['license_plate']['bbox'][2],
-                                                                results[frame_nmr][car_id]['license_plate']['bbox'][3]),
-                                                            results[frame_nmr][car_id]['license_plate']['bbox_score'],
-                                                            results[frame_nmr][car_id]['license_plate']['text'],
-                                                            results[frame_nmr][car_id]['license_plate']['text_score'])
-                            )
-    f.close()
-
-def license_complies_format(text):
-    text_orig = text.upper().replace(' ', '')
-    # text = text.replace('O', '0').replace('I', '1')
-    text_clean = text.replace('.', '').replace('-', '')
-
-    patterns_clean = [
-        r'^[0-9]{2}[A-Z][0-9]{4,5}$',  # 30A12345
-        r'^[A-Z]{2}[0-9]{5}$',  # TM12345
-        r'^(NN|NG)[0-9]{3,5}$'  # NN12345
-    ]
-
-    for p_clean in patterns_clean:
-        if re.match(p_clean, text_clean):
-            return True
-
-    patterns_original = [
-        r'^[0-9]{2}[A-Z]-?[0-9]{4,5}$',
-        r'^[0-9]{2}[A-Z]-?[0-9]{3}\.[0-9]{2}$',
-        r'^[A-Z]{2}-?[0-9]{5}$',
-        r'^(NN|NG)-?[0-9]{3,5}$'
-    ]
-
-    for p_orig in patterns_original:
-        if re.match(p_orig, text_orig):
-            return True
-
-    return False
-    # text_no_special_chars = text.replace('.', '').replace('-', '')
-    #
-    # for p in patterns:
-    #     clean_text = text.upper().replace(' ', '').replace('-', '').replace('.', '')
-    #
-    #     patterns_clean = [
-    #         r'^[0-9]{2}[A-Z][0-9]{4,5}$',  # 30A12345
-    #         r'^[0-9]{2}[A-Z][0-9]{3}[0-9]{2}$',  # 30A12345 (cho trường hợp 123.45)
-    #         r'^[A-Z]{2}[0-9]{5}$',  # TM12345
-    #         r'^(NN|NG)[0-9]{3,5}$'  # NN12345
-    #     ]
-    #     for p_clean in patterns_clean:
-    #         if re.match(p_clean, clean_text):
-    #             return True
-    #
-    #     if re.match(p, text):
-    #         return True
-    # return False
-
-
-def format_license(text):
+def format_license_smart(text):
     text = text.upper().replace(' ', '').replace('-', '').replace('.', '')
 
-    replacements = {
-        'O': '0', 'I': '1', 'L': '1', 'Z': '2',
-        'S': '5', 'B': '8', 'G': '6', 'Q': '9'
-    }
+    if len(text) >= 7:
+        head = text[:2]
+        letter = text[2]
+        tail = text[3:]
+        return head + letter + tail  # giữ nguyên đã fix trong fix_plate_chars_smart
+    return text
 
-    part_head = ""
-    part_tail = ""
+# =====================================================================
+# Ghi kết quả ra file CSV
+# =====================================================================
+def write_csv(results, filename):
+    with open(filename, 'w') as f:
+        f.write('frame_nmr,car_id,car_box,license_plate_bbox,license_plate_bbox_score,license_number,license_number_score\n')
 
-    match_private = re.search(r'^([0-9]{2}[A-Z])([0-9]+)$', text)
-    match_other = re.search(r'^([A-Z]{2}|NN|NG)([0-9]+)$', text)
+        for frame_nmr, cars in results.items():
+            for car_id, data in cars.items():
+                car = data.get('car')
+                plate = data.get('license_plate')
+
+                if car and plate and 'text' in plate:
+                    f.write(f"{frame_nmr},{car_id},"
+                            f"[{car['bbox'][0]} {car['bbox'][1]} {car['bbox'][2]} {car['bbox'][3]}],"
+                            f"[{plate['bbox'][0]} {plate['bbox'][1]} {plate['bbox'][2]} {plate['bbox'][3]}],"
+                            f"{plate['bbox_score']},{plate['text']},{plate['text_score']}\n")
+    print(f"[INFO] CSV saved to {filename}")
+
+
+# =====================================================================
+# Kiểm tra định dạng biển số Việt Nam
+# =====================================================================
+def license_complies_format(text):
+    text = text.upper().replace(' ', '').replace('-', '').replace('.', '')
+
+    patterns = [
+        r'^[0-9]{2}[A-Z][0-9]{4,5}$',  # 30A12345
+        r'^[A-Z]{2}[0-9]{5}$',         # TM12345
+        r'^(NN|NG)[0-9]{3,5}$'         # NN12345
+    ]
+    return any(re.match(p, text) for p in patterns)
+
+
+# =====================================================================
+# Chuẩn hoá biển số về dạng hợp lệ (ví dụ: 30A12345)
+# =====================================================================
+def format_license(text):
+    text = text.upper().replace(' ', '').replace('-', '').replace('.', '')
+    text = ''.join(CHAR_FIX_MAP.get(ch, ch) for ch in text)
+
+    match_private = re.match(r'^([0-9]{2}[A-Z])([0-9]+)$', text)
+    match_other = re.match(r'^([A-Z]{2}|NN|NG)([0-9]+)$', text)
 
     if match_private:
-        part_head = match_private.group(1)
-        part_tail = match_private.group(2)
+        return match_private.group(1) + match_private.group(2)
     elif match_other:
-        part_head = match_other.group(1)
-        part_tail = match_other.group(2)
+        return match_other.group(1) + match_other.group(2)
     else:
-        part_tail = text
+        return text
 
-    for old, new in replacements.items():
-        part_tail = part_tail.replace(old, new)
 
-    return part_head + part_tail
-
-    # for old, new in replacements.items():
-    #     text = text.replace(old, new)
-    # text = text.replace('.', '').replace('-', '').replace(' ', '')
-    # return text
-
+# =====================================================================
+# Xác định biển số thuộc về xe nào
+# =====================================================================
 def get_car(license_plate, vehicle_track_ids):
-    x1, y1, x2, y2, score, class_id = license_plate
+    x1, y1, x2, y2, _, _ = license_plate
 
-    foundIt = False
-    for j in range(len(vehicle_track_ids)):
-        xcar1, ycar1, xcar2, ycar2, card_id = vehicle_track_ids[j]
+    best_car = (-1, -1, -1, -1, -1)
+    max_overlap = 0
 
-        if x1 > xcar1 and y1 > ycar1 and x2 < xcar2 and y2 < ycar2:
-            car_idx = j
-            foundIt = True
-            break
+    for (xc1, yc1, xc2, yc2, car_id) in vehicle_track_ids:
+        overlap_x1 = max(x1, xc1)
+        overlap_y1 = max(y1, yc1)
+        overlap_x2 = min(x2, xc2)
+        overlap_y2 = min(y2, yc2)
 
-    if foundIt:
-        return vehicle_track_ids[car_idx]
+        overlap_area = max(0, overlap_x2 - overlap_x1) * max(0, overlap_y2 - overlap_y1)
+        plate_area = (x2 - x1) * (y2 - y1)
 
-    return -1, -1, -1, -1, -1
+        overlap_ratio = overlap_area / plate_area if plate_area > 0 else 0
 
+        if overlap_ratio > 0.6 and overlap_ratio > max_overlap:
+            best_car = (xc1, yc1, xc2, yc2, car_id)
+            max_overlap = overlap_ratio
+
+    return best_car
+
+
+# =====================================================================
+# Đọc và nhận dạng biển số từ ảnh
+# =====================================================================
 def read_license_plate(license_plate_crop):
-    detections = reader.readtext(license_plate_crop,
-                                 allowlist=VIETNAM_PLATE_ALLOW_LIST,
-                                 paragraph=True,
-                                 detail=0)
+    if license_plate_crop is None or license_plate_crop.size == 0:
+        print("[WARN] Empty crop, skip.")
+        return None, None
 
-    print("OCR detections raw:", detections)
-    cv2.imshow("OCR_input", license_plate_crop)
+    license_plate_crop = cv2.resize(license_plate_crop, None, fx=2, fy=2, interpolation=cv2.INTER_CUBIC)
+
+    # --- Hiển thị ảnh crop ---
+    cv2.imshow("License Plate Crop", license_plate_crop)
     cv2.waitKey(1)
 
-    if not detections:
-        return None, None
+    # --- Chuyển sang ảnh xám & xử lý ---
+    gray = cv2.cvtColor(license_plate_crop, cv2.COLOR_BGR2GRAY)
+    gray = cv2.equalizeHist(gray)
+    gray = cv2.convertScaleAbs(gray, alpha=1.3, beta=15)
+    gray = cv2.medianBlur(gray, 3)
+    thresh = cv2.adaptiveThreshold(
+        gray, 255,
+        cv2.ADAPTIVE_THRESH_GAUSSIAN_C,
+        cv2.THRESH_BINARY, 19, 9
+    )
 
-    text = detections[0].upper().replace(' ', '')
-    print(f"OCR Raw Text: {text}")
+    # --- Hiển thị ảnh đã xử lý ---
+    cv2.imshow("Gray Plate", gray)
+    cv2.imshow("Threshold Plate", thresh)
+    cv2.waitKey(1000)  # để xem 1s
+    cv2.destroyAllWindows()
 
+    # --- OCR ---
+    config = (
+        r'--oem 3 --psm 8 '
+        r'-c tessedit_char_whitelist=ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789.- '
+        r'-c tessedit_do_invert=0 '
+        r'-c preserve_interword_spaces=1'
+    )
+    text = pytesseract.image_to_string(thresh, config=config)
+
+    # --- Làm sạch ---
+    text = text.strip().upper().replace(" ", "").replace("\n", "")
+    text = re.sub(r'[^A-Z0-9]', '', text)
+    print(f"[OCR Raw] {text}")
+
+    text = fix_plate_chars_smart(text)
+
+    # --- Kiểm tra hợp lệ ---
     if license_complies_format(text):
-        print(f"Text '{text}' PASSED format check.")
-        final_text = format_license(text)
-        print(f"Final Text: {final_text}")
+        final_text = format_license_smart(text)
+        print(f"[OK] Final Plate: {final_text}")
         return final_text, 1.0
     else:
-        print(f"Text '{text}' FAILED format check.")
+        print(f"[FAIL] Invalid Plate: {text}")
         return None, None
-    # for detection in detections:
-    #     bbox, text, score = detection
-    #     print(f"OCR: '{text}' ({score:.2f})")
-    #
-    #     text = text.upper().replace(' ', '')
-    #
-    #     if license_complies_format(text):
-    #         return format_license(text), score
