@@ -1,4 +1,4 @@
-
+import numpy as np
 import re
 import cv2
 import pytesseract
@@ -13,12 +13,16 @@ VIETNAM_PLATE_ALLOW_LIST = 'ABCDEFGHIJKLMNPSTUVXYZ0123456789'
 CHAR_FIX_MAP = {
     'O': '0', 'D': '0',
     'I': '1', 'L': '1',
-    'Z': '2',
     'S': '5',
     'B': '8',
     'G': '6',
     'Q': '9'
 }
+
+LETTER_FIX_MAP = {
+    '0': 'O', '6': 'G', '1': 'I', '5': 'S', '2': 'Z'
+}
+
 def fix_plate_chars_smart(text):
     text = text.upper()
     # Biển số VN dạng 30A12345
@@ -28,8 +32,7 @@ def fix_plate_chars_smart(text):
         tail = text[3:]  # phần số còn lại
 
         # Map chữ cái nếu OCR nhầm thành số
-        letter_map = {'0': 'O', '6': 'G', '1': 'I', '5': 'S'}
-        letter = letter_map.get(letter, letter)
+        letter = LETTER_FIX_MAP.get(letter, letter)
 
         # Map các ký tự nhầm trong phần số
         tail = ''.join(CHAR_FIX_MAP.get(ch, ch) for ch in tail)
@@ -148,23 +151,70 @@ def read_license_plate(license_plate_crop):
     thresh = cv2.adaptiveThreshold(
         gray, 255,
         cv2.ADAPTIVE_THRESH_GAUSSIAN_C,
-        cv2.THRESH_BINARY, 19, 9
-    )
+        cv2.THRESH_BINARY, 19, 9)
 
     # --- Hiển thị ảnh đã xử lý ---
-    cv2.imshow("Gray Plate", gray)
     cv2.imshow("Threshold Plate", thresh)
-    cv2.waitKey(1000)  # để xem 1s
-    cv2.destroyAllWindows()
+    cv2.waitKey(0)  # để xem 1s
+
+    contours, _ = cv2.findContours(thresh, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
+    char_heights = [cv2.boundingRect(c)[3] for c in contours if cv2.contourArea(c) > 30]
+    h, w = thresh.shape[:2]
+    aspect_ratio = w / h
+    if len(char_heights) > 0:
+        avg_char_h = np.mean(char_heights)
+        if avg_char_h < h / 1.8:  # có 2 hàng
+            is_double = True
+        else:
+            is_double = False
+    else:
+        is_double = aspect_ratio <= 2.5
+
+    if not is_double:
+        config = (
+            f'--oem 3 --psm 8 '
+            r'-c tessedit_char_whitelist=ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789.- '
+            r'-c tessedit_do_invert=0 '
+            r'-c preserve_interword_spaces=1'
+        )
+        text = pytesseract.image_to_string(thresh, config=config)
+    else:
+        upper = thresh[0:int(h/2), :]
+
+        upper_proc = cv2.bilateralFilter(upper, 9, 75, 75)
+        upper_proc = cv2.equalizeHist(upper_proc)
+        upper_proc = cv2.convertScaleAbs(upper_proc, alpha=1.4, beta=10)
+        upper_proc = cv2.adaptiveThreshold(
+            upper_proc, 255,
+            cv2.ADAPTIVE_THRESH_GAUSSIAN_C,
+            cv2.THRESH_BINARY_INV, 19, 5
+        )
+
+        lower = thresh[int(h/2):, :]
+
+        cv2.imshow("Upper", upper)
+        cv2.imshow("Lower", lower)
+        cv2.waitKey(0)
+
+        config = (
+            f'--oem 3 --psm 7 '
+            r'-c tessedit_char_whitelist=ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789.- '
+            r'-c tessedit_do_invert=0 '
+            r'-c preserve_interword_spaces=1'
+        )
+
+        text1 = pytesseract.image_to_string(upper_proc, config=config)
+        text2 = pytesseract.image_to_string(lower, config=config)
+        text = (text1 + text2)
 
     # --- OCR ---
-    config = (
-        r'--oem 3 --psm 8 '
-        r'-c tessedit_char_whitelist=ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789.- '
-        r'-c tessedit_do_invert=0 '
-        r'-c preserve_interword_spaces=1'
-    )
-    text = pytesseract.image_to_string(thresh, config=config)
+    # config = (
+    #     f'--oem 3 --psm {psm_mode} '
+    #     r'-c tessedit_char_whitelist=ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789.- '
+    #     r'-c tessedit_do_invert=0 '
+    #     r'-c preserve_interword_spaces=1'
+    # )
+    # text = pytesseract.image_to_string(thresh, config=config)
 
     # --- Làm sạch ---
     text = text.strip().upper().replace(" ", "").replace("\n", "")

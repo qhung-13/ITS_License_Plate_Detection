@@ -13,8 +13,8 @@ mot_tracker = Sort()
 # =========================================================
 # Load Models
 # =========================================================
-coco_model = YOLO('Yolo-Weights/yolo11n.pt')
-license_plate_detector = YOLO(r"runs/detect/License_Plate_Models-v5/weights/best.pt")
+coco_model = YOLO('Yolo-Weights/yolo11m.pt')
+license_plate_detector = YOLO(r"runs/detect/License_Plate_Models-v8/weights/best.pt")
 
 # =========================================================
 # Load Video

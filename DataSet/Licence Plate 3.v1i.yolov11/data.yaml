@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['biensoxe']
+
+roboflow:
+  workspace: switer
+  project: licence-plate-3-0jh6a
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/switer/licence-plate-3-0jh6a/dataset/1
