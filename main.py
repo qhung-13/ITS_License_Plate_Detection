@@ -2,8 +2,10 @@ from ultralytics import YOLO
 import cv2
 import numpy as np
 from sort.sort import *
-from until import get_car, read_license_plate, write_csv
+from until import get_car, read_license_plate_bike, write_csv, read_license_plate_car
+from config import vehical_types
 
+CONF_THRESHOLD = 0.5
 # =========================================================
 # INIT
 # =========================================================
@@ -14,7 +16,7 @@ mot_tracker = Sort()
 # Load Models
 # =========================================================
 coco_model = YOLO('Yolo-Weights/yolo11m.pt')
-license_plate_detector = YOLO(r"runs/detect/License_Plate_Models-v9/weights/best.pt")
+license_plate_detector = YOLO(r"runs/detect/License_Plate_Finetune_v10/weights/best.pt")
 
 # =========================================================
 # Load Video
@@ -46,16 +48,11 @@ while True:
     detections = coco_model(frame, verbose=False)[0]
     detections_ = []
 
-    vehical_types = []
-
     for detection in detections.boxes.data.tolist():
         x1, y1, x2, y2, score, class_id = detection
-        if int(class_id) in vehicles:
-            detections_.append([x1, y1, x2, y2, score])
-            if int(class_id) in two_wheels:
-                vehical_types.append('bike')
-            else:
-                vehical_types.append('car')
+        if int(class_id) in vehicles and score >= CONF_THRESHOLD:
+            detections_.append([x1, y1, x2, y2, score, int(class_id)])
+            print(f"[VEHICLE DETECTED] class_id={class_id}, score={score:.2f}")
 
     # -------------------------------------------------------
     # Track Vehicles
@@ -66,12 +63,19 @@ while True:
     #     cv2.putText(frame, f"Car {int(car_id)}", (int(x1), int(y1) - 10),
     #                 cv2.FONT_HERSHEY_SIMPLEX, 0.6, (0, 255, 0), 2)
 
-    track_ids = mot_tracker.update(np.asarray(detections_))
-    for idx, (x1, y1, x2, y2, car_id) in enumerate(track_ids):
-        v_type = vehical_types[idx] if idx < len(vehical_types) else "car"
-        color = (255, 0, 0) if v_type == 'bike' else (0, 255, 0)
+    track_ids = mot_tracker.update(np.array([d[:5] for d in detections_]))
+
+    track_type_map = {}
+    for idx, (x1, y1, x2, y2, track_id) in enumerate(track_ids):
+        class_id = int(detections_[idx][5])  # class_id từ detection
+        class_type = vehical_types.get(class_id, 'car')  # dict trong config
+        track_type_map[int(track_id)] = class_type
+
+        print(f"Track ID {track_id} -> class_id {class_id} -> class_type {class_type}")
+
+        color = (255, 0, 0) if class_type == 'bike' else (0, 255, 0)
         cv2.rectangle(frame, (int(x1), int(y1)), (int(x2), int(y2)), color, 2)
-        cv2.putText(frame, f"{v_type} {int(car_id)}", (int(x1), int(y1) - 10),
+        cv2.putText(frame, f"{class_type} {int(track_id)}", (int(x1), int(y1) - 10),
                     cv2.FONT_HERSHEY_SIMPLEX, 0.5, color, 2)
 
     # -------------------------------------------------------
@@ -86,6 +90,9 @@ while True:
     for license_plate in license_plates.boxes.data.tolist():
         x1, y1, x2, y2, score, class_id = license_plate
         x1, y1, x2, y2 = map(int, [x1, y1, x2, y2])
+
+        print(f"[Frame {frame_nmr}] YOLO License Plate Detected: "
+              f"BBox=[{x1},{y1},{x2},{y2}], Score={score:.2f}")
 
         cv2.rectangle(frame, (x1, y1), (x2, y2), (0, 0, 255), 2)
         cv2.putText(frame, f"Plate Detected", (x1, y1 - 10),
@@ -108,16 +115,22 @@ while True:
         cv2.imshow("Cropped Plate", license_plate_crop)
         cv2.waitKey(1)
 
-        v_type = None
-        for idx, track in enumerate(track_ids):
-            if int(track[4]) == int(car_id):
-                v_type = vehical_types[idx] if idx < len(vehical_types) else "car"
-                break
+        # v_type = None
+        # for idx, track in enumerate(track_ids):
+        #     if int(track[4]) == int(car_id):
+        #         v_type = vehical_types[idx] if idx < len(vehical_types) else "car"
+        #         break
 
         # ---------------- OCR ----------------
         # plate_text, plate_text_score = read_license_plate(license_plate_crop)
+        v_type = track_type_map.get(int(car_id), "car")
 
+        if v_type == "bike":
+            plate_text, plate_text_score = read_license_plate_bike(license_plate_crop)
+        else:
+            plate_text, plate_text_score = read_license_plate_car(license_plate_crop)
 
+        print(f"[OCR RESULT] Vehicle ID={car_id}, Plate='{plate_text}', OCR score={plate_text_score}")
 
         if plate_text is not None:
             results[frame_nmr][car_id] = {
@@ -131,9 +144,10 @@ while True:
             }
 
             # Draw result
-            cv2.rectangle(frame, (x1, y1), (x2, y2), (255, 0, 0), 2)
+            color = (255, 0, 0) if v_type == "bike" else (0, 255, 0)
+            cv2.rectangle(frame, (x1, y1), (x2, y2), color, 2)
             cv2.putText(frame, plate_text, (x1, y1 - 10),
-                        cv2.FONT_HERSHEY_SIMPLEX, 0.9, (0, 255, 0), 2)
+                        cv2.FONT_HERSHEY_SIMPLEX, 0.9, color, 2)
 
     # -------------------------------------------------------
     # Display
