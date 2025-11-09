@@ -14,16 +14,19 @@ mot_tracker = Sort()
 # Load Models
 # =========================================================
 coco_model = YOLO('Yolo-Weights/yolo11m.pt')
-license_plate_detector = YOLO(r"runs/detect/License_Plate_Models-v8/weights/best.pt")
+license_plate_detector = YOLO(r"runs/detect/License_Plate_Models-v9/weights/best.pt")
 
 # =========================================================
 # Load Video
 # =========================================================
 cap = cv2.VideoCapture(r"Data/datatest1.mp4")
 if not cap.isOpened():
-    raise RuntimeError("❌ Không mở được video! Kiểm tra lại đường dẫn.")
+    raise RuntimeError("Không mở được video! Kiểm tra lại đường dẫn.")
 
 vehicles = [2, 3, 5, 7]  # car, motorbike, bus, truck
+four_wheels_up = [2, 5, 7]
+two_wheels = [3]
+
 frame_nmr = -1
 
 # =========================================================
@@ -43,19 +46,33 @@ while True:
     detections = coco_model(frame, verbose=False)[0]
     detections_ = []
 
+    vehical_types = []
+
     for detection in detections.boxes.data.tolist():
         x1, y1, x2, y2, score, class_id = detection
         if int(class_id) in vehicles:
             detections_.append([x1, y1, x2, y2, score])
+            if int(class_id) in two_wheels:
+                vehical_types.append('bike')
+            else:
+                vehical_types.append('car')
 
     # -------------------------------------------------------
     # Track Vehicles
     # -------------------------------------------------------
+    # track_ids = mot_tracker.update(np.asarray(detections_))
+    # for x1, y1, x2, y2, car_id in track_ids:
+    #     cv2.rectangle(frame, (int(x1), int(y1)), (int(x2), int(y2)), (0, 255, 0), 2)
+    #     cv2.putText(frame, f"Car {int(car_id)}", (int(x1), int(y1) - 10),
+    #                 cv2.FONT_HERSHEY_SIMPLEX, 0.6, (0, 255, 0), 2)
+
     track_ids = mot_tracker.update(np.asarray(detections_))
-    for x1, y1, x2, y2, car_id in track_ids:
-        cv2.rectangle(frame, (int(x1), int(y1)), (int(x2), int(y2)), (0, 255, 0), 2)
-        cv2.putText(frame, f"Car {int(car_id)}", (int(x1), int(y1) - 10),
-                    cv2.FONT_HERSHEY_SIMPLEX, 0.6, (0, 255, 0), 2)
+    for idx, (x1, y1, x2, y2, car_id) in enumerate(track_ids):
+        v_type = vehical_types[idx] if idx < len(vehical_types) else "car"
+        color = (255, 0, 0) if v_type == 'bike' else (0, 255, 0)
+        cv2.rectangle(frame, (int(x1), int(y1)), (int(x2), int(y2)), color, 2)
+        cv2.putText(frame, f"{v_type} {int(car_id)}", (int(x1), int(y1) - 10),
+                    cv2.FONT_HERSHEY_SIMPLEX, 0.5, color, 2)
 
     # -------------------------------------------------------
     # Detect License Plates
@@ -70,6 +87,10 @@ while True:
         x1, y1, x2, y2, score, class_id = license_plate
         x1, y1, x2, y2 = map(int, [x1, y1, x2, y2])
 
+        cv2.rectangle(frame, (x1, y1), (x2, y2), (0, 0, 255), 2)
+        cv2.putText(frame, f"Plate Detected", (x1, y1 - 10),
+                    cv2.FONT_HERSHEY_SIMPLEX, 0.6, (0, 0, 255), 2)
+
         xcar1, ycar1, xcar2, ycar2, car_id = get_car(license_plate, track_ids)
         if car_id == -1:
             continue
@@ -82,12 +103,21 @@ while True:
 
         if license_plate_crop.size == 0:
             continue
+
         # --- Hiển thị ảnh crop ---
         cv2.imshow("Cropped Plate", license_plate_crop)
         cv2.waitKey(1)
 
+        v_type = None
+        for idx, track in enumerate(track_ids):
+            if int(track[4]) == int(car_id):
+                v_type = vehical_types[idx] if idx < len(vehical_types) else "car"
+                break
+
         # ---------------- OCR ----------------
-        plate_text, plate_text_score = read_license_plate(license_plate_crop)
+        # plate_text, plate_text_score = read_license_plate(license_plate_crop)
+
+
 
         if plate_text is not None:
             results[frame_nmr][car_id] = {
@@ -106,7 +136,7 @@ while True:
                         cv2.FONT_HERSHEY_SIMPLEX, 0.9, (0, 255, 0), 2)
 
     # -------------------------------------------------------
-    # 5️⃣ Display
+    # Display
     # -------------------------------------------------------
     cv2.namedWindow("Vehicle & License Plate Tracking", cv2.WINDOW_NORMAL)
     screen_w, screen_h = 1280, 720
@@ -125,4 +155,4 @@ while True:
 cap.release()
 cv2.destroyAllWindows()
 write_csv(results, './test.csv')
-print("✅ Done. Saved results to test.csv")
+print("Done. Saved results to test.csv")

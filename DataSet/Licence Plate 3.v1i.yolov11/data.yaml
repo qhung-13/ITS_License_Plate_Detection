@@ -3,7 +3,7 @@ val: ../valid/images
 test: ../test/images
 
 nc: 1
-names: ['biensoxe']
+names: ['plate']
 
 roboflow:
   workspace: switer

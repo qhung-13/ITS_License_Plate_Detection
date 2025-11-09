@@ -3,7 +3,7 @@ import cv2
 from until import read_license_plate
 
 # 1. Load model YOLO đã train để phát hiện biển số
-model = YOLO(r"runs/detect/License_Plate_Models-v7/weights/best.pt")  # thay bằng đường dẫn model của bạn
+model = YOLO(r"runs/detect/License_Plate_Models-v9/weights/best.pt")  # thay bằng đường dẫn model của bạn
 
 # 2. Đọc ảnh full xe
 img = cv2.imread("Dieu_0350_png.rf.b11cea2821d9b2e3c6b093f3e1585a81.jpg")
