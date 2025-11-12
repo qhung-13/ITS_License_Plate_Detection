@@ -1,0 +1,850 @@
+{
+  "30Z5226": [
+    {
+      "plate": "30Z5226",
+      "track_id": 3,
+      "vehicle_type": "car",
+      "camera_id": "CAM-1",
+      "location": "Tô Kí",
+      "timestamp": "2025-11-11T17:04:47.827322Z",
+      "lat": 10.847,
+      "lon": 106.673
+    },
+    {
+      "plate": "30Z5226",
+      "track_id": 7,
+      "vehicle_type": "car",
+      "camera_id": "CAM-1",
+      "location": "Tô Kí",
+      "timestamp": "2025-11-11T17:06:16.920486Z",
+      "lat": 10.847,
+      "lon": 106.673
+    }
+  ],
+  "40Z5276": [
+    {
+      "plate": "40Z5276",
+      "track_id": 3,
+      "vehicle_type": "car",
+      "camera_id": "CAM-1",
+      "location": "Tô Kí",
+      "timestamp": "2025-11-11T17:04:48.978759Z",
+      "lat": 10.847,
+      "lon": 106.673
+    }
+  ],
+  "30Z5276": [
+    {
+      "plate": "30Z5276",
+      "track_id": 3,
+      "vehicle_type": "car",
+      "camera_id": "CAM-1",
+      "location": "Tô Kí",
+      "timestamp": "2025-11-11T17:04:49.673726Z",
+      "lat": 10.847,
+      "lon": 106.673
+    }
+  ],
+  "30A47265": [
+    {
+      "plate": "30A47265",
+      "track_id": 4,
+      "vehicle_type": "car",
+      "camera_id": "CAM-1",
+      "location": "Tô Kí",
+      "timestamp": "2025-11-11T17:04:51.082592Z",
+      "lat": 10.847,
+      "lon": 106.673
+    }
+  ],
+  "30Z4265": [
+    {
+      "plate": "30Z4265",
+      "track_id": 4,
+      "vehicle_type": "car",
+      "camera_id": "CAM-1",
+      "location": "Tô Kí",
+      "timestamp": "2025-11-11T17:04:51.701540Z",
+      "lat": 10.847,
+      "lon": 106.673
+    },
+    {
+      "plate": "30Z4265",
+      "track_id": 4,
+      "vehicle_type": "car",
+      "camera_id": "CAM-1",
+      "location": "Tô Kí",
+      "timestamp": "2025-11-11T17:05:51.766737Z",
+      "lat": 10.847,
+      "lon": 106.673
+    }
+  ],
+  "30S4265": [
+    {
+      "plate": "30S4265",
+      "track_id": 4,
+      "vehicle_type": "car",
+      "camera_id": "CAM-1",
+      "location": "Tô Kí",
+      "timestamp": "2025-11-11T17:04:52.014987Z",
+      "lat": 10.847,
+      "lon": 106.673
+    }
+  ],
+  "30Z52276": [
+    {
+      "plate": "30Z52276",
+      "track_id": 3,
+      "vehicle_type": "car",
+      "camera_id": "CAM-1",
+      "location": "Tô Kí",
+      "timestamp": "2025-11-11T17:04:52.263948Z",
+      "lat": 10.847,
+      "lon": 106.673
+    }
+  ],
+  "30A74209": [
+    {
+      "plate": "30A74209",
+      "track_id": 4,
+      "vehicle_type": "car",
+      "camera_id": "CAM-1",
+      "location": "Tô Kí",
+      "timestamp": "2025-11-11T17:04:52.712298Z",
+      "lat": 10.847,
+      "lon": 106.673
+    }
+  ],
+  "30S15269": [
+    {
+      "plate": "30S15269",
+      "track_id": 4,
+      "vehicle_type": "car",
+      "camera_id": "CAM-1",
+      "location": "Tô Kí",
+      "timestamp": "2025-11-11T17:04:53.451473Z",
+      "lat": 10.847,
+      "lon": 106.673
+    }
+  ],
+  "30B24205": [
+    {
+      "plate": "30B24205",
+      "track_id": 4,
+      "vehicle_type": "car",
+      "camera_id": "CAM-1",
+      "location": "Tô Kí",
+      "timestamp": "2025-11-11T17:04:54.223175Z",
+      "lat": 10.847,
+      "lon": 106.673
+    }
+  ],
+  "30B74269": [
+    {
+      "plate": "30B74269",
+      "track_id": 4,
+      "vehicle_type": "car",
+      "camera_id": "CAM-1",
+      "location": "Tô Kí",
+      "timestamp": "2025-11-11T17:04:54.951434Z",
+      "lat": 10.847,
+      "lon": 106.673
+    }
+  ],
+  "30Z56276": [
+    {
+      "plate": "30Z56276",
+      "track_id": 3,
+      "vehicle_type": "car",
+      "camera_id": "CAM-1",
+      "location": "Tô Kí",
+      "timestamp": "2025-11-11T17:04:55.267074Z",
+      "lat": 10.847,
+      "lon": 106.673
+    }
+  ],
+  "30Z4209": [
+    {
+      "plate": "30Z4209",
+      "track_id": 4,
+      "vehicle_type": "car",
+      "camera_id": "CAM-1",
+      "location": "Tô Kí",
+      "timestamp": "2025-11-11T17:04:55.624581Z",
+      "lat": 10.847,
+      "lon": 106.673
+    }
+  ],
+  "30Z5296": [
+    {
+      "plate": "30Z5296",
+      "track_id": 3,
+      "vehicle_type": "car",
+      "camera_id": "CAM-1",
+      "location": "Tô Kí",
+      "timestamp": "2025-11-11T17:04:55.848048Z",
+      "lat": 10.847,
+      "lon": 106.673
+    }
+  ],
+  "30B24265": [
+    {
+      "plate": "30B24265",
+      "track_id": 4,
+      "vehicle_type": "car",
+      "camera_id": "CAM-1",
+      "location": "Tô Kí",
+      "timestamp": "2025-11-11T17:04:56.972384Z",
+      "lat": 10.847,
+      "lon": 106.673
+    }
+  ],
+  "30Z6276": [
+    {
+      "plate": "30Z6276",
+      "track_id": 3,
+      "vehicle_type": "car",
+      "camera_id": "CAM-1",
+      "location": "Tô Kí",
+      "timestamp": "2025-11-11T17:04:57.852632Z",
+      "lat": 10.847,
+      "lon": 106.673
+    }
+  ],
+  "30Z62296": [
+    {
+      "plate": "30Z62296",
+      "track_id": 3,
+      "vehicle_type": "car",
+      "camera_id": "CAM-1",
+      "location": "Tô Kí",
+      "timestamp": "2025-11-11T17:04:58.554131Z",
+      "lat": 10.847,
+      "lon": 106.673
+    }
+  ],
+  "30S24209": [
+    {
+      "plate": "30S24209",
+      "track_id": 4,
+      "vehicle_type": "car",
+      "camera_id": "CAM-1",
+      "location": "Tô Kí",
+      "timestamp": "2025-11-11T17:04:59.015121Z",
+      "lat": 10.847,
+      "lon": 106.673
+    }
+  ],
+  "30S24259": [
+    {
+      "plate": "30S24259",
+      "track_id": 4,
+      "vehicle_type": "car",
+      "camera_id": "CAM-1",
+      "location": "Tô Kí",
+      "timestamp": "2025-11-11T17:04:59.708405Z",
+      "lat": 10.847,
+      "lon": 106.673
+    }
+  ],
+  "13A24259": [
+    {
+      "plate": "13A24259",
+      "track_id": 4,
+      "vehicle_type": "car",
+      "camera_id": "CAM-1",
+      "location": "Tô Kí",
+      "timestamp": "2025-11-11T17:05:01.056118Z",
+      "lat": 10.847,
+      "lon": 106.673
+    }
+  ],
+  "30Z52275": [
+    {
+      "plate": "30Z52275",
+      "track_id": 3,
+      "vehicle_type": "car",
+      "camera_id": "CAM-1",
+      "location": "Tô Kí",
+      "timestamp": "2025-11-11T17:05:02.655676Z",
+      "lat": 10.847,
+      "lon": 106.673
+    }
+  ],
+  "30A24209": [
+    {
+      "plate": "30A24209",
+      "track_id": 4,
+      "vehicle_type": "car",
+      "camera_id": "CAM-1",
+      "location": "Tô Kí",
+      "timestamp": "2025-11-11T17:05:04.356196Z",
+      "lat": 10.847,
+      "lon": 106.673
+    }
+  ],
+  "13A24209": [
+    {
+      "plate": "13A24209",
+      "track_id": 4,
+      "vehicle_type": "car",
+      "camera_id": "CAM-1",
+      "location": "Tô Kí",
+      "timestamp": "2025-11-11T17:05:05.079343Z",
+      "lat": 10.847,
+      "lon": 106.673
+    }
+  ],
+  "30I24269": [
+    {
+      "plate": "30I24269",
+      "track_id": 4,
+      "vehicle_type": "car",
+      "camera_id": "CAM-1",
+      "location": "Tô Kí",
+      "timestamp": "2025-11-11T17:05:06.465769Z",
+      "lat": 10.847,
+      "lon": 106.673
+    }
+  ],
+  "30I24205": [
+    {
+      "plate": "30I24205",
+      "track_id": 4,
+      "vehicle_type": "car",
+      "camera_id": "CAM-1",
+      "location": "Tô Kí",
+      "timestamp": "2025-11-11T17:05:07.799687Z",
+      "lat": 10.847,
+      "lon": 106.673
+    }
+  ],
+  "30I24209": [
+    {
+      "plate": "30I24209",
+      "track_id": 4,
+      "vehicle_type": "car",
+      "camera_id": "CAM-1",
+      "location": "Tô Kí",
+      "timestamp": "2025-11-11T17:05:08.371549Z",
+      "lat": 10.847,
+      "lon": 106.673
+    }
+  ],
+  "30Z56296": [
+    {
+      "plate": "30Z56296",
+      "track_id": 3,
+      "vehicle_type": "car",
+      "camera_id": "CAM-1",
+      "location": "Tô Kí",
+      "timestamp": "2025-11-11T17:05:11.479153Z",
+      "lat": 10.847,
+      "lon": 106.673
+    }
+  ],
+  "13A24269": [
+    {
+      "plate": "13A24269",
+      "track_id": 4,
+      "vehicle_type": "car",
+      "camera_id": "CAM-1",
+      "location": "Tô Kí",
+      "timestamp": "2025-11-11T17:05:13.598997Z",
+      "lat": 10.847,
+      "lon": 106.673
+    }
+  ],
+  "30Z5996": [
+    {
+      "plate": "30Z5996",
+      "track_id": 3,
+      "vehicle_type": "car",
+      "camera_id": "CAM-1",
+      "location": "Tô Kí",
+      "timestamp": "2025-11-11T17:05:13.889277Z",
+      "lat": 10.847,
+      "lon": 106.673
+    }
+  ],
+  "30Z6226": [
+    {
+      "plate": "30Z6226",
+      "track_id": 3,
+      "vehicle_type": "car",
+      "camera_id": "CAM-1",
+      "location": "Tô Kí",
+      "timestamp": "2025-11-11T17:05:16.089773Z",
+      "lat": 10.847,
+      "lon": 106.673
+    }
+  ],
+  "30Z42565": [
+    {
+      "plate": "30Z42565",
+      "track_id": 4,
+      "vehicle_type": "car",
+      "camera_id": "CAM-1",
+      "location": "Tô Kí",
+      "timestamp": "2025-11-11T17:05:17.741523Z",
+      "lat": 10.847,
+      "lon": 106.673
+    }
+  ],
+  "30Z52296": [
+    {
+      "plate": "30Z52296",
+      "track_id": 3,
+      "vehicle_type": "car",
+      "camera_id": "CAM-1",
+      "location": "Tô Kí",
+      "timestamp": "2025-11-11T17:05:19.174230Z",
+      "lat": 10.847,
+      "lon": 106.673
+    }
+  ],
+  "30I24265": [
+    {
+      "plate": "30I24265",
+      "track_id": 4,
+      "vehicle_type": "car",
+      "camera_id": "CAM-1",
+      "location": "Tô Kí",
+      "timestamp": "2025-11-11T17:05:19.442312Z",
+      "lat": 10.847,
+      "lon": 106.673
+    }
+  ],
+  "30Z4259": [
+    {
+      "plate": "30Z4259",
+      "track_id": 4,
+      "vehicle_type": "car",
+      "camera_id": "CAM-1",
+      "location": "Tô Kí",
+      "timestamp": "2025-11-11T17:05:20.317303Z",
+      "lat": 10.847,
+      "lon": 106.673
+    }
+  ],
+  "20Z5226": [
+    {
+      "plate": "20Z5226",
+      "track_id": 3,
+      "vehicle_type": "car",
+      "camera_id": "CAM-1",
+      "location": "Tô Kí",
+      "timestamp": "2025-11-11T17:05:24.471236Z",
+      "lat": 10.847,
+      "lon": 106.673
+    }
+  ],
+  "63A24265": [
+    {
+      "plate": "63A24265",
+      "track_id": 4,
+      "vehicle_type": "car",
+      "camera_id": "CAM-1",
+      "location": "Tô Kí",
+      "timestamp": "2025-11-11T17:05:25.965262Z",
+      "lat": 10.847,
+      "lon": 106.673
+    }
+  ],
+  "30Z6296": [
+    {
+      "plate": "30Z6296",
+      "track_id": 3,
+      "vehicle_type": "car",
+      "camera_id": "CAM-1",
+      "location": "Tô Kí",
+      "timestamp": "2025-11-11T17:05:26.790573Z",
+      "lat": 10.847,
+      "lon": 106.673
+    }
+  ],
+  "30Z4269": [
+    {
+      "plate": "30Z4269",
+      "track_id": 4,
+      "vehicle_type": "car",
+      "camera_id": "CAM-1",
+      "location": "Tô Kí",
+      "timestamp": "2025-11-11T17:05:28.161160Z",
+      "lat": 10.847,
+      "lon": 106.673
+    }
+  ],
+  "30I26269": [
+    {
+      "plate": "30I26269",
+      "track_id": 4,
+      "vehicle_type": "car",
+      "camera_id": "CAM-1",
+      "location": "Tô Kí",
+      "timestamp": "2025-11-11T17:05:34.401585Z",
+      "lat": 10.847,
+      "lon": 106.673
+    }
+  ],
+  "30Z42695": [
+    {
+      "plate": "30Z42695",
+      "track_id": 4,
+      "vehicle_type": "car",
+      "camera_id": "CAM-1",
+      "location": "Tô Kí",
+      "timestamp": "2025-11-11T17:05:36.423802Z",
+      "lat": 10.847,
+      "lon": 106.673
+    }
+  ],
+  "63A24205": [
+    {
+      "plate": "63A24205",
+      "track_id": 4,
+      "vehicle_type": "car",
+      "camera_id": "CAM-1",
+      "location": "Tô Kí",
+      "timestamp": "2025-11-11T17:05:40.758357Z",
+      "lat": 10.847,
+      "lon": 106.673
+    }
+  ],
+  "30Z42654": [
+    {
+      "plate": "30Z42654",
+      "track_id": 4,
+      "vehicle_type": "car",
+      "camera_id": "CAM-1",
+      "location": "Tô Kí",
+      "timestamp": "2025-11-11T17:05:44.668400Z",
+      "lat": 10.847,
+      "lon": 106.673
+    }
+  ],
+  "30Z4205": [
+    {
+      "plate": "30Z4205",
+      "track_id": 4,
+      "vehicle_type": "car",
+      "camera_id": "CAM-1",
+      "location": "Tô Kí",
+      "timestamp": "2025-11-11T17:05:47.124645Z",
+      "lat": 10.847,
+      "lon": 106.673
+    }
+  ],
+  "30G09842": [
+    {
+      "plate": "30G09842",
+      "track_id": 8,
+      "vehicle_type": "car",
+      "camera_id": "CAM-1",
+      "location": "Tô Kí",
+      "timestamp": "2025-11-11T17:05:54.243536Z",
+      "lat": 10.847,
+      "lon": 106.673
+    }
+  ],
+  "13O60984": [
+    {
+      "plate": "13O60984",
+      "track_id": 8,
+      "vehicle_type": "car",
+      "camera_id": "CAM-1",
+      "location": "Tô Kí",
+      "timestamp": "2025-11-11T17:05:56.045077Z",
+      "lat": 10.847,
+      "lon": 106.673
+    }
+  ],
+  "30G0984": [
+    {
+      "plate": "30G0984",
+      "track_id": 8,
+      "vehicle_type": "car",
+      "camera_id": "CAM-1",
+      "location": "Tô Kí",
+      "timestamp": "2025-11-11T17:05:56.528804Z",
+      "lat": 10.847,
+      "lon": 106.673
+    }
+  ],
+  "30G09847": [
+    {
+      "plate": "30G09847",
+      "track_id": 10,
+      "vehicle_type": "car",
+      "camera_id": "CAM-1",
+      "location": "Tô Kí",
+      "timestamp": "2025-11-11T17:05:59.335827Z",
+      "lat": 10.847,
+      "lon": 106.673
+    }
+  ],
+  "13O6098": [
+    {
+      "plate": "13O6098",
+      "track_id": 10,
+      "vehicle_type": "car",
+      "camera_id": "CAM-1",
+      "location": "Tô Kí",
+      "timestamp": "2025-11-11T17:06:01.034355Z",
+      "lat": 10.847,
+      "lon": 106.673
+    }
+  ],
+  "30A5221": [
+    {
+      "plate": "30A5221",
+      "track_id": 7,
+      "vehicle_type": "car",
+      "camera_id": "CAM-1",
+      "location": "Tô Kí",
+      "timestamp": "2025-11-11T17:06:07.326715Z",
+      "lat": 10.847,
+      "lon": 106.673
+    }
+  ],
+  "30A5206": [
+    {
+      "plate": "30A5206",
+      "track_id": 7,
+      "vehicle_type": "car",
+      "camera_id": "CAM-1",
+      "location": "Tô Kí",
+      "timestamp": "2025-11-11T17:06:08.730245Z",
+      "lat": 10.847,
+      "lon": 106.673
+    }
+  ],
+  "30A6226": [
+    {
+      "plate": "30A6226",
+      "track_id": 7,
+      "vehicle_type": "car",
+      "camera_id": "CAM-1",
+      "location": "Tô Kí",
+      "timestamp": "2025-11-11T17:06:10.122781Z",
+      "lat": 10.847,
+      "lon": 106.673
+    }
+  ],
+  "40A5226": [
+    {
+      "plate": "40A5226",
+      "track_id": 7,
+      "vehicle_type": "car",
+      "camera_id": "CAM-1",
+      "location": "Tô Kí",
+      "timestamp": "2025-11-11T17:06:12.171090Z",
+      "lat": 10.847,
+      "lon": 106.673
+    }
+  ],
+  "30A5226": [
+    {
+      "plate": "30A5226",
+      "track_id": 7,
+      "vehicle_type": "car",
+      "camera_id": "CAM-1",
+      "location": "Tô Kí",
+      "timestamp": "2025-11-11T17:06:12.638847Z",
+      "lat": 10.847,
+      "lon": 106.673
+    }
+  ],
+  "49A5226": [
+    {
+      "plate": "49A5226",
+      "track_id": 7,
+      "vehicle_type": "car",
+      "camera_id": "CAM-1",
+      "location": "Tô Kí",
+      "timestamp": "2025-11-11T17:06:13.943994Z",
+      "lat": 10.847,
+      "lon": 106.673
+    }
+  ],
+  "40Z5226": [
+    {
+      "plate": "40Z5226",
+      "track_id": 7,
+      "vehicle_type": "car",
+      "camera_id": "CAM-1",
+      "location": "Tô Kí",
+      "timestamp": "2025-11-11T17:06:16.649838Z",
+      "lat": 10.847,
+      "lon": 106.673
+    }
+  ],
+  "30A25226": [
+    {
+      "plate": "30A25226",
+      "track_id": 7,
+      "vehicle_type": "car",
+      "camera_id": "CAM-1",
+      "location": "Tô Kí",
+      "timestamp": "2025-11-11T17:06:17.265200Z",
+      "lat": 10.847,
+      "lon": 106.673
+    }
+  ],
+  "30Z5220": [
+    {
+      "plate": "30Z5220",
+      "track_id": 7,
+      "vehicle_type": "car",
+      "camera_id": "CAM-1",
+      "location": "Tô Kí",
+      "timestamp": "2025-11-11T17:06:17.479883Z",
+      "lat": 10.847,
+      "lon": 106.673
+    }
+  ],
+  "30A25220": [
+    {
+      "plate": "30A25220",
+      "track_id": 7,
+      "vehicle_type": "car",
+      "camera_id": "CAM-1",
+      "location": "Tô Kí",
+      "timestamp": "2025-11-11T17:06:19.658562Z",
+      "lat": 10.847,
+      "lon": 106.673
+    }
+  ],
+  "57G2261": [
+    {
+      "plate": "57G2261",
+      "track_id": 7,
+      "vehicle_type": "car",
+      "camera_id": "CAM-1",
+      "location": "Tô Kí",
+      "timestamp": "2025-11-11T17:06:20.259547Z",
+      "lat": 10.847,
+      "lon": 106.673
+    }
+  ],
+  "59A62261": [
+    {
+      "plate": "59A62261",
+      "track_id": 7,
+      "vehicle_type": "car",
+      "camera_id": "CAM-1",
+      "location": "Tô Kí",
+      "timestamp": "2025-11-11T17:06:20.807461Z",
+      "lat": 10.847,
+      "lon": 106.673
+    }
+  ],
+  "40Z5220": [
+    {
+      "plate": "40Z5220",
+      "track_id": 7,
+      "vehicle_type": "car",
+      "camera_id": "CAM-1",
+      "location": "Tô Kí",
+      "timestamp": "2025-11-11T17:06:21.261568Z",
+      "lat": 10.847,
+      "lon": 106.673
+    }
+  ],
+  "50A5220": [
+    {
+      "plate": "50A5220",
+      "track_id": 7,
+      "vehicle_type": "car",
+      "camera_id": "CAM-1",
+      "location": "Tô Kí",
+      "timestamp": "2025-11-11T17:06:23.425298Z",
+      "lat": 10.847,
+      "lon": 106.673
+    }
+  ],
+  "39A5226": [
+    {
+      "plate": "39A5226",
+      "track_id": 7,
+      "vehicle_type": "car",
+      "camera_id": "CAM-1",
+      "location": "Tô Kí",
+      "timestamp": "2025-11-11T17:06:24.771266Z",
+      "lat": 10.847,
+      "lon": 106.673
+    }
+  ],
+  "50A5226": [
+    {
+      "plate": "50A5226",
+      "track_id": 7,
+      "vehicle_type": "car",
+      "camera_id": "CAM-1",
+      "location": "Tô Kí",
+      "timestamp": "2025-11-11T17:06:24.894535Z",
+      "lat": 10.847,
+      "lon": 106.673
+    }
+  ],
+  "30A5220": [
+    {
+      "plate": "30A5220",
+      "track_id": 7,
+      "vehicle_type": "car",
+      "camera_id": "CAM-1",
+      "location": "Tô Kí",
+      "timestamp": "2025-11-11T17:06:26.418094Z",
+      "lat": 10.847,
+      "lon": 106.673
+    }
+  ],
+  "39A5220": [
+    {
+      "plate": "39A5220",
+      "track_id": 7,
+      "vehicle_type": "car",
+      "camera_id": "CAM-1",
+      "location": "Tô Kí",
+      "timestamp": "2025-11-11T17:06:27.039558Z",
+      "lat": 10.847,
+      "lon": 106.673
+    }
+  ],
+  "49Z5226": [
+    {
+      "plate": "49Z5226",
+      "track_id": 7,
+      "vehicle_type": "car",
+      "camera_id": "CAM-1",
+      "location": "Tô Kí",
+      "timestamp": "2025-11-11T17:06:28.102052Z",
+      "lat": 10.847,
+      "lon": 106.673
+    }
+  ],
+  "30A5225": [
+    {
+      "plate": "30A5225",
+      "track_id": 7,
+      "vehicle_type": "car",
+      "camera_id": "CAM-1",
+      "location": "Tô Kí",
+      "timestamp": "2025-11-11T17:06:28.445965Z",
+      "lat": 10.847,
+      "lon": 106.673
+    }
+  ],
+  "46A5221": [
+    {
+      "plate": "46A5221",
+      "track_id": 7,
+      "vehicle_type": "car",
+      "camera_id": "CAM-1",
+      "location": "Tô Kí",
+      "timestamp": "2025-11-11T17:06:29.805715Z",
+      "lat": 10.847,
+      "lon": 106.673
+    }
+  ]
+}

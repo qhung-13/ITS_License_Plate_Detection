@@ -1,0 +1,850 @@
+{
+  "30Z5226": [
+    {
+      "plate": "30Z5226",
+      "track_id": 31,
+      "vehicle_type": "car",
+      "camera_id": "CAM-3",
+      "location": "Nguyễn Văn Nghi",
+      "timestamp": "2025-11-11T17:08:13.965621Z",
+      "lat": 10.845,
+      "lon": 106.6755
+    },
+    {
+      "plate": "30Z5226",
+      "track_id": 35,
+      "vehicle_type": "car",
+      "camera_id": "CAM-3",
+      "location": "Nguyễn Văn Nghi",
+      "timestamp": "2025-11-11T17:09:52.788595Z",
+      "lat": 10.845,
+      "lon": 106.6755
+    }
+  ],
+  "40Z5276": [
+    {
+      "plate": "40Z5276",
+      "track_id": 31,
+      "vehicle_type": "car",
+      "camera_id": "CAM-3",
+      "location": "Nguyễn Văn Nghi",
+      "timestamp": "2025-11-11T17:08:15.035339Z",
+      "lat": 10.845,
+      "lon": 106.6755
+    }
+  ],
+  "30Z5276": [
+    {
+      "plate": "30Z5276",
+      "track_id": 31,
+      "vehicle_type": "car",
+      "camera_id": "CAM-3",
+      "location": "Nguyễn Văn Nghi",
+      "timestamp": "2025-11-11T17:08:15.657902Z",
+      "lat": 10.845,
+      "lon": 106.6755
+    }
+  ],
+  "30A47265": [
+    {
+      "plate": "30A47265",
+      "track_id": 32,
+      "vehicle_type": "car",
+      "camera_id": "CAM-3",
+      "location": "Nguyễn Văn Nghi",
+      "timestamp": "2025-11-11T17:08:17.005525Z",
+      "lat": 10.845,
+      "lon": 106.6755
+    }
+  ],
+  "30Z4265": [
+    {
+      "plate": "30Z4265",
+      "track_id": 32,
+      "vehicle_type": "car",
+      "camera_id": "CAM-3",
+      "location": "Nguyễn Văn Nghi",
+      "timestamp": "2025-11-11T17:08:17.609227Z",
+      "lat": 10.845,
+      "lon": 106.6755
+    },
+    {
+      "plate": "30Z4265",
+      "track_id": 32,
+      "vehicle_type": "car",
+      "camera_id": "CAM-3",
+      "location": "Nguyễn Văn Nghi",
+      "timestamp": "2025-11-11T17:09:17.714166Z",
+      "lat": 10.845,
+      "lon": 106.6755
+    }
+  ],
+  "30S4265": [
+    {
+      "plate": "30S4265",
+      "track_id": 32,
+      "vehicle_type": "car",
+      "camera_id": "CAM-3",
+      "location": "Nguyễn Văn Nghi",
+      "timestamp": "2025-11-11T17:08:17.898573Z",
+      "lat": 10.845,
+      "lon": 106.6755
+    }
+  ],
+  "30Z52276": [
+    {
+      "plate": "30Z52276",
+      "track_id": 31,
+      "vehicle_type": "car",
+      "camera_id": "CAM-3",
+      "location": "Nguyễn Văn Nghi",
+      "timestamp": "2025-11-11T17:08:18.139017Z",
+      "lat": 10.845,
+      "lon": 106.6755
+    }
+  ],
+  "30A74209": [
+    {
+      "plate": "30A74209",
+      "track_id": 32,
+      "vehicle_type": "car",
+      "camera_id": "CAM-3",
+      "location": "Nguyễn Văn Nghi",
+      "timestamp": "2025-11-11T17:08:19.014631Z",
+      "lat": 10.845,
+      "lon": 106.6755
+    }
+  ],
+  "30S15269": [
+    {
+      "plate": "30S15269",
+      "track_id": 32,
+      "vehicle_type": "car",
+      "camera_id": "CAM-3",
+      "location": "Nguyễn Văn Nghi",
+      "timestamp": "2025-11-11T17:08:19.808431Z",
+      "lat": 10.845,
+      "lon": 106.6755
+    }
+  ],
+  "30B24205": [
+    {
+      "plate": "30B24205",
+      "track_id": 32,
+      "vehicle_type": "car",
+      "camera_id": "CAM-3",
+      "location": "Nguyễn Văn Nghi",
+      "timestamp": "2025-11-11T17:08:20.518652Z",
+      "lat": 10.845,
+      "lon": 106.6755
+    }
+  ],
+  "30B74269": [
+    {
+      "plate": "30B74269",
+      "track_id": 32,
+      "vehicle_type": "car",
+      "camera_id": "CAM-3",
+      "location": "Nguyễn Văn Nghi",
+      "timestamp": "2025-11-11T17:08:21.202599Z",
+      "lat": 10.845,
+      "lon": 106.6755
+    }
+  ],
+  "30Z56276": [
+    {
+      "plate": "30Z56276",
+      "track_id": 31,
+      "vehicle_type": "car",
+      "camera_id": "CAM-3",
+      "location": "Nguyễn Văn Nghi",
+      "timestamp": "2025-11-11T17:08:21.546407Z",
+      "lat": 10.845,
+      "lon": 106.6755
+    }
+  ],
+  "30Z4209": [
+    {
+      "plate": "30Z4209",
+      "track_id": 32,
+      "vehicle_type": "car",
+      "camera_id": "CAM-3",
+      "location": "Nguyễn Văn Nghi",
+      "timestamp": "2025-11-11T17:08:21.887460Z",
+      "lat": 10.845,
+      "lon": 106.6755
+    }
+  ],
+  "30Z5296": [
+    {
+      "plate": "30Z5296",
+      "track_id": 31,
+      "vehicle_type": "car",
+      "camera_id": "CAM-3",
+      "location": "Nguyễn Văn Nghi",
+      "timestamp": "2025-11-11T17:08:22.108581Z",
+      "lat": 10.845,
+      "lon": 106.6755
+    }
+  ],
+  "30B24265": [
+    {
+      "plate": "30B24265",
+      "track_id": 32,
+      "vehicle_type": "car",
+      "camera_id": "CAM-3",
+      "location": "Nguyễn Văn Nghi",
+      "timestamp": "2025-11-11T17:08:23.213704Z",
+      "lat": 10.845,
+      "lon": 106.6755
+    }
+  ],
+  "30Z6276": [
+    {
+      "plate": "30Z6276",
+      "track_id": 31,
+      "vehicle_type": "car",
+      "camera_id": "CAM-3",
+      "location": "Nguyễn Văn Nghi",
+      "timestamp": "2025-11-11T17:08:24.060369Z",
+      "lat": 10.845,
+      "lon": 106.6755
+    }
+  ],
+  "30Z62296": [
+    {
+      "plate": "30Z62296",
+      "track_id": 31,
+      "vehicle_type": "car",
+      "camera_id": "CAM-3",
+      "location": "Nguyễn Văn Nghi",
+      "timestamp": "2025-11-11T17:08:24.682762Z",
+      "lat": 10.845,
+      "lon": 106.6755
+    }
+  ],
+  "30S24209": [
+    {
+      "plate": "30S24209",
+      "track_id": 32,
+      "vehicle_type": "car",
+      "camera_id": "CAM-3",
+      "location": "Nguyễn Văn Nghi",
+      "timestamp": "2025-11-11T17:08:25.134391Z",
+      "lat": 10.845,
+      "lon": 106.6755
+    }
+  ],
+  "30S24259": [
+    {
+      "plate": "30S24259",
+      "track_id": 32,
+      "vehicle_type": "car",
+      "camera_id": "CAM-3",
+      "location": "Nguyễn Văn Nghi",
+      "timestamp": "2025-11-11T17:08:25.787290Z",
+      "lat": 10.845,
+      "lon": 106.6755
+    }
+  ],
+  "13A24259": [
+    {
+      "plate": "13A24259",
+      "track_id": 32,
+      "vehicle_type": "car",
+      "camera_id": "CAM-3",
+      "location": "Nguyễn Văn Nghi",
+      "timestamp": "2025-11-11T17:08:27.175480Z",
+      "lat": 10.845,
+      "lon": 106.6755
+    }
+  ],
+  "30Z52275": [
+    {
+      "plate": "30Z52275",
+      "track_id": 31,
+      "vehicle_type": "car",
+      "camera_id": "CAM-3",
+      "location": "Nguyễn Văn Nghi",
+      "timestamp": "2025-11-11T17:08:28.738749Z",
+      "lat": 10.845,
+      "lon": 106.6755
+    }
+  ],
+  "30A24209": [
+    {
+      "plate": "30A24209",
+      "track_id": 32,
+      "vehicle_type": "car",
+      "camera_id": "CAM-3",
+      "location": "Nguyễn Văn Nghi",
+      "timestamp": "2025-11-11T17:08:29.841666Z",
+      "lat": 10.845,
+      "lon": 106.6755
+    }
+  ],
+  "13A24209": [
+    {
+      "plate": "13A24209",
+      "track_id": 32,
+      "vehicle_type": "car",
+      "camera_id": "CAM-3",
+      "location": "Nguyễn Văn Nghi",
+      "timestamp": "2025-11-11T17:08:30.650138Z",
+      "lat": 10.845,
+      "lon": 106.6755
+    }
+  ],
+  "30I24269": [
+    {
+      "plate": "30I24269",
+      "track_id": 32,
+      "vehicle_type": "car",
+      "camera_id": "CAM-3",
+      "location": "Nguyễn Văn Nghi",
+      "timestamp": "2025-11-11T17:08:31.973652Z",
+      "lat": 10.845,
+      "lon": 106.6755
+    }
+  ],
+  "30I24205": [
+    {
+      "plate": "30I24205",
+      "track_id": 32,
+      "vehicle_type": "car",
+      "camera_id": "CAM-3",
+      "location": "Nguyễn Văn Nghi",
+      "timestamp": "2025-11-11T17:08:33.235010Z",
+      "lat": 10.845,
+      "lon": 106.6755
+    }
+  ],
+  "30I24209": [
+    {
+      "plate": "30I24209",
+      "track_id": 32,
+      "vehicle_type": "car",
+      "camera_id": "CAM-3",
+      "location": "Nguyễn Văn Nghi",
+      "timestamp": "2025-11-11T17:08:34.151440Z",
+      "lat": 10.845,
+      "lon": 106.6755
+    }
+  ],
+  "30Z56296": [
+    {
+      "plate": "30Z56296",
+      "track_id": 31,
+      "vehicle_type": "car",
+      "camera_id": "CAM-3",
+      "location": "Nguyễn Văn Nghi",
+      "timestamp": "2025-11-11T17:08:37.302635Z",
+      "lat": 10.845,
+      "lon": 106.6755
+    }
+  ],
+  "13A24269": [
+    {
+      "plate": "13A24269",
+      "track_id": 32,
+      "vehicle_type": "car",
+      "camera_id": "CAM-3",
+      "location": "Nguyễn Văn Nghi",
+      "timestamp": "2025-11-11T17:08:39.359398Z",
+      "lat": 10.845,
+      "lon": 106.6755
+    }
+  ],
+  "30Z5996": [
+    {
+      "plate": "30Z5996",
+      "track_id": 31,
+      "vehicle_type": "car",
+      "camera_id": "CAM-3",
+      "location": "Nguyễn Văn Nghi",
+      "timestamp": "2025-11-11T17:08:39.592384Z",
+      "lat": 10.845,
+      "lon": 106.6755
+    }
+  ],
+  "30Z6226": [
+    {
+      "plate": "30Z6226",
+      "track_id": 31,
+      "vehicle_type": "car",
+      "camera_id": "CAM-3",
+      "location": "Nguyễn Văn Nghi",
+      "timestamp": "2025-11-11T17:08:41.884382Z",
+      "lat": 10.845,
+      "lon": 106.6755
+    }
+  ],
+  "30Z42565": [
+    {
+      "plate": "30Z42565",
+      "track_id": 32,
+      "vehicle_type": "car",
+      "camera_id": "CAM-3",
+      "location": "Nguyễn Văn Nghi",
+      "timestamp": "2025-11-11T17:08:43.306531Z",
+      "lat": 10.845,
+      "lon": 106.6755
+    }
+  ],
+  "30Z52296": [
+    {
+      "plate": "30Z52296",
+      "track_id": 31,
+      "vehicle_type": "car",
+      "camera_id": "CAM-3",
+      "location": "Nguyễn Văn Nghi",
+      "timestamp": "2025-11-11T17:08:44.747472Z",
+      "lat": 10.845,
+      "lon": 106.6755
+    }
+  ],
+  "30I24265": [
+    {
+      "plate": "30I24265",
+      "track_id": 32,
+      "vehicle_type": "car",
+      "camera_id": "CAM-3",
+      "location": "Nguyễn Văn Nghi",
+      "timestamp": "2025-11-11T17:08:45.062785Z",
+      "lat": 10.845,
+      "lon": 106.6755
+    }
+  ],
+  "30Z4259": [
+    {
+      "plate": "30Z4259",
+      "track_id": 32,
+      "vehicle_type": "car",
+      "camera_id": "CAM-3",
+      "location": "Nguyễn Văn Nghi",
+      "timestamp": "2025-11-11T17:08:46.219310Z",
+      "lat": 10.845,
+      "lon": 106.6755
+    }
+  ],
+  "20Z5226": [
+    {
+      "plate": "20Z5226",
+      "track_id": 31,
+      "vehicle_type": "car",
+      "camera_id": "CAM-3",
+      "location": "Nguyễn Văn Nghi",
+      "timestamp": "2025-11-11T17:08:51.582626Z",
+      "lat": 10.845,
+      "lon": 106.6755
+    }
+  ],
+  "63A24265": [
+    {
+      "plate": "63A24265",
+      "track_id": 32,
+      "vehicle_type": "car",
+      "camera_id": "CAM-3",
+      "location": "Nguyễn Văn Nghi",
+      "timestamp": "2025-11-11T17:08:53.321527Z",
+      "lat": 10.845,
+      "lon": 106.6755
+    }
+  ],
+  "30Z6296": [
+    {
+      "plate": "30Z6296",
+      "track_id": 31,
+      "vehicle_type": "car",
+      "camera_id": "CAM-3",
+      "location": "Nguyễn Văn Nghi",
+      "timestamp": "2025-11-11T17:08:54.267849Z",
+      "lat": 10.845,
+      "lon": 106.6755
+    }
+  ],
+  "30Z4269": [
+    {
+      "plate": "30Z4269",
+      "track_id": 32,
+      "vehicle_type": "car",
+      "camera_id": "CAM-3",
+      "location": "Nguyễn Văn Nghi",
+      "timestamp": "2025-11-11T17:08:55.831244Z",
+      "lat": 10.845,
+      "lon": 106.6755
+    }
+  ],
+  "30I26269": [
+    {
+      "plate": "30I26269",
+      "track_id": 32,
+      "vehicle_type": "car",
+      "camera_id": "CAM-3",
+      "location": "Nguyễn Văn Nghi",
+      "timestamp": "2025-11-11T17:09:03.055733Z",
+      "lat": 10.845,
+      "lon": 106.6755
+    }
+  ],
+  "30Z42695": [
+    {
+      "plate": "30Z42695",
+      "track_id": 32,
+      "vehicle_type": "car",
+      "camera_id": "CAM-3",
+      "location": "Nguyễn Văn Nghi",
+      "timestamp": "2025-11-11T17:09:05.999953Z",
+      "lat": 10.845,
+      "lon": 106.6755
+    }
+  ],
+  "63A24205": [
+    {
+      "plate": "63A24205",
+      "track_id": 32,
+      "vehicle_type": "car",
+      "camera_id": "CAM-3",
+      "location": "Nguyễn Văn Nghi",
+      "timestamp": "2025-11-11T17:09:11.062999Z",
+      "lat": 10.845,
+      "lon": 106.6755
+    }
+  ],
+  "30Z42654": [
+    {
+      "plate": "30Z42654",
+      "track_id": 32,
+      "vehicle_type": "car",
+      "camera_id": "CAM-3",
+      "location": "Nguyễn Văn Nghi",
+      "timestamp": "2025-11-11T17:09:15.664990Z",
+      "lat": 10.845,
+      "lon": 106.6755
+    }
+  ],
+  "30Z4205": [
+    {
+      "plate": "30Z4205",
+      "track_id": 32,
+      "vehicle_type": "car",
+      "camera_id": "CAM-3",
+      "location": "Nguyễn Văn Nghi",
+      "timestamp": "2025-11-11T17:09:19.104475Z",
+      "lat": 10.845,
+      "lon": 106.6755
+    }
+  ],
+  "30G09842": [
+    {
+      "plate": "30G09842",
+      "track_id": 36,
+      "vehicle_type": "car",
+      "camera_id": "CAM-3",
+      "location": "Nguyễn Văn Nghi",
+      "timestamp": "2025-11-11T17:09:27.405732Z",
+      "lat": 10.845,
+      "lon": 106.6755
+    }
+  ],
+  "13O60984": [
+    {
+      "plate": "13O60984",
+      "track_id": 36,
+      "vehicle_type": "car",
+      "camera_id": "CAM-3",
+      "location": "Nguyễn Văn Nghi",
+      "timestamp": "2025-11-11T17:09:29.189460Z",
+      "lat": 10.845,
+      "lon": 106.6755
+    }
+  ],
+  "30G0984": [
+    {
+      "plate": "30G0984",
+      "track_id": 36,
+      "vehicle_type": "car",
+      "camera_id": "CAM-3",
+      "location": "Nguyễn Văn Nghi",
+      "timestamp": "2025-11-11T17:09:29.786391Z",
+      "lat": 10.845,
+      "lon": 106.6755
+    }
+  ],
+  "30G09847": [
+    {
+      "plate": "30G09847",
+      "track_id": 38,
+      "vehicle_type": "car",
+      "camera_id": "CAM-3",
+      "location": "Nguyễn Văn Nghi",
+      "timestamp": "2025-11-11T17:09:32.803417Z",
+      "lat": 10.845,
+      "lon": 106.6755
+    }
+  ],
+  "13O6098": [
+    {
+      "plate": "13O6098",
+      "track_id": 38,
+      "vehicle_type": "car",
+      "camera_id": "CAM-3",
+      "location": "Nguyễn Văn Nghi",
+      "timestamp": "2025-11-11T17:09:35.028118Z",
+      "lat": 10.845,
+      "lon": 106.6755
+    }
+  ],
+  "30A5221": [
+    {
+      "plate": "30A5221",
+      "track_id": 35,
+      "vehicle_type": "car",
+      "camera_id": "CAM-3",
+      "location": "Nguyễn Văn Nghi",
+      "timestamp": "2025-11-11T17:09:41.632411Z",
+      "lat": 10.845,
+      "lon": 106.6755
+    }
+  ],
+  "30A5206": [
+    {
+      "plate": "30A5206",
+      "track_id": 35,
+      "vehicle_type": "car",
+      "camera_id": "CAM-3",
+      "location": "Nguyễn Văn Nghi",
+      "timestamp": "2025-11-11T17:09:43.241674Z",
+      "lat": 10.845,
+      "lon": 106.6755
+    }
+  ],
+  "30A6226": [
+    {
+      "plate": "30A6226",
+      "track_id": 35,
+      "vehicle_type": "car",
+      "camera_id": "CAM-3",
+      "location": "Nguyễn Văn Nghi",
+      "timestamp": "2025-11-11T17:09:44.873383Z",
+      "lat": 10.845,
+      "lon": 106.6755
+    }
+  ],
+  "40A5226": [
+    {
+      "plate": "40A5226",
+      "track_id": 35,
+      "vehicle_type": "car",
+      "camera_id": "CAM-3",
+      "location": "Nguyễn Văn Nghi",
+      "timestamp": "2025-11-11T17:09:46.915362Z",
+      "lat": 10.845,
+      "lon": 106.6755
+    }
+  ],
+  "30A5226": [
+    {
+      "plate": "30A5226",
+      "track_id": 35,
+      "vehicle_type": "car",
+      "camera_id": "CAM-3",
+      "location": "Nguyễn Văn Nghi",
+      "timestamp": "2025-11-11T17:09:47.526225Z",
+      "lat": 10.845,
+      "lon": 106.6755
+    }
+  ],
+  "49A5226": [
+    {
+      "plate": "49A5226",
+      "track_id": 35,
+      "vehicle_type": "car",
+      "camera_id": "CAM-3",
+      "location": "Nguyễn Văn Nghi",
+      "timestamp": "2025-11-11T17:09:49.276108Z",
+      "lat": 10.845,
+      "lon": 106.6755
+    }
+  ],
+  "40Z5226": [
+    {
+      "plate": "40Z5226",
+      "track_id": 35,
+      "vehicle_type": "car",
+      "camera_id": "CAM-3",
+      "location": "Nguyễn Văn Nghi",
+      "timestamp": "2025-11-11T17:09:52.489567Z",
+      "lat": 10.845,
+      "lon": 106.6755
+    }
+  ],
+  "30A25226": [
+    {
+      "plate": "30A25226",
+      "track_id": 35,
+      "vehicle_type": "car",
+      "camera_id": "CAM-3",
+      "location": "Nguyễn Văn Nghi",
+      "timestamp": "2025-11-11T17:09:53.288685Z",
+      "lat": 10.845,
+      "lon": 106.6755
+    }
+  ],
+  "30Z5220": [
+    {
+      "plate": "30Z5220",
+      "track_id": 35,
+      "vehicle_type": "car",
+      "camera_id": "CAM-3",
+      "location": "Nguyễn Văn Nghi",
+      "timestamp": "2025-11-11T17:09:53.610128Z",
+      "lat": 10.845,
+      "lon": 106.6755
+    }
+  ],
+  "30A25220": [
+    {
+      "plate": "30A25220",
+      "track_id": 35,
+      "vehicle_type": "car",
+      "camera_id": "CAM-3",
+      "location": "Nguyễn Văn Nghi",
+      "timestamp": "2025-11-11T17:09:55.716892Z",
+      "lat": 10.845,
+      "lon": 106.6755
+    }
+  ],
+  "57G2261": [
+    {
+      "plate": "57G2261",
+      "track_id": 35,
+      "vehicle_type": "car",
+      "camera_id": "CAM-3",
+      "location": "Nguyễn Văn Nghi",
+      "timestamp": "2025-11-11T17:09:56.378898Z",
+      "lat": 10.845,
+      "lon": 106.6755
+    }
+  ],
+  "59A62261": [
+    {
+      "plate": "59A62261",
+      "track_id": 35,
+      "vehicle_type": "car",
+      "camera_id": "CAM-3",
+      "location": "Nguyễn Văn Nghi",
+      "timestamp": "2025-11-11T17:09:57.026798Z",
+      "lat": 10.845,
+      "lon": 106.6755
+    }
+  ],
+  "40Z5220": [
+    {
+      "plate": "40Z5220",
+      "track_id": 35,
+      "vehicle_type": "car",
+      "camera_id": "CAM-3",
+      "location": "Nguyễn Văn Nghi",
+      "timestamp": "2025-11-11T17:09:57.667439Z",
+      "lat": 10.845,
+      "lon": 106.6755
+    }
+  ],
+  "50A5220": [
+    {
+      "plate": "50A5220",
+      "track_id": 35,
+      "vehicle_type": "car",
+      "camera_id": "CAM-3",
+      "location": "Nguyễn Văn Nghi",
+      "timestamp": "2025-11-11T17:10:00.186517Z",
+      "lat": 10.845,
+      "lon": 106.6755
+    }
+  ],
+  "39A5226": [
+    {
+      "plate": "39A5226",
+      "track_id": 35,
+      "vehicle_type": "car",
+      "camera_id": "CAM-3",
+      "location": "Nguyễn Văn Nghi",
+      "timestamp": "2025-11-11T17:10:01.769810Z",
+      "lat": 10.845,
+      "lon": 106.6755
+    }
+  ],
+  "50A5226": [
+    {
+      "plate": "50A5226",
+      "track_id": 35,
+      "vehicle_type": "car",
+      "camera_id": "CAM-3",
+      "location": "Nguyễn Văn Nghi",
+      "timestamp": "2025-11-11T17:10:01.903617Z",
+      "lat": 10.845,
+      "lon": 106.6755
+    }
+  ],
+  "30A5220": [
+    {
+      "plate": "30A5220",
+      "track_id": 35,
+      "vehicle_type": "car",
+      "camera_id": "CAM-3",
+      "location": "Nguyễn Văn Nghi",
+      "timestamp": "2025-11-11T17:10:03.827067Z",
+      "lat": 10.845,
+      "lon": 106.6755
+    }
+  ],
+  "39A5220": [
+    {
+      "plate": "39A5220",
+      "track_id": 35,
+      "vehicle_type": "car",
+      "camera_id": "CAM-3",
+      "location": "Nguyễn Văn Nghi",
+      "timestamp": "2025-11-11T17:10:04.564222Z",
+      "lat": 10.845,
+      "lon": 106.6755
+    }
+  ],
+  "49Z5226": [
+    {
+      "plate": "49Z5226",
+      "track_id": 35,
+      "vehicle_type": "car",
+      "camera_id": "CAM-3",
+      "location": "Nguyễn Văn Nghi",
+      "timestamp": "2025-11-11T17:10:05.719876Z",
+      "lat": 10.845,
+      "lon": 106.6755
+    }
+  ],
+  "30A5225": [
+    {
+      "plate": "30A5225",
+      "track_id": 35,
+      "vehicle_type": "car",
+      "camera_id": "CAM-3",
+      "location": "Nguyễn Văn Nghi",
+      "timestamp": "2025-11-11T17:10:06.164547Z",
+      "lat": 10.845,
+      "lon": 106.6755
+    }
+  ],
+  "46A5221": [
+    {
+      "plate": "46A5221",
+      "track_id": 35,
+      "vehicle_type": "car",
+      "camera_id": "CAM-3",
+      "location": "Nguyễn Văn Nghi",
+      "timestamp": "2025-11-11T17:10:07.665479Z",
+      "lat": 10.845,
+      "lon": 106.6755
+    }
+  ]
+}

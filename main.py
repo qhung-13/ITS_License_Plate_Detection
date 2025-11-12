@@ -2,7 +2,7 @@ from ultralytics import YOLO
 import cv2
 import numpy as np
 from sort.sort import *
-from until import get_car, read_license_plate_bike, write_csv, read_license_plate_car
+from until import get_car, read_license_plate_bike, write_csv, read_license_plate_car, write_json, append_json
 from config import vehical_types
 
 CONF_THRESHOLD = 0.5
@@ -143,6 +143,19 @@ while True:
                 }
             }
 
+            cam_id = "CAM-QUANGTRUNG"
+            location = "Quang Trung"
+            lat, lon
+            append_json(
+                plate_text=plate_text,
+                v_type=v_type,
+                car_id=car_id,
+                cam_id=cam_id,
+                location=location,
+                lat=lat,
+                lon=lon,
+                base_folder="."
+            )
             # Draw result
             color = (255, 0, 0) if v_type == "bike" else (0, 255, 0)
             cv2.rectangle(frame, (x1, y1), (x2, y2), color, 2)
@@ -169,4 +182,5 @@ while True:
 cap.release()
 cv2.destroyAllWindows()
 write_csv(results, './test.csv')
-print("Done. Saved results to test.csv")
+write_csv(results, './test.json')
+print("Done. Saved results to test.csv and test.json")

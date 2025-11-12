@@ -1,0 +1,850 @@
+{
+  "30Z5226": [
+    {
+      "plate": "30Z5226",
+      "track_id": 45,
+      "vehicle_type": "car",
+      "camera_id": "CAM-4",
+      "location": "Phạm Văn Đồng",
+      "timestamp": "2025-11-11T17:10:09.074840Z",
+      "lat": 10.844,
+      "lon": 106.676
+    },
+    {
+      "plate": "30Z5226",
+      "track_id": 45,
+      "vehicle_type": "car",
+      "camera_id": "CAM-4",
+      "location": "Phạm Văn Đồng",
+      "timestamp": "2025-11-11T17:11:12.255686Z",
+      "lat": 10.844,
+      "lon": 106.676
+    }
+  ],
+  "40Z5276": [
+    {
+      "plate": "40Z5276",
+      "track_id": 45,
+      "vehicle_type": "car",
+      "camera_id": "CAM-4",
+      "location": "Phạm Văn Đồng",
+      "timestamp": "2025-11-11T17:10:10.394940Z",
+      "lat": 10.844,
+      "lon": 106.676
+    }
+  ],
+  "30Z5276": [
+    {
+      "plate": "30Z5276",
+      "track_id": 45,
+      "vehicle_type": "car",
+      "camera_id": "CAM-4",
+      "location": "Phạm Văn Đồng",
+      "timestamp": "2025-11-11T17:10:11.058426Z",
+      "lat": 10.844,
+      "lon": 106.676
+    }
+  ],
+  "30A47265": [
+    {
+      "plate": "30A47265",
+      "track_id": 46,
+      "vehicle_type": "car",
+      "camera_id": "CAM-4",
+      "location": "Phạm Văn Đồng",
+      "timestamp": "2025-11-11T17:10:12.850473Z",
+      "lat": 10.844,
+      "lon": 106.676
+    }
+  ],
+  "30Z4265": [
+    {
+      "plate": "30Z4265",
+      "track_id": 46,
+      "vehicle_type": "car",
+      "camera_id": "CAM-4",
+      "location": "Phạm Văn Đồng",
+      "timestamp": "2025-11-11T17:10:13.599598Z",
+      "lat": 10.844,
+      "lon": 106.676
+    },
+    {
+      "plate": "30Z4265",
+      "track_id": 46,
+      "vehicle_type": "car",
+      "camera_id": "CAM-4",
+      "location": "Phạm Văn Đồng",
+      "timestamp": "2025-11-11T17:11:13.654773Z",
+      "lat": 10.844,
+      "lon": 106.676
+    }
+  ],
+  "30S4265": [
+    {
+      "plate": "30S4265",
+      "track_id": 46,
+      "vehicle_type": "car",
+      "camera_id": "CAM-4",
+      "location": "Phạm Văn Đồng",
+      "timestamp": "2025-11-11T17:10:13.947140Z",
+      "lat": 10.844,
+      "lon": 106.676
+    }
+  ],
+  "30Z52276": [
+    {
+      "plate": "30Z52276",
+      "track_id": 45,
+      "vehicle_type": "car",
+      "camera_id": "CAM-4",
+      "location": "Phạm Văn Đồng",
+      "timestamp": "2025-11-11T17:10:14.218627Z",
+      "lat": 10.844,
+      "lon": 106.676
+    }
+  ],
+  "30A74209": [
+    {
+      "plate": "30A74209",
+      "track_id": 46,
+      "vehicle_type": "car",
+      "camera_id": "CAM-4",
+      "location": "Phạm Văn Đồng",
+      "timestamp": "2025-11-11T17:10:14.739581Z",
+      "lat": 10.844,
+      "lon": 106.676
+    }
+  ],
+  "30S15269": [
+    {
+      "plate": "30S15269",
+      "track_id": 46,
+      "vehicle_type": "car",
+      "camera_id": "CAM-4",
+      "location": "Phạm Văn Đồng",
+      "timestamp": "2025-11-11T17:10:15.500578Z",
+      "lat": 10.844,
+      "lon": 106.676
+    }
+  ],
+  "30B24205": [
+    {
+      "plate": "30B24205",
+      "track_id": 46,
+      "vehicle_type": "car",
+      "camera_id": "CAM-4",
+      "location": "Phạm Văn Đồng",
+      "timestamp": "2025-11-11T17:10:16.386488Z",
+      "lat": 10.844,
+      "lon": 106.676
+    }
+  ],
+  "30B74269": [
+    {
+      "plate": "30B74269",
+      "track_id": 46,
+      "vehicle_type": "car",
+      "camera_id": "CAM-4",
+      "location": "Phạm Văn Đồng",
+      "timestamp": "2025-11-11T17:10:17.260462Z",
+      "lat": 10.844,
+      "lon": 106.676
+    }
+  ],
+  "30Z56276": [
+    {
+      "plate": "30Z56276",
+      "track_id": 45,
+      "vehicle_type": "car",
+      "camera_id": "CAM-4",
+      "location": "Phạm Văn Đồng",
+      "timestamp": "2025-11-11T17:10:17.556284Z",
+      "lat": 10.844,
+      "lon": 106.676
+    }
+  ],
+  "30Z4209": [
+    {
+      "plate": "30Z4209",
+      "track_id": 46,
+      "vehicle_type": "car",
+      "camera_id": "CAM-4",
+      "location": "Phạm Văn Đồng",
+      "timestamp": "2025-11-11T17:10:18.157019Z",
+      "lat": 10.844,
+      "lon": 106.676
+    }
+  ],
+  "30Z5296": [
+    {
+      "plate": "30Z5296",
+      "track_id": 45,
+      "vehicle_type": "car",
+      "camera_id": "CAM-4",
+      "location": "Phạm Văn Đồng",
+      "timestamp": "2025-11-11T17:10:19.041565Z",
+      "lat": 10.844,
+      "lon": 106.676
+    }
+  ],
+  "30B24265": [
+    {
+      "plate": "30B24265",
+      "track_id": 46,
+      "vehicle_type": "car",
+      "camera_id": "CAM-4",
+      "location": "Phạm Văn Đồng",
+      "timestamp": "2025-11-11T17:10:20.592366Z",
+      "lat": 10.844,
+      "lon": 106.676
+    }
+  ],
+  "30Z6276": [
+    {
+      "plate": "30Z6276",
+      "track_id": 45,
+      "vehicle_type": "car",
+      "camera_id": "CAM-4",
+      "location": "Phạm Văn Đồng",
+      "timestamp": "2025-11-11T17:10:21.600492Z",
+      "lat": 10.844,
+      "lon": 106.676
+    }
+  ],
+  "30Z62296": [
+    {
+      "plate": "30Z62296",
+      "track_id": 45,
+      "vehicle_type": "car",
+      "camera_id": "CAM-4",
+      "location": "Phạm Văn Đồng",
+      "timestamp": "2025-11-11T17:10:22.321315Z",
+      "lat": 10.844,
+      "lon": 106.676
+    }
+  ],
+  "30S24209": [
+    {
+      "plate": "30S24209",
+      "track_id": 46,
+      "vehicle_type": "car",
+      "camera_id": "CAM-4",
+      "location": "Phạm Văn Đồng",
+      "timestamp": "2025-11-11T17:10:22.822279Z",
+      "lat": 10.844,
+      "lon": 106.676
+    }
+  ],
+  "30S24259": [
+    {
+      "plate": "30S24259",
+      "track_id": 46,
+      "vehicle_type": "car",
+      "camera_id": "CAM-4",
+      "location": "Phạm Văn Đồng",
+      "timestamp": "2025-11-11T17:10:23.616568Z",
+      "lat": 10.844,
+      "lon": 106.676
+    }
+  ],
+  "13A24259": [
+    {
+      "plate": "13A24259",
+      "track_id": 46,
+      "vehicle_type": "car",
+      "camera_id": "CAM-4",
+      "location": "Phạm Văn Đồng",
+      "timestamp": "2025-11-11T17:10:25.173823Z",
+      "lat": 10.844,
+      "lon": 106.676
+    }
+  ],
+  "30Z52275": [
+    {
+      "plate": "30Z52275",
+      "track_id": 45,
+      "vehicle_type": "car",
+      "camera_id": "CAM-4",
+      "location": "Phạm Văn Đồng",
+      "timestamp": "2025-11-11T17:10:27.080588Z",
+      "lat": 10.844,
+      "lon": 106.676
+    }
+  ],
+  "30A24209": [
+    {
+      "plate": "30A24209",
+      "track_id": 46,
+      "vehicle_type": "car",
+      "camera_id": "CAM-4",
+      "location": "Phạm Văn Đồng",
+      "timestamp": "2025-11-11T17:10:28.412361Z",
+      "lat": 10.844,
+      "lon": 106.676
+    }
+  ],
+  "13A24209": [
+    {
+      "plate": "13A24209",
+      "track_id": 46,
+      "vehicle_type": "car",
+      "camera_id": "CAM-4",
+      "location": "Phạm Văn Đồng",
+      "timestamp": "2025-11-11T17:10:29.259693Z",
+      "lat": 10.844,
+      "lon": 106.676
+    }
+  ],
+  "30I24269": [
+    {
+      "plate": "30I24269",
+      "track_id": 46,
+      "vehicle_type": "car",
+      "camera_id": "CAM-4",
+      "location": "Phạm Văn Đồng",
+      "timestamp": "2025-11-11T17:10:30.979153Z",
+      "lat": 10.844,
+      "lon": 106.676
+    }
+  ],
+  "30I24205": [
+    {
+      "plate": "30I24205",
+      "track_id": 46,
+      "vehicle_type": "car",
+      "camera_id": "CAM-4",
+      "location": "Phạm Văn Đồng",
+      "timestamp": "2025-11-11T17:10:32.353334Z",
+      "lat": 10.844,
+      "lon": 106.676
+    }
+  ],
+  "30I24209": [
+    {
+      "plate": "30I24209",
+      "track_id": 46,
+      "vehicle_type": "car",
+      "camera_id": "CAM-4",
+      "location": "Phạm Văn Đồng",
+      "timestamp": "2025-11-11T17:10:33.031795Z",
+      "lat": 10.844,
+      "lon": 106.676
+    }
+  ],
+  "30Z56296": [
+    {
+      "plate": "30Z56296",
+      "track_id": 45,
+      "vehicle_type": "car",
+      "camera_id": "CAM-4",
+      "location": "Phạm Văn Đồng",
+      "timestamp": "2025-11-11T17:10:37.006019Z",
+      "lat": 10.844,
+      "lon": 106.676
+    }
+  ],
+  "13A24269": [
+    {
+      "plate": "13A24269",
+      "track_id": 46,
+      "vehicle_type": "car",
+      "camera_id": "CAM-4",
+      "location": "Phạm Văn Đồng",
+      "timestamp": "2025-11-11T17:10:39.305623Z",
+      "lat": 10.844,
+      "lon": 106.676
+    }
+  ],
+  "30Z5996": [
+    {
+      "plate": "30Z5996",
+      "track_id": 45,
+      "vehicle_type": "car",
+      "camera_id": "CAM-4",
+      "location": "Phạm Văn Đồng",
+      "timestamp": "2025-11-11T17:10:39.574899Z",
+      "lat": 10.844,
+      "lon": 106.676
+    }
+  ],
+  "30Z6226": [
+    {
+      "plate": "30Z6226",
+      "track_id": 45,
+      "vehicle_type": "car",
+      "camera_id": "CAM-4",
+      "location": "Phạm Văn Đồng",
+      "timestamp": "2025-11-11T17:10:42.237475Z",
+      "lat": 10.844,
+      "lon": 106.676
+    }
+  ],
+  "30Z42565": [
+    {
+      "plate": "30Z42565",
+      "track_id": 46,
+      "vehicle_type": "car",
+      "camera_id": "CAM-4",
+      "location": "Phạm Văn Đồng",
+      "timestamp": "2025-11-11T17:10:43.839097Z",
+      "lat": 10.844,
+      "lon": 106.676
+    }
+  ],
+  "30Z52296": [
+    {
+      "plate": "30Z52296",
+      "track_id": 45,
+      "vehicle_type": "car",
+      "camera_id": "CAM-4",
+      "location": "Phạm Văn Đồng",
+      "timestamp": "2025-11-11T17:10:45.156743Z",
+      "lat": 10.844,
+      "lon": 106.676
+    }
+  ],
+  "30I24265": [
+    {
+      "plate": "30I24265",
+      "track_id": 46,
+      "vehicle_type": "car",
+      "camera_id": "CAM-4",
+      "location": "Phạm Văn Đồng",
+      "timestamp": "2025-11-11T17:10:45.398274Z",
+      "lat": 10.844,
+      "lon": 106.676
+    }
+  ],
+  "30Z4259": [
+    {
+      "plate": "30Z4259",
+      "track_id": 46,
+      "vehicle_type": "car",
+      "camera_id": "CAM-4",
+      "location": "Phạm Văn Đồng",
+      "timestamp": "2025-11-11T17:10:46.539643Z",
+      "lat": 10.844,
+      "lon": 106.676
+    }
+  ],
+  "20Z5226": [
+    {
+      "plate": "20Z5226",
+      "track_id": 45,
+      "vehicle_type": "car",
+      "camera_id": "CAM-4",
+      "location": "Phạm Văn Đồng",
+      "timestamp": "2025-11-11T17:10:51.631226Z",
+      "lat": 10.844,
+      "lon": 106.676
+    }
+  ],
+  "63A24265": [
+    {
+      "plate": "63A24265",
+      "track_id": 46,
+      "vehicle_type": "car",
+      "camera_id": "CAM-4",
+      "location": "Phạm Văn Đồng",
+      "timestamp": "2025-11-11T17:10:53.449826Z",
+      "lat": 10.844,
+      "lon": 106.676
+    }
+  ],
+  "30Z6296": [
+    {
+      "plate": "30Z6296",
+      "track_id": 45,
+      "vehicle_type": "car",
+      "camera_id": "CAM-4",
+      "location": "Phạm Văn Đồng",
+      "timestamp": "2025-11-11T17:10:54.329486Z",
+      "lat": 10.844,
+      "lon": 106.676
+    }
+  ],
+  "30Z4269": [
+    {
+      "plate": "30Z4269",
+      "track_id": 46,
+      "vehicle_type": "car",
+      "camera_id": "CAM-4",
+      "location": "Phạm Văn Đồng",
+      "timestamp": "2025-11-11T17:10:55.955134Z",
+      "lat": 10.844,
+      "lon": 106.676
+    }
+  ],
+  "30I26269": [
+    {
+      "plate": "30I26269",
+      "track_id": 46,
+      "vehicle_type": "car",
+      "camera_id": "CAM-4",
+      "location": "Phạm Văn Đồng",
+      "timestamp": "2025-11-11T17:11:02.936353Z",
+      "lat": 10.844,
+      "lon": 106.676
+    }
+  ],
+  "30Z42695": [
+    {
+      "plate": "30Z42695",
+      "track_id": 46,
+      "vehicle_type": "car",
+      "camera_id": "CAM-4",
+      "location": "Phạm Văn Đồng",
+      "timestamp": "2025-11-11T17:11:05.794967Z",
+      "lat": 10.844,
+      "lon": 106.676
+    }
+  ],
+  "63A24205": [
+    {
+      "plate": "63A24205",
+      "track_id": 46,
+      "vehicle_type": "car",
+      "camera_id": "CAM-4",
+      "location": "Phạm Văn Đồng",
+      "timestamp": "2025-11-11T17:11:11.231664Z",
+      "lat": 10.844,
+      "lon": 106.676
+    }
+  ],
+  "30Z42654": [
+    {
+      "plate": "30Z42654",
+      "track_id": 46,
+      "vehicle_type": "car",
+      "camera_id": "CAM-4",
+      "location": "Phạm Văn Đồng",
+      "timestamp": "2025-11-11T17:11:15.448487Z",
+      "lat": 10.844,
+      "lon": 106.676
+    }
+  ],
+  "30Z4205": [
+    {
+      "plate": "30Z4205",
+      "track_id": 46,
+      "vehicle_type": "car",
+      "camera_id": "CAM-4",
+      "location": "Phạm Văn Đồng",
+      "timestamp": "2025-11-11T17:11:18.137649Z",
+      "lat": 10.844,
+      "lon": 106.676
+    }
+  ],
+  "30G09842": [
+    {
+      "plate": "30G09842",
+      "track_id": 50,
+      "vehicle_type": "car",
+      "camera_id": "CAM-4",
+      "location": "Phạm Văn Đồng",
+      "timestamp": "2025-11-11T17:11:25.367306Z",
+      "lat": 10.844,
+      "lon": 106.676
+    }
+  ],
+  "13O60984": [
+    {
+      "plate": "13O60984",
+      "track_id": 50,
+      "vehicle_type": "car",
+      "camera_id": "CAM-4",
+      "location": "Phạm Văn Đồng",
+      "timestamp": "2025-11-11T17:11:27.196354Z",
+      "lat": 10.844,
+      "lon": 106.676
+    }
+  ],
+  "30G0984": [
+    {
+      "plate": "30G0984",
+      "track_id": 50,
+      "vehicle_type": "car",
+      "camera_id": "CAM-4",
+      "location": "Phạm Văn Đồng",
+      "timestamp": "2025-11-11T17:11:27.801621Z",
+      "lat": 10.844,
+      "lon": 106.676
+    }
+  ],
+  "30G09847": [
+    {
+      "plate": "30G09847",
+      "track_id": 52,
+      "vehicle_type": "car",
+      "camera_id": "CAM-4",
+      "location": "Phạm Văn Đồng",
+      "timestamp": "2025-11-11T17:11:30.781450Z",
+      "lat": 10.844,
+      "lon": 106.676
+    }
+  ],
+  "13O6098": [
+    {
+      "plate": "13O6098",
+      "track_id": 52,
+      "vehicle_type": "car",
+      "camera_id": "CAM-4",
+      "location": "Phạm Văn Đồng",
+      "timestamp": "2025-11-11T17:11:32.759935Z",
+      "lat": 10.844,
+      "lon": 106.676
+    }
+  ],
+  "30A5221": [
+    {
+      "plate": "30A5221",
+      "track_id": 49,
+      "vehicle_type": "car",
+      "camera_id": "CAM-4",
+      "location": "Phạm Văn Đồng",
+      "timestamp": "2025-11-11T17:11:40.057059Z",
+      "lat": 10.844,
+      "lon": 106.676
+    }
+  ],
+  "30A5206": [
+    {
+      "plate": "30A5206",
+      "track_id": 49,
+      "vehicle_type": "car",
+      "camera_id": "CAM-4",
+      "location": "Phạm Văn Đồng",
+      "timestamp": "2025-11-11T17:11:41.555096Z",
+      "lat": 10.844,
+      "lon": 106.676
+    }
+  ],
+  "30A6226": [
+    {
+      "plate": "30A6226",
+      "track_id": 49,
+      "vehicle_type": "car",
+      "camera_id": "CAM-4",
+      "location": "Phạm Văn Đồng",
+      "timestamp": "2025-11-11T17:11:43.297310Z",
+      "lat": 10.844,
+      "lon": 106.676
+    }
+  ],
+  "40A5226": [
+    {
+      "plate": "40A5226",
+      "track_id": 49,
+      "vehicle_type": "car",
+      "camera_id": "CAM-4",
+      "location": "Phạm Văn Đồng",
+      "timestamp": "2025-11-11T17:11:45.421544Z",
+      "lat": 10.844,
+      "lon": 106.676
+    }
+  ],
+  "30A5226": [
+    {
+      "plate": "30A5226",
+      "track_id": 49,
+      "vehicle_type": "car",
+      "camera_id": "CAM-4",
+      "location": "Phạm Văn Đồng",
+      "timestamp": "2025-11-11T17:11:46.162849Z",
+      "lat": 10.844,
+      "lon": 106.676
+    }
+  ],
+  "49A5226": [
+    {
+      "plate": "49A5226",
+      "track_id": 49,
+      "vehicle_type": "car",
+      "camera_id": "CAM-4",
+      "location": "Phạm Văn Đồng",
+      "timestamp": "2025-11-11T17:11:47.775842Z",
+      "lat": 10.844,
+      "lon": 106.676
+    }
+  ],
+  "40Z5226": [
+    {
+      "plate": "40Z5226",
+      "track_id": 49,
+      "vehicle_type": "car",
+      "camera_id": "CAM-4",
+      "location": "Phạm Văn Đồng",
+      "timestamp": "2025-11-11T17:11:51.265820Z",
+      "lat": 10.844,
+      "lon": 106.676
+    }
+  ],
+  "30A25226": [
+    {
+      "plate": "30A25226",
+      "track_id": 49,
+      "vehicle_type": "car",
+      "camera_id": "CAM-4",
+      "location": "Phạm Văn Đồng",
+      "timestamp": "2025-11-11T17:11:52.234858Z",
+      "lat": 10.844,
+      "lon": 106.676
+    }
+  ],
+  "30Z5220": [
+    {
+      "plate": "30Z5220",
+      "track_id": 49,
+      "vehicle_type": "car",
+      "camera_id": "CAM-4",
+      "location": "Phạm Văn Đồng",
+      "timestamp": "2025-11-11T17:11:52.505920Z",
+      "lat": 10.844,
+      "lon": 106.676
+    }
+  ],
+  "30A25220": [
+    {
+      "plate": "30A25220",
+      "track_id": 49,
+      "vehicle_type": "car",
+      "camera_id": "CAM-4",
+      "location": "Phạm Văn Đồng",
+      "timestamp": "2025-11-11T17:11:54.786229Z",
+      "lat": 10.844,
+      "lon": 106.676
+    }
+  ],
+  "57G2261": [
+    {
+      "plate": "57G2261",
+      "track_id": 49,
+      "vehicle_type": "car",
+      "camera_id": "CAM-4",
+      "location": "Phạm Văn Đồng",
+      "timestamp": "2025-11-11T17:11:55.544353Z",
+      "lat": 10.844,
+      "lon": 106.676
+    }
+  ],
+  "59A62261": [
+    {
+      "plate": "59A62261",
+      "track_id": 49,
+      "vehicle_type": "car",
+      "camera_id": "CAM-4",
+      "location": "Phạm Văn Đồng",
+      "timestamp": "2025-11-11T17:11:56.220368Z",
+      "lat": 10.844,
+      "lon": 106.676
+    }
+  ],
+  "40Z5220": [
+    {
+      "plate": "40Z5220",
+      "track_id": 49,
+      "vehicle_type": "car",
+      "camera_id": "CAM-4",
+      "location": "Phạm Văn Đồng",
+      "timestamp": "2025-11-11T17:11:56.711191Z",
+      "lat": 10.844,
+      "lon": 106.676
+    }
+  ],
+  "50A5220": [
+    {
+      "plate": "50A5220",
+      "track_id": 49,
+      "vehicle_type": "car",
+      "camera_id": "CAM-4",
+      "location": "Phạm Văn Đồng",
+      "timestamp": "2025-11-11T17:11:59.261727Z",
+      "lat": 10.844,
+      "lon": 106.676
+    }
+  ],
+  "39A5226": [
+    {
+      "plate": "39A5226",
+      "track_id": 49,
+      "vehicle_type": "car",
+      "camera_id": "CAM-4",
+      "location": "Phạm Văn Đồng",
+      "timestamp": "2025-11-11T17:12:00.645069Z",
+      "lat": 10.844,
+      "lon": 106.676
+    }
+  ],
+  "50A5226": [
+    {
+      "plate": "50A5226",
+      "track_id": 49,
+      "vehicle_type": "car",
+      "camera_id": "CAM-4",
+      "location": "Phạm Văn Đồng",
+      "timestamp": "2025-11-11T17:12:00.772682Z",
+      "lat": 10.844,
+      "lon": 106.676
+    }
+  ],
+  "30A5220": [
+    {
+      "plate": "30A5220",
+      "track_id": 49,
+      "vehicle_type": "car",
+      "camera_id": "CAM-4",
+      "location": "Phạm Văn Đồng",
+      "timestamp": "2025-11-11T17:12:02.508637Z",
+      "lat": 10.844,
+      "lon": 106.676
+    }
+  ],
+  "39A5220": [
+    {
+      "plate": "39A5220",
+      "track_id": 49,
+      "vehicle_type": "car",
+      "camera_id": "CAM-4",
+      "location": "Phạm Văn Đồng",
+      "timestamp": "2025-11-11T17:12:03.121589Z",
+      "lat": 10.844,
+      "lon": 106.676
+    }
+  ],
+  "49Z5226": [
+    {
+      "plate": "49Z5226",
+      "track_id": 49,
+      "vehicle_type": "car",
+      "camera_id": "CAM-4",
+      "location": "Phạm Văn Đồng",
+      "timestamp": "2025-11-11T17:12:04.539149Z",
+      "lat": 10.844,
+      "lon": 106.676
+    }
+  ],
+  "30A5225": [
+    {
+      "plate": "30A5225",
+      "track_id": 49,
+      "vehicle_type": "car",
+      "camera_id": "CAM-4",
+      "location": "Phạm Văn Đồng",
+      "timestamp": "2025-11-11T17:12:04.906096Z",
+      "lat": 10.844,
+      "lon": 106.676
+    }
+  ],
+  "46A5221": [
+    {
+      "plate": "46A5221",
+      "track_id": 49,
+      "vehicle_type": "car",
+      "camera_id": "CAM-4",
+      "location": "Phạm Văn Đồng",
+      "timestamp": "2025-11-11T17:12:06.505382Z",
+      "lat": 10.844,
+      "lon": 106.676
+    }
+  ]
+}

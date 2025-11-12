@@ -4,6 +4,9 @@ import cv2
 import pytesseract
 import  subprocess
 import os
+import json
+from datetime import datetime
+import time
 
 from config import vehical_types
 
@@ -333,6 +336,108 @@ def write_csv(results, filename):
                                 f"{plate['bbox_score']},{plate['text']},{plate['text_score']}\n")
     print(f"[INFO] CSV saved to {filename}")
 
+# =====================================================================
+# Ghi kết quả ra file JSON
+# =====================================================================
+def normalize_plate(p):
+    if not p:
+        return None
+    return p.upper().replace(" ", "").replace("-", "").replace(".", "")
+
+def write_json(results, filename):
+    data = {}
+
+    for frame_nmr, cars in results.items():
+        data[frame_nmr] = {}
+
+        for car_id, item in cars.items():
+            car = item.get('car')
+            plate = item.get('license_plate')
+            if car and plate and 'text' in plate:
+                vehicle_type = vehical_types.get(car_id, 'car')
+                raw_text = plate['text'].strip().upper()
+
+                record = {
+                    "vehicle_type": vehicle_type,
+                    "car_bbox": car['bbox'],
+                    "plate_bbox": plate['bbox'],
+                    "plate_score": plate['bbox_score'],
+                    "plate_text": raw_text,
+                    "text_score": plate['text_score'],
+                    "timestamp": datetime.now().isoformat()
+                }
+
+                data[frame_nmr][f"car_{car_id}"] = record
+
+    with open(filename, 'w', encoding="utf-8") as f:
+        json.dump(data, f, indent=2, ensure_ascii=False)
+
+    print(f"[INFO] JSON saved to {filename}")
+
+
+def append_json(plate_text, v_type, car_id, cam_id="CAM-01", location="Unknown", lat=None, lon=None, base_folder="."):
+    plate = normalize_plate(plate_text)
+    if not plate:
+        return
+
+    rec = {
+        "plate": plate,
+        "track_id": int(car_id) if car_id is not None else None,
+        "vehicle_type": v_type,
+        "camera_id": cam_id,
+        "location": location,
+        "timestamp": datetime.utcnow().isoformat() + "Z",
+        "lat": lat,
+        "lon": lon
+    }
+
+    os.makedirs(base_folder, exist_ok=True)
+    file_name = f"records_{cam_id}.json"
+    file_path = os.path.join(base_folder, file_name)
+
+    data = {}
+    if os.path.exists(file_path):
+        try:
+            with open(file_path, "r", encoding="utf-8") as f:
+                data = json.load(f)
+        except Exception:
+            data = {}
+
+    if plate not in data:
+        data[plate] = []
+
+    # Kiểm tra record gần nhất của plate trên cùng cam
+    last_record = None
+    for r in reversed(data[plate]):
+        if r["camera_id"] == cam_id:
+            last_record = r
+            break
+
+    if last_record:
+        try:
+            t_last = datetime.fromisoformat(last_record["timestamp"].replace("Z", ""))
+            t_now = datetime.fromisoformat(rec["timestamp"].replace("Z", ""))
+            if (t_now - t_last).total_seconds() < 60:  # 60 giây mới ghi lại
+                return
+        except Exception:
+            pass
+
+    data[plate].append(rec)
+
+    tmp = file_path + ".tmp"
+    with open(tmp, "w", encoding="utf-8") as f:
+        json.dump(data, f, indent=2, ensure_ascii=False)
+    for _ in range(5):
+        try:
+            os.replace(tmp, file_path)
+            break
+        except PermissionError:
+            time.sleep(0.1)
+    else:
+        print(f"[ERROR] Cannot replace {file_path}")
+
+    print(f"[APPEND] cam={cam_id} plate={plate_text} time={rec['timestamp']}")
+
 
 # =====================================================================
 # Kiểm tra định dạng biển số Việt Nam
@@ -420,12 +525,12 @@ def read_license_plate_car(license_plate_crop):
         cv2.THRESH_BINARY, 19, 9)
 
     # --- Hiển thị ảnh đã xử lý ---
-    cv2.imshow("Threshold Plate", thresh)
-    cv2.waitKey(0)
+    # cv2.imshow("Threshold Plate", thresh)
+    # cv2.waitKey(0)
 
     thresh = preprocess_plate_for_ocr(thresh)
-    cv2.imshow("Preprocess For OCR", thresh)
-    cv2.waitKey(0)
+    # cv2.imshow("Preprocess For OCR", thresh)
+    # cv2.waitKey(0)
 
     h, w = thresh.shape[:2]
     aspect_ratio = w / h
@@ -478,9 +583,9 @@ def read_license_plate_car(license_plate_crop):
         kernel = np.ones((3, 3), np.uint8)
         lower_cleaned = cv2.dilate(lower, kernel, iterations=1)
 
-        cv2.imshow("Upper", upper_cleaned)
-        cv2.imshow("Lower", lower_cleaned)
-        cv2.waitKey(0)
+        # cv2.imshow("Upper", upper_cleaned)
+        # cv2.imshow("Lower", lower_cleaned)
+        # cv2.waitKey(0)
 
         config = (
             f'--oem 3 --psm 7 '
@@ -545,8 +650,8 @@ def read_license_plate_bike(license_plate_crop):
 
     license_plate_crop = cv2.resize(license_plate_crop, None, fx=2.5, fy=2.5, interpolation=cv2.INTER_CUBIC)
 
-    cv2.imshow("Bike Plate Crop", license_plate_crop)
-    cv2.waitKey(0)
+    # cv2.imshow("Bike Plate Crop", license_plate_crop)
+    # cv2.waitKey(0)
 
     # --- Chuyển sang ảnh xám & xử lý ---
     gray = cv2.cvtColor(license_plate_crop, cv2.COLOR_BGR2GRAY)
@@ -559,21 +664,21 @@ def read_license_plate_bike(license_plate_crop):
         cv2.THRESH_BINARY, 19, 9
     )
 
-    cv2.imshow("Bike Plate Threshold", thresh)
-    cv2.waitKey(0)
+    # cv2.imshow("Bike Plate Threshold", thresh)
+    # cv2.waitKey(0)
 
     thresh = preprocess_plate_for_ocr(thresh)
-    cv2.imshow("Preprocess For OCR", thresh)
-    cv2.waitKey(0)
+    # cv2.imshow("Preprocess For OCR", thresh)
+    # cv2.waitKey(0)
 
     h, w = thresh.shape[:2]
 
     top = thresh[0:int(h/2), :]
     bottom = thresh[int(h/2):, :]
 
-    cv2.imshow("Bike Plate Top", top)
-    cv2.imshow("Bike Plate Bottom", bottom)
-    cv2.waitKey(1)
+    # cv2.imshow("Bike Plate Top", top)
+    # cv2.imshow("Bike Plate Bottom", bottom)
+    # cv2.waitKey(1)
 
     # --- OCR config ---
     config = (
@@ -621,49 +726,3 @@ def read_license_plate_bike(license_plate_crop):
         print(f"[BIKE FAIL] Invalid Plate: {text}")
         return None, None
 
-# def read_license_plate_openalpr(license_plate_crop):
-#     if (license_plate_crop.size is None or license_plate_crop.size == 0):
-#         print(f"[WARN] Empty crop, skip")
-#         return None, None
-#
-#     temp_path = "temp_plate.jpg"
-#     cv2.imwrite(temp_path, license_plate_crop)
-#
-#     openalpr_exe = os.path.join(os.getcwd(), "openalpr", "alpr.exe")
-#
-#     command = [
-#         openalpr_exe,
-#         "-c", "vn",
-#         "--topn", "1",
-#         temp_path
-#
-#     ]
-#
-#     try:
-#         result = subprocess.run(command, capture_output=True, text=True, timeout=5)
-#         output = result.stdout
-#     except Exception as e:
-#         print(f"[ERROR] OpenALPR failed: {e}")
-#         return None, None
-#     finally:
-#         if os.path.exists(temp_path):
-#             os.remove(temp_path)
-#
-#     plate, confidence = None, 0.0
-#     for line in output.splitlines():
-#         if "plate" in line and "confidence" in line:
-#             parts = line.split()
-#             if len(parts) >= 3:
-#                 plate = parts[1]
-#                 try:
-#                     confidence = float(parts[-1])
-#                 except:
-#                     confidence = 0.0
-#                 break
-#
-#     if plate:
-#         print(f"[ALPR] {plate} (conf={confidence:.2f})")
-#         return plate, confidence / 100  # đưa confidence về [0,1]
-#     else:
-#         print("[ALPR] No plate detected.")
-#         return None, None
