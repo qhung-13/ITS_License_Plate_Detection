@@ -39,10 +39,11 @@ function App() {
       </div>
       {error && <p style={{ color: "red" }}>{error}</p>}
 
+      <VehicleMap route={route} />
+
       {route.length > 0 && (
         <>
           <h2>Route ({route.length} points)</h2>
-          <VehicleMap route={route} />
           <table border="1" cellPadding="5" style={{ marginTop: "1rem" }}>
             <thead>
               <tr>

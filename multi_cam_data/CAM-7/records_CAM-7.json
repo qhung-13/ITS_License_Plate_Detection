@@ -6,9 +6,29 @@
       "vehicle_type": "car",
       "camera_id": "CAM-7",
       "location": "Nguyễn Gia Trí",
-      "timestamp": "2025-11-11T17:15:45.319613Z",
-      "lat": 10.841,
-      "lon": 106.6775
+      "timestamp": "2025-11-27T14:18:10.766548Z",
+      "lat": 10.805767,
+      "lon": 106.715975
+    },
+    {
+      "plate": "30Z5226",
+      "track_id": 87,
+      "vehicle_type": "car",
+      "camera_id": "CAM-7",
+      "location": "Nguyễn Gia Trí",
+      "timestamp": "2025-11-27T14:19:11.441494Z",
+      "lat": 10.805767,
+      "lon": 106.715975
+    },
+    {
+      "plate": "30Z5226",
+      "track_id": 87,
+      "vehicle_type": "car",
+      "camera_id": "CAM-7",
+      "location": "Nguyễn Gia Trí",
+      "timestamp": "2025-11-27T14:20:12.978420Z",
+      "lat": 10.805767,
+      "lon": 106.715975
     },
     {
       "plate": "30Z5226",
@@ -16,9 +36,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-7",
       "location": "Nguyễn Gia Trí",
-      "timestamp": "2025-11-11T17:17:20.569503Z",
-      "lat": 10.841,
-      "lon": 106.6775
+      "timestamp": "2025-11-27T14:21:27.931893Z",
+      "lat": 10.805767,
+      "lon": 106.715975
     }
   ],
   "40Z5276": [
@@ -28,9 +48,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-7",
       "location": "Nguyễn Gia Trí",
-      "timestamp": "2025-11-11T17:15:46.436617Z",
-      "lat": 10.841,
-      "lon": 106.6775
+      "timestamp": "2025-11-27T14:18:13.138478Z",
+      "lat": 10.805767,
+      "lon": 106.715975
     }
   ],
   "30Z5276": [
@@ -40,9 +60,19 @@
       "vehicle_type": "car",
       "camera_id": "CAM-7",
       "location": "Nguyễn Gia Trí",
-      "timestamp": "2025-11-11T17:15:47.167583Z",
-      "lat": 10.841,
-      "lon": 106.6775
+      "timestamp": "2025-11-27T14:18:14.413287Z",
+      "lat": 10.805767,
+      "lon": 106.715975
+    },
+    {
+      "plate": "30Z5276",
+      "track_id": 87,
+      "vehicle_type": "car",
+      "camera_id": "CAM-7",
+      "location": "Nguyễn Gia Trí",
+      "timestamp": "2025-11-27T14:19:17.085904Z",
+      "lat": 10.805767,
+      "lon": 106.715975
     }
   ],
   "30A47265": [
@@ -52,9 +82,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-7",
       "location": "Nguyễn Gia Trí",
-      "timestamp": "2025-11-11T17:15:48.586676Z",
-      "lat": 10.841,
-      "lon": 106.6775
+      "timestamp": "2025-11-27T14:18:20.027385Z",
+      "lat": 10.805767,
+      "lon": 106.715975
     }
   ],
   "30Z4265": [
@@ -64,9 +94,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-7",
       "location": "Nguyễn Gia Trí",
-      "timestamp": "2025-11-11T17:15:49.652421Z",
-      "lat": 10.841,
-      "lon": 106.6775
+      "timestamp": "2025-11-27T14:18:21.151003Z",
+      "lat": 10.805767,
+      "lon": 106.715975
     },
     {
       "plate": "30Z4265",
@@ -74,9 +104,19 @@
       "vehicle_type": "car",
       "camera_id": "CAM-7",
       "location": "Nguyễn Gia Trí",
-      "timestamp": "2025-11-11T17:16:51.094590Z",
-      "lat": 10.841,
-      "lon": 106.6775
+      "timestamp": "2025-11-27T14:19:28.141154Z",
+      "lat": 10.805767,
+      "lon": 106.715975
+    },
+    {
+      "plate": "30Z4265",
+      "track_id": 88,
+      "vehicle_type": "car",
+      "camera_id": "CAM-7",
+      "location": "Nguyễn Gia Trí",
+      "timestamp": "2025-11-27T14:20:28.209652Z",
+      "lat": 10.805767,
+      "lon": 106.715975
     }
   ],
   "30S4265": [
@@ -86,9 +126,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-7",
       "location": "Nguyễn Gia Trí",
-      "timestamp": "2025-11-11T17:15:50.011478Z",
-      "lat": 10.841,
-      "lon": 106.6775
+      "timestamp": "2025-11-27T14:18:21.844322Z",
+      "lat": 10.805767,
+      "lon": 106.715975
     }
   ],
   "30Z52276": [
@@ -98,9 +138,19 @@
       "vehicle_type": "car",
       "camera_id": "CAM-7",
       "location": "Nguyễn Gia Trí",
-      "timestamp": "2025-11-11T17:15:50.253697Z",
-      "lat": 10.841,
-      "lon": 106.6775
+      "timestamp": "2025-11-27T14:18:22.380054Z",
+      "lat": 10.805767,
+      "lon": 106.715975
+    },
+    {
+      "plate": "30Z52276",
+      "track_id": 87,
+      "vehicle_type": "car",
+      "camera_id": "CAM-7",
+      "location": "Nguyễn Gia Trí",
+      "timestamp": "2025-11-27T14:19:26.972275Z",
+      "lat": 10.805767,
+      "lon": 106.715975
     }
   ],
   "30A74209": [
@@ -110,9 +160,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-7",
       "location": "Nguyễn Gia Trí",
-      "timestamp": "2025-11-11T17:15:50.833130Z",
-      "lat": 10.841,
-      "lon": 106.6775
+      "timestamp": "2025-11-27T14:18:23.283229Z",
+      "lat": 10.805767,
+      "lon": 106.715975
     }
   ],
   "30S15269": [
@@ -122,9 +172,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-7",
       "location": "Nguyễn Gia Trí",
-      "timestamp": "2025-11-11T17:15:51.648713Z",
-      "lat": 10.841,
-      "lon": 106.6775
+      "timestamp": "2025-11-27T14:18:24.771098Z",
+      "lat": 10.805767,
+      "lon": 106.715975
     }
   ],
   "30B24205": [
@@ -134,9 +184,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-7",
       "location": "Nguyễn Gia Trí",
-      "timestamp": "2025-11-11T17:15:52.377636Z",
-      "lat": 10.841,
-      "lon": 106.6775
+      "timestamp": "2025-11-27T14:18:26.359151Z",
+      "lat": 10.805767,
+      "lon": 106.715975
     }
   ],
   "30B74269": [
@@ -146,9 +196,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-7",
       "location": "Nguyễn Gia Trí",
-      "timestamp": "2025-11-11T17:15:53.093982Z",
-      "lat": 10.841,
-      "lon": 106.6775
+      "timestamp": "2025-11-27T14:18:27.772821Z",
+      "lat": 10.805767,
+      "lon": 106.715975
     }
   ],
   "30Z56276": [
@@ -158,9 +208,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-7",
       "location": "Nguyễn Gia Trí",
-      "timestamp": "2025-11-11T17:15:53.367378Z",
-      "lat": 10.841,
-      "lon": 106.6775
+      "timestamp": "2025-11-27T14:18:28.299362Z",
+      "lat": 10.805767,
+      "lon": 106.715975
     }
   ],
   "30Z4209": [
@@ -170,9 +220,19 @@
       "vehicle_type": "car",
       "camera_id": "CAM-7",
       "location": "Nguyễn Gia Trí",
-      "timestamp": "2025-11-11T17:15:53.717043Z",
-      "lat": 10.841,
-      "lon": 106.6775
+      "timestamp": "2025-11-27T14:18:28.963321Z",
+      "lat": 10.805767,
+      "lon": 106.715975
+    },
+    {
+      "plate": "30Z4209",
+      "track_id": 88,
+      "vehicle_type": "car",
+      "camera_id": "CAM-7",
+      "location": "Nguyễn Gia Trí",
+      "timestamp": "2025-11-27T14:19:34.012156Z",
+      "lat": 10.805767,
+      "lon": 106.715975
     }
   ],
   "30Z5296": [
@@ -182,9 +242,19 @@
       "vehicle_type": "car",
       "camera_id": "CAM-7",
       "location": "Nguyễn Gia Trí",
-      "timestamp": "2025-11-11T17:15:53.957154Z",
-      "lat": 10.841,
-      "lon": 106.6775
+      "timestamp": "2025-11-27T14:18:29.523633Z",
+      "lat": 10.805767,
+      "lon": 106.715975
+    },
+    {
+      "plate": "30Z5296",
+      "track_id": 87,
+      "vehicle_type": "car",
+      "camera_id": "CAM-7",
+      "location": "Nguyễn Gia Trí",
+      "timestamp": "2025-11-27T14:19:36.930372Z",
+      "lat": 10.805767,
+      "lon": 106.715975
     }
   ],
   "30B24265": [
@@ -194,9 +264,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-7",
       "location": "Nguyễn Gia Trí",
-      "timestamp": "2025-11-11T17:15:55.225141Z",
-      "lat": 10.841,
-      "lon": 106.6775
+      "timestamp": "2025-11-27T14:18:32.567817Z",
+      "lat": 10.805767,
+      "lon": 106.715975
     }
   ],
   "30Z6276": [
@@ -206,9 +276,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-7",
       "location": "Nguyễn Gia Trí",
-      "timestamp": "2025-11-11T17:15:56.150145Z",
-      "lat": 10.841,
-      "lon": 106.6775
+      "timestamp": "2025-11-27T14:18:34.800942Z",
+      "lat": 10.805767,
+      "lon": 106.715975
     }
   ],
   "30Z62296": [
@@ -218,9 +288,19 @@
       "vehicle_type": "car",
       "camera_id": "CAM-7",
       "location": "Nguyễn Gia Trí",
-      "timestamp": "2025-11-11T17:15:56.847056Z",
-      "lat": 10.841,
-      "lon": 106.6775
+      "timestamp": "2025-11-27T14:18:36.190834Z",
+      "lat": 10.805767,
+      "lon": 106.715975
+    },
+    {
+      "plate": "30Z62296",
+      "track_id": 87,
+      "vehicle_type": "car",
+      "camera_id": "CAM-7",
+      "location": "Nguyễn Gia Trí",
+      "timestamp": "2025-11-27T14:20:05.069282Z",
+      "lat": 10.805767,
+      "lon": 106.715975
     }
   ],
   "30S24209": [
@@ -230,9 +310,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-7",
       "location": "Nguyễn Gia Trí",
-      "timestamp": "2025-11-11T17:15:57.307274Z",
-      "lat": 10.841,
-      "lon": 106.6775
+      "timestamp": "2025-11-27T14:18:37.079279Z",
+      "lat": 10.805767,
+      "lon": 106.715975
     }
   ],
   "30S24259": [
@@ -242,9 +322,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-7",
       "location": "Nguyễn Gia Trí",
-      "timestamp": "2025-11-11T17:15:58.056567Z",
-      "lat": 10.841,
-      "lon": 106.6775
+      "timestamp": "2025-11-27T14:18:38.553799Z",
+      "lat": 10.805767,
+      "lon": 106.715975
     }
   ],
   "13A24259": [
@@ -254,9 +334,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-7",
       "location": "Nguyễn Gia Trí",
-      "timestamp": "2025-11-11T17:15:59.573060Z",
-      "lat": 10.841,
-      "lon": 106.6775
+      "timestamp": "2025-11-27T14:18:41.418094Z",
+      "lat": 10.805767,
+      "lon": 106.715975
     }
   ],
   "30Z52275": [
@@ -266,9 +346,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-7",
       "location": "Nguyễn Gia Trí",
-      "timestamp": "2025-11-11T17:16:01.253550Z",
-      "lat": 10.841,
-      "lon": 106.6775
+      "timestamp": "2025-11-27T14:18:44.796987Z",
+      "lat": 10.805767,
+      "lon": 106.715975
     }
   ],
   "30A24209": [
@@ -278,9 +358,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-7",
       "location": "Nguyễn Gia Trí",
-      "timestamp": "2025-11-11T17:16:02.505468Z",
-      "lat": 10.841,
-      "lon": 106.6775
+      "timestamp": "2025-11-27T14:18:47.939190Z",
+      "lat": 10.805767,
+      "lon": 106.715975
     }
   ],
   "13A24209": [
@@ -290,9 +370,19 @@
       "vehicle_type": "car",
       "camera_id": "CAM-7",
       "location": "Nguyễn Gia Trí",
-      "timestamp": "2025-11-11T17:16:03.277822Z",
-      "lat": 10.841,
-      "lon": 106.6775
+      "timestamp": "2025-11-27T14:18:49.811515Z",
+      "lat": 10.805767,
+      "lon": 106.715975
+    },
+    {
+      "plate": "13A24209",
+      "track_id": 88,
+      "vehicle_type": "car",
+      "camera_id": "CAM-7",
+      "location": "Nguyễn Gia Trí",
+      "timestamp": "2025-11-27T14:20:09.948591Z",
+      "lat": 10.805767,
+      "lon": 106.715975
     }
   ],
   "30I24269": [
@@ -302,9 +392,19 @@
       "vehicle_type": "car",
       "camera_id": "CAM-7",
       "location": "Nguyễn Gia Trí",
-      "timestamp": "2025-11-11T17:16:05.022800Z",
-      "lat": 10.841,
-      "lon": 106.6775
+      "timestamp": "2025-11-27T14:18:52.681566Z",
+      "lat": 10.805767,
+      "lon": 106.715975
+    },
+    {
+      "plate": "30I24269",
+      "track_id": 88,
+      "vehicle_type": "car",
+      "camera_id": "CAM-7",
+      "location": "Nguyễn Gia Trí",
+      "timestamp": "2025-11-27T14:19:59.586975Z",
+      "lat": 10.805767,
+      "lon": 106.715975
     }
   ],
   "30I24205": [
@@ -314,9 +414,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-7",
       "location": "Nguyễn Gia Trí",
-      "timestamp": "2025-11-11T17:16:06.283437Z",
-      "lat": 10.841,
-      "lon": 106.6775
+      "timestamp": "2025-11-27T14:18:55.426307Z",
+      "lat": 10.805767,
+      "lon": 106.715975
     }
   ],
   "30I24209": [
@@ -326,9 +426,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-7",
       "location": "Nguyễn Gia Trí",
-      "timestamp": "2025-11-11T17:16:06.873318Z",
-      "lat": 10.841,
-      "lon": 106.6775
+      "timestamp": "2025-11-27T14:18:56.688938Z",
+      "lat": 10.805767,
+      "lon": 106.715975
     }
   ],
   "30Z56296": [
@@ -338,9 +438,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-7",
       "location": "Nguyễn Gia Trí",
-      "timestamp": "2025-11-11T17:16:10.063297Z",
-      "lat": 10.841,
-      "lon": 106.6775
+      "timestamp": "2025-11-27T14:19:05.072943Z",
+      "lat": 10.805767,
+      "lon": 106.715975
     }
   ],
   "13A24269": [
@@ -350,9 +450,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-7",
       "location": "Nguyễn Gia Trí",
-      "timestamp": "2025-11-11T17:16:12.079766Z",
-      "lat": 10.841,
-      "lon": 106.6775
+      "timestamp": "2025-11-27T14:19:09.556244Z",
+      "lat": 10.805767,
+      "lon": 106.715975
     }
   ],
   "30Z5996": [
@@ -362,9 +462,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-7",
       "location": "Nguyễn Gia Trí",
-      "timestamp": "2025-11-11T17:16:12.308592Z",
-      "lat": 10.841,
-      "lon": 106.6775
+      "timestamp": "2025-11-27T14:19:10.101551Z",
+      "lat": 10.805767,
+      "lon": 106.715975
     }
   ],
   "30Z6226": [
@@ -374,9 +474,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-7",
       "location": "Nguyễn Gia Trí",
-      "timestamp": "2025-11-11T17:16:14.686872Z",
-      "lat": 10.841,
-      "lon": 106.6775
+      "timestamp": "2025-11-27T14:19:15.270347Z",
+      "lat": 10.805767,
+      "lon": 106.715975
     }
   ],
   "30Z42565": [
@@ -386,9 +486,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-7",
       "location": "Nguyễn Gia Trí",
-      "timestamp": "2025-11-11T17:16:16.259768Z",
-      "lat": 10.841,
-      "lon": 106.6775
+      "timestamp": "2025-11-27T14:19:19.300153Z",
+      "lat": 10.805767,
+      "lon": 106.715975
     }
   ],
   "30Z52296": [
@@ -398,9 +498,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-7",
       "location": "Nguyễn Gia Trí",
-      "timestamp": "2025-11-11T17:16:17.480316Z",
-      "lat": 10.841,
-      "lon": 106.6775
+      "timestamp": "2025-11-27T14:19:22.289326Z",
+      "lat": 10.805767,
+      "lon": 106.715975
     }
   ],
   "30I24265": [
@@ -410,9 +510,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-7",
       "location": "Nguyễn Gia Trí",
-      "timestamp": "2025-11-11T17:16:17.784587Z",
-      "lat": 10.841,
-      "lon": 106.6775
+      "timestamp": "2025-11-27T14:19:22.875745Z",
+      "lat": 10.805767,
+      "lon": 106.715975
     }
   ],
   "30Z4259": [
@@ -422,9 +522,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-7",
       "location": "Nguyễn Gia Trí",
-      "timestamp": "2025-11-11T17:16:18.687011Z",
-      "lat": 10.841,
-      "lon": 106.6775
+      "timestamp": "2025-11-27T14:19:24.944964Z",
+      "lat": 10.805767,
+      "lon": 106.715975
     }
   ],
   "20Z5226": [
@@ -434,9 +534,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-7",
       "location": "Nguyễn Gia Trí",
-      "timestamp": "2025-11-11T17:16:23.202552Z",
-      "lat": 10.841,
-      "lon": 106.6775
+      "timestamp": "2025-11-27T14:19:35.687928Z",
+      "lat": 10.805767,
+      "lon": 106.715975
     }
   ],
   "63A24265": [
@@ -446,9 +546,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-7",
       "location": "Nguyễn Gia Trí",
-      "timestamp": "2025-11-11T17:16:24.687764Z",
-      "lat": 10.841,
-      "lon": 106.6775
+      "timestamp": "2025-11-27T14:19:38.750954Z",
+      "lat": 10.805767,
+      "lon": 106.715975
     }
   ],
   "30Z6296": [
@@ -458,9 +558,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-7",
       "location": "Nguyễn Gia Trí",
-      "timestamp": "2025-11-11T17:16:25.532315Z",
-      "lat": 10.841,
-      "lon": 106.6775
+      "timestamp": "2025-11-27T14:19:40.671009Z",
+      "lat": 10.805767,
+      "lon": 106.715975
     }
   ],
   "30Z4269": [
@@ -470,9 +570,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-7",
       "location": "Nguyễn Gia Trí",
-      "timestamp": "2025-11-11T17:16:26.992559Z",
-      "lat": 10.841,
-      "lon": 106.6775
+      "timestamp": "2025-11-27T14:19:43.871563Z",
+      "lat": 10.805767,
+      "lon": 106.715975
     }
   ],
   "30I26269": [
@@ -482,9 +582,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-7",
       "location": "Nguyễn Gia Trí",
-      "timestamp": "2025-11-11T17:16:32.862396Z",
-      "lat": 10.841,
-      "lon": 106.6775
+      "timestamp": "2025-11-27T14:19:57.255785Z",
+      "lat": 10.805767,
+      "lon": 106.715975
     }
   ],
   "30Z42695": [
@@ -494,9 +594,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-7",
       "location": "Nguyễn Gia Trí",
-      "timestamp": "2025-11-11T17:16:35.433934Z",
-      "lat": 10.841,
-      "lon": 106.6775
+      "timestamp": "2025-11-27T14:20:01.938838Z",
+      "lat": 10.805767,
+      "lon": 106.715975
     }
   ],
   "63A24205": [
@@ -506,9 +606,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-7",
       "location": "Nguyễn Gia Trí",
-      "timestamp": "2025-11-11T17:16:39.921835Z",
-      "lat": 10.841,
-      "lon": 106.6775
+      "timestamp": "2025-11-27T14:20:11.149262Z",
+      "lat": 10.805767,
+      "lon": 106.715975
     }
   ],
   "30Z42654": [
@@ -518,9 +618,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-7",
       "location": "Nguyễn Gia Trí",
-      "timestamp": "2025-11-11T17:16:43.872951Z",
-      "lat": 10.841,
-      "lon": 106.6775
+      "timestamp": "2025-11-27T14:20:21.379115Z",
+      "lat": 10.805767,
+      "lon": 106.715975
     }
   ],
   "30Z4205": [
@@ -530,9 +630,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-7",
       "location": "Nguyễn Gia Trí",
-      "timestamp": "2025-11-11T17:16:46.520779Z",
-      "lat": 10.841,
-      "lon": 106.6775
+      "timestamp": "2025-11-27T14:20:26.846557Z",
+      "lat": 10.805767,
+      "lon": 106.715975
     }
   ],
   "30G09842": [
@@ -542,9 +642,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-7",
       "location": "Nguyễn Gia Trí",
-      "timestamp": "2025-11-11T17:16:54.454099Z",
-      "lat": 10.841,
-      "lon": 106.6775
+      "timestamp": "2025-11-27T14:20:41.696008Z",
+      "lat": 10.805767,
+      "lon": 106.715975
     }
   ],
   "13O60984": [
@@ -554,9 +654,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-7",
       "location": "Nguyễn Gia Trí",
-      "timestamp": "2025-11-11T17:16:56.570241Z",
-      "lat": 10.841,
-      "lon": 106.6775
+      "timestamp": "2025-11-27T14:20:43.891514Z",
+      "lat": 10.805767,
+      "lon": 106.715975
     }
   ],
   "30G0984": [
@@ -566,9 +666,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-7",
       "location": "Nguyễn Gia Trí",
-      "timestamp": "2025-11-11T17:16:57.213257Z",
-      "lat": 10.841,
-      "lon": 106.6775
+      "timestamp": "2025-11-27T14:20:44.378556Z",
+      "lat": 10.805767,
+      "lon": 106.715975
     }
   ],
   "30G09847": [
@@ -578,9 +678,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-7",
       "location": "Nguyễn Gia Trí",
-      "timestamp": "2025-11-11T17:17:00.266341Z",
-      "lat": 10.841,
-      "lon": 106.6775
+      "timestamp": "2025-11-27T14:20:49.215883Z",
+      "lat": 10.805767,
+      "lon": 106.715975
     }
   ],
   "13O6098": [
@@ -590,9 +690,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-7",
       "location": "Nguyễn Gia Trí",
-      "timestamp": "2025-11-11T17:17:02.177786Z",
-      "lat": 10.841,
-      "lon": 106.6775
+      "timestamp": "2025-11-27T14:20:52.835589Z",
+      "lat": 10.805767,
+      "lon": 106.715975
     }
   ],
   "30A5221": [
@@ -602,9 +702,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-7",
       "location": "Nguyễn Gia Trí",
-      "timestamp": "2025-11-11T17:17:09.338630Z",
-      "lat": 10.841,
-      "lon": 106.6775
+      "timestamp": "2025-11-27T14:21:07.621558Z",
+      "lat": 10.805767,
+      "lon": 106.715975
     }
   ],
   "30A5206": [
@@ -614,9 +714,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-7",
       "location": "Nguyễn Gia Trí",
-      "timestamp": "2025-11-11T17:17:10.876494Z",
-      "lat": 10.841,
-      "lon": 106.6775
+      "timestamp": "2025-11-27T14:21:10.527463Z",
+      "lat": 10.805767,
+      "lon": 106.715975
     }
   ],
   "30A6226": [
@@ -626,9 +726,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-7",
       "location": "Nguyễn Gia Trí",
-      "timestamp": "2025-11-11T17:17:12.387668Z",
-      "lat": 10.841,
-      "lon": 106.6775
+      "timestamp": "2025-11-27T14:21:13.614096Z",
+      "lat": 10.805767,
+      "lon": 106.715975
     }
   ],
   "40A5226": [
@@ -638,9 +738,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-7",
       "location": "Nguyễn Gia Trí",
-      "timestamp": "2025-11-11T17:17:14.469796Z",
-      "lat": 10.841,
-      "lon": 106.6775
+      "timestamp": "2025-11-27T14:21:18.224697Z",
+      "lat": 10.805767,
+      "lon": 106.715975
     }
   ],
   "30A5226": [
@@ -650,9 +750,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-7",
       "location": "Nguyễn Gia Trí",
-      "timestamp": "2025-11-11T17:17:15.008454Z",
-      "lat": 10.841,
-      "lon": 106.6775
+      "timestamp": "2025-11-27T14:21:19.135278Z",
+      "lat": 10.805767,
+      "lon": 106.715975
     }
   ],
   "49A5226": [
@@ -662,9 +762,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-7",
       "location": "Nguyễn Gia Trí",
-      "timestamp": "2025-11-11T17:17:16.488442Z",
-      "lat": 10.841,
-      "lon": 106.6775
+      "timestamp": "2025-11-27T14:21:22.098406Z",
+      "lat": 10.805767,
+      "lon": 106.715975
     }
   ],
   "40Z5226": [
@@ -674,9 +774,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-7",
       "location": "Nguyễn Gia Trí",
-      "timestamp": "2025-11-11T17:17:20.237474Z",
-      "lat": 10.841,
-      "lon": 106.6775
+      "timestamp": "2025-11-27T14:21:27.348384Z",
+      "lat": 10.805767,
+      "lon": 106.715975
     }
   ],
   "30A25226": [
@@ -686,9 +786,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-7",
       "location": "Nguyễn Gia Trí",
-      "timestamp": "2025-11-11T17:17:20.923271Z",
-      "lat": 10.841,
-      "lon": 106.6775
+      "timestamp": "2025-11-27T14:21:28.591110Z",
+      "lat": 10.805767,
+      "lon": 106.715975
     }
   ],
   "30Z5220": [
@@ -698,9 +798,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-7",
       "location": "Nguyễn Gia Trí",
-      "timestamp": "2025-11-11T17:17:21.145682Z",
-      "lat": 10.841,
-      "lon": 106.6775
+      "timestamp": "2025-11-27T14:21:28.989932Z",
+      "lat": 10.805767,
+      "lon": 106.715975
     }
   ],
   "30A25220": [
@@ -710,9 +810,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-7",
       "location": "Nguyễn Gia Trí",
-      "timestamp": "2025-11-11T17:17:23.290183Z",
-      "lat": 10.841,
-      "lon": 106.6775
+      "timestamp": "2025-11-27T14:21:33.292800Z",
+      "lat": 10.805767,
+      "lon": 106.715975
     }
   ],
   "57G2261": [
@@ -722,9 +822,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-7",
       "location": "Nguyễn Gia Trí",
-      "timestamp": "2025-11-11T17:17:23.921072Z",
-      "lat": 10.841,
-      "lon": 106.6775
+      "timestamp": "2025-11-27T14:21:34.519190Z",
+      "lat": 10.805767,
+      "lon": 106.715975
     }
   ],
   "59A62261": [
@@ -734,9 +834,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-7",
       "location": "Nguyễn Gia Trí",
-      "timestamp": "2025-11-11T17:17:24.499835Z",
-      "lat": 10.841,
-      "lon": 106.6775
+      "timestamp": "2025-11-27T14:21:35.814171Z",
+      "lat": 10.805767,
+      "lon": 106.715975
     }
   ],
   "40Z5220": [
@@ -746,9 +846,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-7",
       "location": "Nguyễn Gia Trí",
-      "timestamp": "2025-11-11T17:17:24.985964Z",
-      "lat": 10.841,
-      "lon": 106.6775
+      "timestamp": "2025-11-27T14:21:36.779264Z",
+      "lat": 10.805767,
+      "lon": 106.715975
     }
   ],
   "50A5220": [
@@ -758,9 +858,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-7",
       "location": "Nguyễn Gia Trí",
-      "timestamp": "2025-11-11T17:17:27.238412Z",
-      "lat": 10.841,
-      "lon": 106.6775
+      "timestamp": "2025-11-27T14:21:41.107227Z",
+      "lat": 10.805767,
+      "lon": 106.715975
     }
   ],
   "39A5226": [
@@ -770,9 +870,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-7",
       "location": "Nguyễn Gia Trí",
-      "timestamp": "2025-11-11T17:17:28.608712Z",
-      "lat": 10.841,
-      "lon": 106.6775
+      "timestamp": "2025-11-27T14:21:43.910743Z",
+      "lat": 10.805767,
+      "lon": 106.715975
     }
   ],
   "50A5226": [
@@ -782,9 +882,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-7",
       "location": "Nguyễn Gia Trí",
-      "timestamp": "2025-11-11T17:17:28.751526Z",
-      "lat": 10.841,
-      "lon": 106.6775
+      "timestamp": "2025-11-27T14:21:44.187314Z",
+      "lat": 10.805767,
+      "lon": 106.715975
     }
   ],
   "30A5220": [
@@ -794,9 +894,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-7",
       "location": "Nguyễn Gia Trí",
-      "timestamp": "2025-11-11T17:17:30.382824Z",
-      "lat": 10.841,
-      "lon": 106.6775
+      "timestamp": "2025-11-27T14:21:50.065893Z",
+      "lat": 10.805767,
+      "lon": 106.715975
     }
   ],
   "39A5220": [
@@ -806,9 +906,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-7",
       "location": "Nguyễn Gia Trí",
-      "timestamp": "2025-11-11T17:17:30.997537Z",
-      "lat": 10.841,
-      "lon": 106.6775
+      "timestamp": "2025-11-27T14:21:51.418160Z",
+      "lat": 10.805767,
+      "lon": 106.715975
     }
   ],
   "49Z5226": [
@@ -818,9 +918,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-7",
       "location": "Nguyễn Gia Trí",
-      "timestamp": "2025-11-11T17:17:32.252788Z",
-      "lat": 10.841,
-      "lon": 106.6775
+      "timestamp": "2025-11-27T14:21:53.944290Z",
+      "lat": 10.805767,
+      "lon": 106.715975
     }
   ],
   "30A5225": [
@@ -830,9 +930,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-7",
       "location": "Nguyễn Gia Trí",
-      "timestamp": "2025-11-11T17:17:33.262313Z",
-      "lat": 10.841,
-      "lon": 106.6775
+      "timestamp": "2025-11-27T14:21:54.819672Z",
+      "lat": 10.805767,
+      "lon": 106.715975
     }
   ],
   "46A5221": [
@@ -842,9 +942,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-7",
       "location": "Nguyễn Gia Trí",
-      "timestamp": "2025-11-11T17:17:35.925319Z",
-      "lat": 10.841,
-      "lon": 106.6775
+      "timestamp": "2025-11-27T14:21:57.499419Z",
+      "lat": 10.805767,
+      "lon": 106.715975
     }
   ]
 }

@@ -14,14 +14,14 @@ OUTPUT_FOLDER = "./multi_cam_data"
 # Fake lộ trình Tô Kí -> Võ Oanh
 # =========================================================
 FAKE_ROUTE = [
-    {"cam_id": "CAM-1", "location": "Tô Kí", "lat": 10.8470, "lon": 106.6730},
-    {"cam_id": "CAM-2", "location": "Quang Trung", "lat": 10.8460, "lon": 106.6745},
-    {"cam_id": "CAM-3", "location": "Nguyễn Văn Nghi", "lat": 10.8450, "lon": 106.6755},
-    {"cam_id": "CAM-4", "location": "Phạm Văn Đồng", "lat": 10.8440, "lon": 106.6760},
-    {"cam_id": "CAM-5", "location": "Nguyễn Xí", "lat": 10.8430, "lon": 106.6765},
-    {"cam_id": "CAM-6", "location": "Ung Văn Khiêm", "lat": 10.8420, "lon": 106.6770},
-    {"cam_id": "CAM-7", "location": "Nguyễn Gia Trí", "lat": 10.8410, "lon": 106.6775},
-    {"cam_id": "CAM-8", "location": "Võ Oanh", "lat": 10.8400, "lon": 106.6780},
+    {"cam_id": "CAM-1", "location": "Tô Kí", "lat": 10.855499, "lon": 106.623473},
+    {"cam_id": "CAM-2", "location": "Quang Trung", "lat": 10.844394, "lon": 106.640104},
+    {"cam_id": "CAM-3", "location": "Nguyễn Văn Nghi", "lat": 10.824269, "lon": 106.686430},
+    {"cam_id": "CAM-4", "location": "Phạm Văn Đồng", "lat": 10.820528, "lon": 106.694380},
+    {"cam_id": "CAM-5", "location": "Nguyễn Xí", "lat": 10.820118, "lon": 106.704012},
+    {"cam_id": "CAM-6", "location": "Ung Văn Khiêm", "lat": 10.807637, "lon": 106.716334},
+    {"cam_id": "CAM-7", "location": "Nguyễn Gia Trí", "lat": 10.805767, "lon": 106.715975},
+    {"cam_id": "CAM-8", "location": "Võ Oanh", "lat": 10.804320, "lon": 106.715953},
 ]
 
 
@@ -33,7 +33,7 @@ def process_video(cam_id, video_path, cam_info=None):
 
     # Tracker & YOLO model (mỗi cam tạo riêng)
     mot_tracker = Sort()
-    coco_model = YOLO('Yolo-Weights/yolo11m.pt')  # có thể thay bằng yolov8n.pt cho nhẹ
+    coco_model = YOLO('Yolo-Weights/yolo11m.pt') 
     license_plate_detector = YOLO(r"runs/detect/License_Plate_Finetune_v10/weights/best.pt")
 
     # Folder lưu kết quả

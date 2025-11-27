@@ -6,9 +6,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-8",
       "location": "Võ Oanh",
-      "timestamp": "2025-11-11T17:17:39.326942Z",
-      "lat": 10.84,
-      "lon": 106.678
+      "timestamp": "2025-11-27T14:22:00.499733Z",
+      "lat": 10.80432,
+      "lon": 106.715953
     },
     {
       "plate": "30Z5226",
@@ -16,19 +16,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-8",
       "location": "Võ Oanh",
-      "timestamp": "2025-11-11T17:18:39.755252Z",
-      "lat": 10.84,
-      "lon": 106.678
-    },
-    {
-      "plate": "30Z5226",
-      "track_id": 101,
-      "vehicle_type": "car",
-      "camera_id": "CAM-8",
-      "location": "Võ Oanh",
-      "timestamp": "2025-11-11T17:19:39.776936Z",
-      "lat": 10.84,
-      "lon": 106.678
+      "timestamp": "2025-11-27T14:23:03.054627Z",
+      "lat": 10.80432,
+      "lon": 106.715953
     },
     {
       "plate": "30Z5226",
@@ -36,9 +26,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-8",
       "location": "Võ Oanh",
-      "timestamp": "2025-11-11T17:21:01.357333Z",
-      "lat": 10.84,
-      "lon": 106.678
+      "timestamp": "2025-11-27T14:25:03.382429Z",
+      "lat": 10.80432,
+      "lon": 106.715953
     }
   ],
   "40Z5276": [
@@ -48,9 +38,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-8",
       "location": "Võ Oanh",
-      "timestamp": "2025-11-11T17:17:41.927274Z",
-      "lat": 10.84,
-      "lon": 106.678
+      "timestamp": "2025-11-27T14:22:03.994437Z",
+      "lat": 10.80432,
+      "lon": 106.715953
     }
   ],
   "30Z5276": [
@@ -60,9 +50,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-8",
       "location": "Võ Oanh",
-      "timestamp": "2025-11-11T17:17:43.363268Z",
-      "lat": 10.84,
-      "lon": 106.678
+      "timestamp": "2025-11-27T14:22:05.162448Z",
+      "lat": 10.80432,
+      "lon": 106.715953
     },
     {
       "plate": "30Z5276",
@@ -70,9 +60,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-8",
       "location": "Võ Oanh",
-      "timestamp": "2025-11-11T17:18:43.751097Z",
-      "lat": 10.84,
-      "lon": 106.678
+      "timestamp": "2025-11-27T14:23:07.418045Z",
+      "lat": 10.80432,
+      "lon": 106.715953
     }
   ],
   "30A47265": [
@@ -82,9 +72,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-8",
       "location": "Võ Oanh",
-      "timestamp": "2025-11-11T17:17:46.494516Z",
-      "lat": 10.84,
-      "lon": 106.678
+      "timestamp": "2025-11-27T14:22:08.087838Z",
+      "lat": 10.80432,
+      "lon": 106.715953
     }
   ],
   "30Z4265": [
@@ -94,9 +84,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-8",
       "location": "Võ Oanh",
-      "timestamp": "2025-11-11T17:17:47.938385Z",
-      "lat": 10.84,
-      "lon": 106.678
+      "timestamp": "2025-11-27T14:22:09.476156Z",
+      "lat": 10.80432,
+      "lon": 106.715953
     },
     {
       "plate": "30Z4265",
@@ -104,9 +94,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-8",
       "location": "Võ Oanh",
-      "timestamp": "2025-11-11T17:18:53.396810Z",
-      "lat": 10.84,
-      "lon": 106.678
+      "timestamp": "2025-11-27T14:23:16.022098Z",
+      "lat": 10.80432,
+      "lon": 106.715953
     },
     {
       "plate": "30Z4265",
@@ -114,9 +104,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-8",
       "location": "Võ Oanh",
-      "timestamp": "2025-11-11T17:19:54.870728Z",
-      "lat": 10.84,
-      "lon": 106.678
+      "timestamp": "2025-11-27T14:24:18.000075Z",
+      "lat": 10.80432,
+      "lon": 106.715953
     }
   ],
   "30S4265": [
@@ -126,9 +116,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-8",
       "location": "Võ Oanh",
-      "timestamp": "2025-11-11T17:17:48.720876Z",
-      "lat": 10.84,
-      "lon": 106.678
+      "timestamp": "2025-11-27T14:22:10.203681Z",
+      "lat": 10.80432,
+      "lon": 106.715953
     }
   ],
   "30Z52276": [
@@ -138,9 +128,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-8",
       "location": "Võ Oanh",
-      "timestamp": "2025-11-11T17:17:49.304014Z",
-      "lat": 10.84,
-      "lon": 106.678
+      "timestamp": "2025-11-27T14:22:10.814751Z",
+      "lat": 10.80432,
+      "lon": 106.715953
     },
     {
       "plate": "30Z52276",
@@ -148,9 +138,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-8",
       "location": "Võ Oanh",
-      "timestamp": "2025-11-11T17:18:52.148361Z",
-      "lat": 10.84,
-      "lon": 106.678
+      "timestamp": "2025-11-27T14:23:14.867961Z",
+      "lat": 10.80432,
+      "lon": 106.715953
     }
   ],
   "30A74209": [
@@ -160,9 +150,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-8",
       "location": "Võ Oanh",
-      "timestamp": "2025-11-11T17:17:50.316901Z",
-      "lat": 10.84,
-      "lon": 106.678
+      "timestamp": "2025-11-27T14:22:11.790986Z",
+      "lat": 10.80432,
+      "lon": 106.715953
     }
   ],
   "30S15269": [
@@ -172,9 +162,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-8",
       "location": "Võ Oanh",
-      "timestamp": "2025-11-11T17:17:51.950604Z",
-      "lat": 10.84,
-      "lon": 106.678
+      "timestamp": "2025-11-27T14:22:13.337026Z",
+      "lat": 10.80432,
+      "lon": 106.715953
     }
   ],
   "30B24205": [
@@ -184,9 +174,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-8",
       "location": "Võ Oanh",
-      "timestamp": "2025-11-11T17:17:53.733182Z",
-      "lat": 10.84,
-      "lon": 106.678
+      "timestamp": "2025-11-27T14:22:15.007412Z",
+      "lat": 10.80432,
+      "lon": 106.715953
     }
   ],
   "30B74269": [
@@ -196,9 +186,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-8",
       "location": "Võ Oanh",
-      "timestamp": "2025-11-11T17:17:55.271424Z",
-      "lat": 10.84,
-      "lon": 106.678
+      "timestamp": "2025-11-27T14:22:17.821242Z",
+      "lat": 10.80432,
+      "lon": 106.715953
     }
   ],
   "30Z56276": [
@@ -208,9 +198,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-8",
       "location": "Võ Oanh",
-      "timestamp": "2025-11-11T17:17:55.875505Z",
-      "lat": 10.84,
-      "lon": 106.678
+      "timestamp": "2025-11-27T14:22:18.363734Z",
+      "lat": 10.80432,
+      "lon": 106.715953
     }
   ],
   "30Z4209": [
@@ -220,9 +210,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-8",
       "location": "Võ Oanh",
-      "timestamp": "2025-11-11T17:17:56.841656Z",
-      "lat": 10.84,
-      "lon": 106.678
+      "timestamp": "2025-11-27T14:22:19.057787Z",
+      "lat": 10.80432,
+      "lon": 106.715953
     },
     {
       "plate": "30Z4209",
@@ -230,9 +220,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-8",
       "location": "Võ Oanh",
-      "timestamp": "2025-11-11T17:18:58.384157Z",
-      "lat": 10.84,
-      "lon": 106.678
+      "timestamp": "2025-11-27T14:23:20.679955Z",
+      "lat": 10.80432,
+      "lon": 106.715953
     }
   ],
   "30Z5296": [
@@ -242,9 +232,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-8",
       "location": "Võ Oanh",
-      "timestamp": "2025-11-11T17:17:57.564165Z",
-      "lat": 10.84,
-      "lon": 106.678
+      "timestamp": "2025-11-27T14:22:19.604728Z",
+      "lat": 10.80432,
+      "lon": 106.715953
     },
     {
       "plate": "30Z5296",
@@ -252,9 +242,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-8",
       "location": "Võ Oanh",
-      "timestamp": "2025-11-11T17:19:01.650111Z",
-      "lat": 10.84,
-      "lon": 106.678
+      "timestamp": "2025-11-27T14:23:23.571241Z",
+      "lat": 10.80432,
+      "lon": 106.715953
     }
   ],
   "30B24265": [
@@ -264,9 +254,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-8",
       "location": "Võ Oanh",
-      "timestamp": "2025-11-11T17:18:00.210935Z",
-      "lat": 10.84,
-      "lon": 106.678
+      "timestamp": "2025-11-27T14:22:22.212420Z",
+      "lat": 10.80432,
+      "lon": 106.715953
     }
   ],
   "30Z6276": [
@@ -276,9 +266,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-8",
       "location": "Võ Oanh",
-      "timestamp": "2025-11-11T17:18:02.378560Z",
-      "lat": 10.84,
-      "lon": 106.678
+      "timestamp": "2025-11-27T14:22:24.490172Z",
+      "lat": 10.80432,
+      "lon": 106.715953
     }
   ],
   "30Z62296": [
@@ -288,9 +278,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-8",
       "location": "Võ Oanh",
-      "timestamp": "2025-11-11T17:18:03.861502Z",
-      "lat": 10.84,
-      "lon": 106.678
+      "timestamp": "2025-11-27T14:22:25.981556Z",
+      "lat": 10.80432,
+      "lon": 106.715953
     },
     {
       "plate": "30Z62296",
@@ -298,9 +288,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-8",
       "location": "Võ Oanh",
-      "timestamp": "2025-11-11T17:19:31.354323Z",
-      "lat": 10.84,
-      "lon": 106.678
+      "timestamp": "2025-11-27T14:23:52.143109Z",
+      "lat": 10.80432,
+      "lon": 106.715953
     }
   ],
   "30S24209": [
@@ -310,9 +300,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-8",
       "location": "Võ Oanh",
-      "timestamp": "2025-11-11T17:18:04.932758Z",
-      "lat": 10.84,
-      "lon": 106.678
+      "timestamp": "2025-11-27T14:22:26.970003Z",
+      "lat": 10.80432,
+      "lon": 106.715953
     }
   ],
   "30S24259": [
@@ -322,9 +312,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-8",
       "location": "Võ Oanh",
-      "timestamp": "2025-11-11T17:18:06.563865Z",
-      "lat": 10.84,
-      "lon": 106.678
+      "timestamp": "2025-11-27T14:22:28.530236Z",
+      "lat": 10.80432,
+      "lon": 106.715953
     }
   ],
   "13A24259": [
@@ -334,9 +324,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-8",
       "location": "Võ Oanh",
-      "timestamp": "2025-11-11T17:18:09.902187Z",
-      "lat": 10.84,
-      "lon": 106.678
+      "timestamp": "2025-11-27T14:22:31.957974Z",
+      "lat": 10.80432,
+      "lon": 106.715953
     }
   ],
   "30Z52275": [
@@ -346,9 +336,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-8",
       "location": "Võ Oanh",
-      "timestamp": "2025-11-11T17:18:13.328609Z",
-      "lat": 10.84,
-      "lon": 106.678
+      "timestamp": "2025-11-27T14:22:35.620664Z",
+      "lat": 10.80432,
+      "lon": 106.715953
     }
   ],
   "30A24209": [
@@ -358,9 +348,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-8",
       "location": "Võ Oanh",
-      "timestamp": "2025-11-11T17:18:16.069484Z",
-      "lat": 10.84,
-      "lon": 106.678
+      "timestamp": "2025-11-27T14:22:38.257892Z",
+      "lat": 10.80432,
+      "lon": 106.715953
     }
   ],
   "13A24209": [
@@ -370,9 +360,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-8",
       "location": "Võ Oanh",
-      "timestamp": "2025-11-11T17:18:17.613826Z",
-      "lat": 10.84,
-      "lon": 106.678
+      "timestamp": "2025-11-27T14:22:39.787463Z",
+      "lat": 10.80432,
+      "lon": 106.715953
     },
     {
       "plate": "13A24209",
@@ -380,9 +370,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-8",
       "location": "Võ Oanh",
-      "timestamp": "2025-11-11T17:19:36.465644Z",
-      "lat": 10.84,
-      "lon": 106.678
+      "timestamp": "2025-11-27T14:23:57.093584Z",
+      "lat": 10.80432,
+      "lon": 106.715953
     }
   ],
   "30I24269": [
@@ -392,9 +382,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-8",
       "location": "Võ Oanh",
-      "timestamp": "2025-11-11T17:18:21.029993Z",
-      "lat": 10.84,
-      "lon": 106.678
+      "timestamp": "2025-11-27T14:22:43.075784Z",
+      "lat": 10.80432,
+      "lon": 106.715953
     },
     {
       "plate": "30I24269",
@@ -402,9 +392,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-8",
       "location": "Võ Oanh",
-      "timestamp": "2025-11-11T17:19:25.373920Z",
-      "lat": 10.84,
-      "lon": 106.678
+      "timestamp": "2025-11-27T14:23:45.381530Z",
+      "lat": 10.80432,
+      "lon": 106.715953
     }
   ],
   "30I24205": [
@@ -414,9 +404,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-8",
       "location": "Võ Oanh",
-      "timestamp": "2025-11-11T17:18:23.701036Z",
-      "lat": 10.84,
-      "lon": 106.678
+      "timestamp": "2025-11-27T14:22:46.673831Z",
+      "lat": 10.80432,
+      "lon": 106.715953
     }
   ],
   "30I24209": [
@@ -426,9 +416,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-8",
       "location": "Võ Oanh",
-      "timestamp": "2025-11-11T17:18:25.011553Z",
-      "lat": 10.84,
-      "lon": 106.678
+      "timestamp": "2025-11-27T14:22:48.099270Z",
+      "lat": 10.80432,
+      "lon": 106.715953
     }
   ],
   "30Z56296": [
@@ -438,9 +428,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-8",
       "location": "Võ Oanh",
-      "timestamp": "2025-11-11T17:18:31.871015Z",
-      "lat": 10.84,
-      "lon": 106.678
+      "timestamp": "2025-11-27T14:22:55.446230Z",
+      "lat": 10.80432,
+      "lon": 106.715953
     }
   ],
   "13A24269": [
@@ -450,9 +440,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-8",
       "location": "Võ Oanh",
-      "timestamp": "2025-11-11T17:18:36.622748Z",
-      "lat": 10.84,
-      "lon": 106.678
+      "timestamp": "2025-11-27T14:22:59.737310Z",
+      "lat": 10.80432,
+      "lon": 106.715953
     }
   ],
   "30Z5996": [
@@ -462,9 +452,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-8",
       "location": "Võ Oanh",
-      "timestamp": "2025-11-11T17:18:37.194666Z",
-      "lat": 10.84,
-      "lon": 106.678
+      "timestamp": "2025-11-27T14:23:00.281235Z",
+      "lat": 10.80432,
+      "lon": 106.715953
     }
   ],
   "30Z6226": [
@@ -474,9 +464,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-8",
       "location": "Võ Oanh",
-      "timestamp": "2025-11-11T17:18:42.311806Z",
-      "lat": 10.84,
-      "lon": 106.678
+      "timestamp": "2025-11-27T14:23:06.540475Z",
+      "lat": 10.80432,
+      "lon": 106.715953
     }
   ],
   "30Z42565": [
@@ -486,9 +476,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-8",
       "location": "Võ Oanh",
-      "timestamp": "2025-11-11T17:18:45.772737Z",
-      "lat": 10.84,
-      "lon": 106.678
+      "timestamp": "2025-11-27T14:23:08.282638Z",
+      "lat": 10.80432,
+      "lon": 106.715953
     }
   ],
   "30Z52296": [
@@ -498,9 +488,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-8",
       "location": "Võ Oanh",
-      "timestamp": "2025-11-11T17:18:48.125691Z",
-      "lat": 10.84,
-      "lon": 106.678
+      "timestamp": "2025-11-27T14:23:10.534977Z",
+      "lat": 10.80432,
+      "lon": 106.715953
     }
   ],
   "30I24265": [
@@ -510,9 +500,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-8",
       "location": "Võ Oanh",
-      "timestamp": "2025-11-11T17:18:48.633777Z",
-      "lat": 10.84,
-      "lon": 106.678
+      "timestamp": "2025-11-27T14:23:11.274836Z",
+      "lat": 10.80432,
+      "lon": 106.715953
     }
   ],
   "30Z4259": [
@@ -522,9 +512,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-8",
       "location": "Võ Oanh",
-      "timestamp": "2025-11-11T17:18:50.521539Z",
-      "lat": 10.84,
-      "lon": 106.678
+      "timestamp": "2025-11-27T14:23:13.182370Z",
+      "lat": 10.80432,
+      "lon": 106.715953
     }
   ],
   "20Z5226": [
@@ -534,9 +524,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-8",
       "location": "Võ Oanh",
-      "timestamp": "2025-11-11T17:19:00.290205Z",
-      "lat": 10.84,
-      "lon": 106.678
+      "timestamp": "2025-11-27T14:23:22.372636Z",
+      "lat": 10.80432,
+      "lon": 106.715953
     }
   ],
   "63A24265": [
@@ -546,9 +536,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-8",
       "location": "Võ Oanh",
-      "timestamp": "2025-11-11T17:19:03.690986Z",
-      "lat": 10.84,
-      "lon": 106.678
+      "timestamp": "2025-11-27T14:23:25.679813Z",
+      "lat": 10.80432,
+      "lon": 106.715953
     }
   ],
   "30Z6296": [
@@ -558,9 +548,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-8",
       "location": "Võ Oanh",
-      "timestamp": "2025-11-11T17:19:05.590960Z",
-      "lat": 10.84,
-      "lon": 106.678
+      "timestamp": "2025-11-27T14:23:27.402153Z",
+      "lat": 10.80432,
+      "lon": 106.715953
     }
   ],
   "30Z4269": [
@@ -570,9 +560,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-8",
       "location": "Võ Oanh",
-      "timestamp": "2025-11-11T17:19:09.008519Z",
-      "lat": 10.84,
-      "lon": 106.678
+      "timestamp": "2025-11-27T14:23:30.583979Z",
+      "lat": 10.80432,
+      "lon": 106.715953
     }
   ],
   "30I26269": [
@@ -582,9 +572,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-8",
       "location": "Võ Oanh",
-      "timestamp": "2025-11-11T17:19:22.565927Z",
-      "lat": 10.84,
-      "lon": 106.678
+      "timestamp": "2025-11-27T14:23:42.994670Z",
+      "lat": 10.80432,
+      "lon": 106.715953
     }
   ],
   "30Z42695": [
@@ -594,9 +584,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-8",
       "location": "Võ Oanh",
-      "timestamp": "2025-11-11T17:19:27.591399Z",
-      "lat": 10.84,
-      "lon": 106.678
+      "timestamp": "2025-11-27T14:23:49.033798Z",
+      "lat": 10.80432,
+      "lon": 106.715953
     }
   ],
   "63A24205": [
@@ -606,9 +596,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-8",
       "location": "Võ Oanh",
-      "timestamp": "2025-11-11T17:19:37.705275Z",
-      "lat": 10.84,
-      "lon": 106.678
+      "timestamp": "2025-11-27T14:23:58.274375Z",
+      "lat": 10.80432,
+      "lon": 106.715953
     }
   ],
   "30Z42654": [
@@ -618,9 +608,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-8",
       "location": "Võ Oanh",
-      "timestamp": "2025-11-11T17:19:47.222485Z",
-      "lat": 10.84,
-      "lon": 106.678
+      "timestamp": "2025-11-27T14:24:07.011245Z",
+      "lat": 10.80432,
+      "lon": 106.715953
     }
   ],
   "30Z4205": [
@@ -630,9 +620,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-8",
       "location": "Võ Oanh",
-      "timestamp": "2025-11-11T17:19:53.346505Z",
-      "lat": 10.84,
-      "lon": 106.678
+      "timestamp": "2025-11-27T14:24:12.065822Z",
+      "lat": 10.80432,
+      "lon": 106.715953
     }
   ],
   "30G09842": [
@@ -642,9 +632,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-8",
       "location": "Võ Oanh",
-      "timestamp": "2025-11-11T17:20:09.668624Z",
-      "lat": 10.84,
-      "lon": 106.678
+      "timestamp": "2025-11-27T14:24:27.722617Z",
+      "lat": 10.80432,
+      "lon": 106.715953
     }
   ],
   "13O60984": [
@@ -654,9 +644,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-8",
       "location": "Võ Oanh",
-      "timestamp": "2025-11-11T17:20:13.681408Z",
-      "lat": 10.84,
-      "lon": 106.678
+      "timestamp": "2025-11-27T14:24:31.233615Z",
+      "lat": 10.80432,
+      "lon": 106.715953
     }
   ],
   "30G0984": [
@@ -666,9 +656,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-8",
       "location": "Võ Oanh",
-      "timestamp": "2025-11-11T17:20:14.755898Z",
-      "lat": 10.84,
-      "lon": 106.678
+      "timestamp": "2025-11-27T14:24:32.630291Z",
+      "lat": 10.80432,
+      "lon": 106.715953
     }
   ],
   "30G09847": [
@@ -678,9 +668,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-8",
       "location": "Võ Oanh",
-      "timestamp": "2025-11-11T17:20:20.844776Z",
-      "lat": 10.84,
-      "lon": 106.678
+      "timestamp": "2025-11-27T14:24:38.122273Z",
+      "lat": 10.80432,
+      "lon": 106.715953
     }
   ],
   "13O6098": [
@@ -690,9 +680,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-8",
       "location": "Võ Oanh",
-      "timestamp": "2025-11-11T17:20:24.912269Z",
-      "lat": 10.84,
-      "lon": 106.678
+      "timestamp": "2025-11-27T14:24:41.579912Z",
+      "lat": 10.80432,
+      "lon": 106.715953
     }
   ],
   "30A5221": [
@@ -702,9 +692,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-8",
       "location": "Võ Oanh",
-      "timestamp": "2025-11-11T17:20:39.838756Z",
-      "lat": 10.84,
-      "lon": 106.678
+      "timestamp": "2025-11-27T14:24:52.260239Z",
+      "lat": 10.80432,
+      "lon": 106.715953
     }
   ],
   "30A5206": [
@@ -714,9 +704,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-8",
       "location": "Võ Oanh",
-      "timestamp": "2025-11-11T17:20:43.031149Z",
-      "lat": 10.84,
-      "lon": 106.678
+      "timestamp": "2025-11-27T14:24:54.419546Z",
+      "lat": 10.80432,
+      "lon": 106.715953
     }
   ],
   "30A6226": [
@@ -726,9 +716,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-8",
       "location": "Võ Oanh",
-      "timestamp": "2025-11-11T17:20:46.312255Z",
-      "lat": 10.84,
-      "lon": 106.678
+      "timestamp": "2025-11-27T14:24:55.963111Z",
+      "lat": 10.80432,
+      "lon": 106.715953
     }
   ],
   "40A5226": [
@@ -738,9 +728,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-8",
       "location": "Võ Oanh",
-      "timestamp": "2025-11-11T17:20:50.720878Z",
-      "lat": 10.84,
-      "lon": 106.678
+      "timestamp": "2025-11-27T14:24:57.882213Z",
+      "lat": 10.80432,
+      "lon": 106.715953
     }
   ],
   "30A5226": [
@@ -750,9 +740,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-8",
       "location": "Võ Oanh",
-      "timestamp": "2025-11-11T17:20:51.778687Z",
-      "lat": 10.84,
-      "lon": 106.678
+      "timestamp": "2025-11-27T14:24:58.352334Z",
+      "lat": 10.80432,
+      "lon": 106.715953
     }
   ],
   "49A5226": [
@@ -762,9 +752,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-8",
       "location": "Võ Oanh",
-      "timestamp": "2025-11-11T17:20:54.833809Z",
-      "lat": 10.84,
-      "lon": 106.678
+      "timestamp": "2025-11-27T14:25:00.552666Z",
+      "lat": 10.80432,
+      "lon": 106.715953
     }
   ],
   "40Z5226": [
@@ -774,9 +764,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-8",
       "location": "Võ Oanh",
-      "timestamp": "2025-11-11T17:21:00.747039Z",
-      "lat": 10.84,
-      "lon": 106.678
+      "timestamp": "2025-11-27T14:25:03.128331Z",
+      "lat": 10.80432,
+      "lon": 106.715953
     }
   ],
   "30A25226": [
@@ -786,9 +776,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-8",
       "location": "Võ Oanh",
-      "timestamp": "2025-11-11T17:21:02.330425Z",
-      "lat": 10.84,
-      "lon": 106.678
+      "timestamp": "2025-11-27T14:25:03.701729Z",
+      "lat": 10.80432,
+      "lon": 106.715953
     }
   ],
   "30Z5220": [
@@ -798,9 +788,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-8",
       "location": "Võ Oanh",
-      "timestamp": "2025-11-11T17:21:02.783552Z",
-      "lat": 10.84,
-      "lon": 106.678
+      "timestamp": "2025-11-27T14:25:03.904721Z",
+      "lat": 10.80432,
+      "lon": 106.715953
     }
   ],
   "30A25220": [
@@ -810,9 +800,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-8",
       "location": "Võ Oanh",
-      "timestamp": "2025-11-11T17:21:06.843175Z",
-      "lat": 10.84,
-      "lon": 106.678
+      "timestamp": "2025-11-27T14:25:05.674505Z",
+      "lat": 10.80432,
+      "lon": 106.715953
     }
   ],
   "57G2261": [
@@ -822,9 +812,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-8",
       "location": "Võ Oanh",
-      "timestamp": "2025-11-11T17:21:08.167258Z",
-      "lat": 10.84,
-      "lon": 106.678
+      "timestamp": "2025-11-27T14:25:06.302202Z",
+      "lat": 10.80432,
+      "lon": 106.715953
     }
   ],
   "59A62261": [
@@ -834,9 +824,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-8",
       "location": "Võ Oanh",
-      "timestamp": "2025-11-11T17:21:09.474512Z",
-      "lat": 10.84,
-      "lon": 106.678
+      "timestamp": "2025-11-27T14:25:06.862182Z",
+      "lat": 10.80432,
+      "lon": 106.715953
     }
   ],
   "40Z5220": [
@@ -846,9 +836,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-8",
       "location": "Võ Oanh",
-      "timestamp": "2025-11-11T17:21:10.683229Z",
-      "lat": 10.84,
-      "lon": 106.678
+      "timestamp": "2025-11-27T14:25:07.332693Z",
+      "lat": 10.80432,
+      "lon": 106.715953
     }
   ],
   "50A5220": [
@@ -858,9 +848,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-8",
       "location": "Võ Oanh",
-      "timestamp": "2025-11-11T17:21:15.656367Z",
-      "lat": 10.84,
-      "lon": 106.678
+      "timestamp": "2025-11-27T14:25:09.970087Z",
+      "lat": 10.80432,
+      "lon": 106.715953
     }
   ],
   "39A5226": [
@@ -870,9 +860,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-8",
       "location": "Võ Oanh",
-      "timestamp": "2025-11-11T17:21:18.770040Z",
-      "lat": 10.84,
-      "lon": 106.678
+      "timestamp": "2025-11-27T14:25:11.658406Z",
+      "lat": 10.80432,
+      "lon": 106.715953
     }
   ],
   "50A5226": [
@@ -882,9 +872,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-8",
       "location": "Võ Oanh",
-      "timestamp": "2025-11-11T17:21:19.109490Z",
-      "lat": 10.84,
-      "lon": 106.678
+      "timestamp": "2025-11-27T14:25:11.803749Z",
+      "lat": 10.80432,
+      "lon": 106.715953
     }
   ],
   "30A5220": [
@@ -894,9 +884,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-8",
       "location": "Võ Oanh",
-      "timestamp": "2025-11-11T17:21:22.558958Z",
-      "lat": 10.84,
-      "lon": 106.678
+      "timestamp": "2025-11-27T14:25:13.319812Z",
+      "lat": 10.80432,
+      "lon": 106.715953
     }
   ],
   "39A5220": [
@@ -906,9 +896,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-8",
       "location": "Võ Oanh",
-      "timestamp": "2025-11-11T17:21:23.806269Z",
-      "lat": 10.84,
-      "lon": 106.678
+      "timestamp": "2025-11-27T14:25:13.929100Z",
+      "lat": 10.80432,
+      "lon": 106.715953
     }
   ],
   "49Z5226": [
@@ -918,9 +908,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-8",
       "location": "Võ Oanh",
-      "timestamp": "2025-11-11T17:21:26.504029Z",
-      "lat": 10.84,
-      "lon": 106.678
+      "timestamp": "2025-11-27T14:25:14.971346Z",
+      "lat": 10.80432,
+      "lon": 106.715953
     }
   ],
   "30A5225": [
@@ -930,9 +920,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-8",
       "location": "Võ Oanh",
-      "timestamp": "2025-11-11T17:21:27.364112Z",
-      "lat": 10.84,
-      "lon": 106.678
+      "timestamp": "2025-11-27T14:25:15.370879Z",
+      "lat": 10.80432,
+      "lon": 106.715953
     }
   ],
   "46A5221": [
@@ -942,9 +932,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-8",
       "location": "Võ Oanh",
-      "timestamp": "2025-11-11T17:21:30.282077Z",
-      "lat": 10.84,
-      "lon": 106.678
+      "timestamp": "2025-11-27T14:25:16.670935Z",
+      "lat": 10.80432,
+      "lon": 106.715953
     }
   ]
 }

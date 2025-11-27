@@ -4,7 +4,6 @@ import multiprocessing
 def main():
     multiprocessing.freeze_support()
 
-    # Load mô hình đã train trước đó
     model = YOLO(r"runs/detect/License_Plate_Finetune_v10/weights/best.pt")
 
     model.train(

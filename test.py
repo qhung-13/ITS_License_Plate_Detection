@@ -16,8 +16,7 @@ for r in results:
     for box in r.boxes.xyxy:  # mỗi box là x1, y1, x2, y2
         x1, y1, x2, y2 = map(int, box)
         plate_img = img[y1:y2, x1:x2]  # cắt vùng biển số
-        number = read_license_plate(plate_img)  # đọc ký tự
-        print("Detected plate:", number)
+        number = read_license_plate(plate_img)  # đọc ký tự        print("Detected plate:", number)
 
         # Vẽ khung màu đỏ quanh biển số
         cv2.rectangle(img, (x1, y1), (x2, y2), (0, 0, 255), 2)

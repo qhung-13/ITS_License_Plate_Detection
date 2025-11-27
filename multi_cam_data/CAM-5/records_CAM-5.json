@@ -6,9 +6,19 @@
       "vehicle_type": "car",
       "camera_id": "CAM-5",
       "location": "Nguyễn Xí",
-      "timestamp": "2025-11-11T17:12:07.983396Z",
-      "lat": 10.843,
-      "lon": 106.6765
+      "timestamp": "2025-11-27T14:10:46.174539Z",
+      "lat": 10.820118,
+      "lon": 106.704012
+    },
+    {
+      "plate": "30Z5226",
+      "track_id": 59,
+      "vehicle_type": "car",
+      "camera_id": "CAM-5",
+      "location": "Nguyễn Xí",
+      "timestamp": "2025-11-27T14:11:47.450792Z",
+      "lat": 10.820118,
+      "lon": 106.704012
     },
     {
       "plate": "30Z5226",
@@ -16,9 +26,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-5",
       "location": "Nguyễn Xí",
-      "timestamp": "2025-11-11T17:13:44.092058Z",
-      "lat": 10.843,
-      "lon": 106.6765
+      "timestamp": "2025-11-27T14:13:59.441991Z",
+      "lat": 10.820118,
+      "lon": 106.704012
     }
   ],
   "40Z5276": [
@@ -28,9 +38,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-5",
       "location": "Nguyễn Xí",
-      "timestamp": "2025-11-11T17:12:09.578509Z",
-      "lat": 10.843,
-      "lon": 106.6765
+      "timestamp": "2025-11-27T14:10:48.516196Z",
+      "lat": 10.820118,
+      "lon": 106.704012
     }
   ],
   "30Z5276": [
@@ -40,9 +50,19 @@
       "vehicle_type": "car",
       "camera_id": "CAM-5",
       "location": "Nguyễn Xí",
-      "timestamp": "2025-11-11T17:12:10.418980Z",
-      "lat": 10.843,
-      "lon": 106.6765
+      "timestamp": "2025-11-27T14:10:49.740134Z",
+      "lat": 10.820118,
+      "lon": 106.704012
+    },
+    {
+      "plate": "30Z5276",
+      "track_id": 59,
+      "vehicle_type": "car",
+      "camera_id": "CAM-5",
+      "location": "Nguyễn Xí",
+      "timestamp": "2025-11-27T14:11:51.037012Z",
+      "lat": 10.820118,
+      "lon": 106.704012
     }
   ],
   "30A47265": [
@@ -52,9 +72,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-5",
       "location": "Nguyễn Xí",
-      "timestamp": "2025-11-11T17:12:12.293349Z",
-      "lat": 10.843,
-      "lon": 106.6765
+      "timestamp": "2025-11-27T14:10:52.637507Z",
+      "lat": 10.820118,
+      "lon": 106.704012
     }
   ],
   "30Z4265": [
@@ -64,9 +84,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-5",
       "location": "Nguyễn Xí",
-      "timestamp": "2025-11-11T17:12:13.082175Z",
-      "lat": 10.843,
-      "lon": 106.6765
+      "timestamp": "2025-11-27T14:10:53.817962Z",
+      "lat": 10.820118,
+      "lon": 106.704012
     },
     {
       "plate": "30Z4265",
@@ -74,9 +94,19 @@
       "vehicle_type": "car",
       "camera_id": "CAM-5",
       "location": "Nguyễn Xí",
-      "timestamp": "2025-11-11T17:13:13.261654Z",
-      "lat": 10.843,
-      "lon": 106.6765
+      "timestamp": "2025-11-27T14:12:00.993748Z",
+      "lat": 10.820118,
+      "lon": 106.704012
+    },
+    {
+      "plate": "30Z4265",
+      "track_id": 60,
+      "vehicle_type": "car",
+      "camera_id": "CAM-5",
+      "location": "Nguyễn Xí",
+      "timestamp": "2025-11-27T14:13:04.150751Z",
+      "lat": 10.820118,
+      "lon": 106.704012
     }
   ],
   "30S4265": [
@@ -86,9 +116,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-5",
       "location": "Nguyễn Xí",
-      "timestamp": "2025-11-11T17:12:13.433614Z",
-      "lat": 10.843,
-      "lon": 106.6765
+      "timestamp": "2025-11-27T14:10:54.537674Z",
+      "lat": 10.820118,
+      "lon": 106.704012
     }
   ],
   "30Z52276": [
@@ -98,9 +128,19 @@
       "vehicle_type": "car",
       "camera_id": "CAM-5",
       "location": "Nguyễn Xí",
-      "timestamp": "2025-11-11T17:12:13.672778Z",
-      "lat": 10.843,
-      "lon": 106.6765
+      "timestamp": "2025-11-27T14:10:55.076105Z",
+      "lat": 10.820118,
+      "lon": 106.704012
+    },
+    {
+      "plate": "30Z52276",
+      "track_id": 59,
+      "vehicle_type": "car",
+      "camera_id": "CAM-5",
+      "location": "Nguyễn Xí",
+      "timestamp": "2025-11-27T14:11:59.318292Z",
+      "lat": 10.820118,
+      "lon": 106.704012
     }
   ],
   "30A74209": [
@@ -110,9 +150,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-5",
       "location": "Nguyễn Xí",
-      "timestamp": "2025-11-11T17:12:14.148318Z",
-      "lat": 10.843,
-      "lon": 106.6765
+      "timestamp": "2025-11-27T14:10:56.036682Z",
+      "lat": 10.820118,
+      "lon": 106.704012
     }
   ],
   "30S15269": [
@@ -122,9 +162,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-5",
       "location": "Nguyễn Xí",
-      "timestamp": "2025-11-11T17:12:14.878345Z",
-      "lat": 10.843,
-      "lon": 106.6765
+      "timestamp": "2025-11-27T14:10:57.501823Z",
+      "lat": 10.820118,
+      "lon": 106.704012
     }
   ],
   "30B24205": [
@@ -134,9 +174,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-5",
       "location": "Nguyễn Xí",
-      "timestamp": "2025-11-11T17:12:15.674954Z",
-      "lat": 10.843,
-      "lon": 106.6765
+      "timestamp": "2025-11-27T14:10:59.021300Z",
+      "lat": 10.820118,
+      "lon": 106.704012
     }
   ],
   "30B74269": [
@@ -146,9 +186,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-5",
       "location": "Nguyễn Xí",
-      "timestamp": "2025-11-11T17:12:16.426193Z",
-      "lat": 10.843,
-      "lon": 106.6765
+      "timestamp": "2025-11-27T14:11:03.090398Z",
+      "lat": 10.820118,
+      "lon": 106.704012
     }
   ],
   "30Z56276": [
@@ -158,9 +198,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-5",
       "location": "Nguyễn Xí",
-      "timestamp": "2025-11-11T17:12:16.693844Z",
-      "lat": 10.843,
-      "lon": 106.6765
+      "timestamp": "2025-11-27T14:11:03.655439Z",
+      "lat": 10.820118,
+      "lon": 106.704012
     }
   ],
   "30Z4209": [
@@ -170,9 +210,19 @@
       "vehicle_type": "car",
       "camera_id": "CAM-5",
       "location": "Nguyễn Xí",
-      "timestamp": "2025-11-11T17:12:17.070510Z",
-      "lat": 10.843,
-      "lon": 106.6765
+      "timestamp": "2025-11-27T14:11:04.521320Z",
+      "lat": 10.820118,
+      "lon": 106.704012
+    },
+    {
+      "plate": "30Z4209",
+      "track_id": 60,
+      "vehicle_type": "car",
+      "camera_id": "CAM-5",
+      "location": "Nguyễn Xí",
+      "timestamp": "2025-11-27T14:12:05.259901Z",
+      "lat": 10.820118,
+      "lon": 106.704012
     }
   ],
   "30Z5296": [
@@ -182,9 +232,19 @@
       "vehicle_type": "car",
       "camera_id": "CAM-5",
       "location": "Nguyễn Xí",
-      "timestamp": "2025-11-11T17:12:17.327331Z",
-      "lat": 10.843,
-      "lon": 106.6765
+      "timestamp": "2025-11-27T14:11:05.033650Z",
+      "lat": 10.820118,
+      "lon": 106.704012
+    },
+    {
+      "plate": "30Z5296",
+      "track_id": 59,
+      "vehicle_type": "car",
+      "camera_id": "CAM-5",
+      "location": "Nguyễn Xí",
+      "timestamp": "2025-11-27T14:12:08.262087Z",
+      "lat": 10.820118,
+      "lon": 106.704012
     }
   ],
   "30B24265": [
@@ -194,9 +254,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-5",
       "location": "Nguyễn Xí",
-      "timestamp": "2025-11-11T17:12:18.542490Z",
-      "lat": 10.843,
-      "lon": 106.6765
+      "timestamp": "2025-11-27T14:11:07.350821Z",
+      "lat": 10.820118,
+      "lon": 106.704012
     }
   ],
   "30Z6276": [
@@ -206,9 +266,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-5",
       "location": "Nguyễn Xí",
-      "timestamp": "2025-11-11T17:12:19.963802Z",
-      "lat": 10.843,
-      "lon": 106.6765
+      "timestamp": "2025-11-27T14:11:09.258611Z",
+      "lat": 10.820118,
+      "lon": 106.704012
     }
   ],
   "30Z62296": [
@@ -218,9 +278,19 @@
       "vehicle_type": "car",
       "camera_id": "CAM-5",
       "location": "Nguyễn Xí",
-      "timestamp": "2025-11-11T17:12:20.737405Z",
-      "lat": 10.843,
-      "lon": 106.6765
+      "timestamp": "2025-11-27T14:11:10.703742Z",
+      "lat": 10.820118,
+      "lon": 106.704012
+    },
+    {
+      "plate": "30Z62296",
+      "track_id": 59,
+      "vehicle_type": "car",
+      "camera_id": "CAM-5",
+      "location": "Nguyễn Xí",
+      "timestamp": "2025-11-27T14:12:35.079367Z",
+      "lat": 10.820118,
+      "lon": 106.704012
     }
   ],
   "30S24209": [
@@ -230,9 +300,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-5",
       "location": "Nguyễn Xí",
-      "timestamp": "2025-11-11T17:12:21.203586Z",
-      "lat": 10.843,
-      "lon": 106.6765
+      "timestamp": "2025-11-27T14:11:11.776601Z",
+      "lat": 10.820118,
+      "lon": 106.704012
     }
   ],
   "30S24259": [
@@ -242,9 +312,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-5",
       "location": "Nguyễn Xí",
-      "timestamp": "2025-11-11T17:12:21.950942Z",
-      "lat": 10.843,
-      "lon": 106.6765
+      "timestamp": "2025-11-27T14:11:13.194864Z",
+      "lat": 10.820118,
+      "lon": 106.704012
     }
   ],
   "13A24259": [
@@ -254,9 +324,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-5",
       "location": "Nguyễn Xí",
-      "timestamp": "2025-11-11T17:12:23.502285Z",
-      "lat": 10.843,
-      "lon": 106.6765
+      "timestamp": "2025-11-27T14:11:16.794825Z",
+      "lat": 10.820118,
+      "lon": 106.704012
     }
   ],
   "30Z52275": [
@@ -266,9 +336,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-5",
       "location": "Nguyễn Xí",
-      "timestamp": "2025-11-11T17:12:25.244564Z",
-      "lat": 10.843,
-      "lon": 106.6765
+      "timestamp": "2025-11-27T14:11:20.687152Z",
+      "lat": 10.820118,
+      "lon": 106.704012
     }
   ],
   "30A24209": [
@@ -278,9 +348,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-5",
       "location": "Nguyễn Xí",
-      "timestamp": "2025-11-11T17:12:26.410024Z",
-      "lat": 10.843,
-      "lon": 106.6765
+      "timestamp": "2025-11-27T14:11:23.353567Z",
+      "lat": 10.820118,
+      "lon": 106.704012
     }
   ],
   "13A24209": [
@@ -290,9 +360,19 @@
       "vehicle_type": "car",
       "camera_id": "CAM-5",
       "location": "Nguyễn Xí",
-      "timestamp": "2025-11-11T17:12:27.114437Z",
-      "lat": 10.843,
-      "lon": 106.6765
+      "timestamp": "2025-11-27T14:11:24.838099Z",
+      "lat": 10.820118,
+      "lon": 106.704012
+    },
+    {
+      "plate": "13A24209",
+      "track_id": 60,
+      "vehicle_type": "car",
+      "camera_id": "CAM-5",
+      "location": "Nguyễn Xí",
+      "timestamp": "2025-11-27T14:12:39.578574Z",
+      "lat": 10.820118,
+      "lon": 106.704012
     }
   ],
   "30I24269": [
@@ -302,9 +382,19 @@
       "vehicle_type": "car",
       "camera_id": "CAM-5",
       "location": "Nguyễn Xí",
-      "timestamp": "2025-11-11T17:12:28.640273Z",
-      "lat": 10.843,
-      "lon": 106.6765
+      "timestamp": "2025-11-27T14:11:27.643610Z",
+      "lat": 10.820118,
+      "lon": 106.704012
+    },
+    {
+      "plate": "30I24269",
+      "track_id": 60,
+      "vehicle_type": "car",
+      "camera_id": "CAM-5",
+      "location": "Nguyễn Xí",
+      "timestamp": "2025-11-27T14:12:28.591745Z",
+      "lat": 10.820118,
+      "lon": 106.704012
     }
   ],
   "30I24205": [
@@ -314,9 +404,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-5",
       "location": "Nguyễn Xí",
-      "timestamp": "2025-11-11T17:12:29.916111Z",
-      "lat": 10.843,
-      "lon": 106.6765
+      "timestamp": "2025-11-27T14:11:30.297832Z",
+      "lat": 10.820118,
+      "lon": 106.704012
     }
   ],
   "30I24209": [
@@ -326,9 +416,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-5",
       "location": "Nguyễn Xí",
-      "timestamp": "2025-11-11T17:12:30.564762Z",
-      "lat": 10.843,
-      "lon": 106.6765
+      "timestamp": "2025-11-27T14:11:32.049445Z",
+      "lat": 10.820118,
+      "lon": 106.704012
     }
   ],
   "30Z56296": [
@@ -338,9 +428,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-5",
       "location": "Nguyễn Xí",
-      "timestamp": "2025-11-11T17:12:34.011274Z",
-      "lat": 10.843,
-      "lon": 106.6765
+      "timestamp": "2025-11-27T14:11:38.363314Z",
+      "lat": 10.820118,
+      "lon": 106.704012
     }
   ],
   "13A24269": [
@@ -350,9 +440,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-5",
       "location": "Nguyễn Xí",
-      "timestamp": "2025-11-11T17:12:36.296681Z",
-      "lat": 10.843,
-      "lon": 106.6765
+      "timestamp": "2025-11-27T14:11:42.854250Z",
+      "lat": 10.820118,
+      "lon": 106.704012
     }
   ],
   "30Z5996": [
@@ -362,9 +452,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-5",
       "location": "Nguyễn Xí",
-      "timestamp": "2025-11-11T17:12:36.517347Z",
-      "lat": 10.843,
-      "lon": 106.6765
+      "timestamp": "2025-11-27T14:11:43.359925Z",
+      "lat": 10.820118,
+      "lon": 106.704012
     }
   ],
   "30Z6226": [
@@ -374,9 +464,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-5",
       "location": "Nguyễn Xí",
-      "timestamp": "2025-11-11T17:12:38.787713Z",
-      "lat": 10.843,
-      "lon": 106.6765
+      "timestamp": "2025-11-27T14:11:49.853803Z",
+      "lat": 10.820118,
+      "lon": 106.704012
     }
   ],
   "30Z42565": [
@@ -386,9 +476,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-5",
       "location": "Nguyễn Xí",
-      "timestamp": "2025-11-11T17:12:40.301063Z",
-      "lat": 10.843,
-      "lon": 106.6765
+      "timestamp": "2025-11-27T14:11:52.883240Z",
+      "lat": 10.820118,
+      "lon": 106.704012
     }
   ],
   "30Z52296": [
@@ -398,9 +488,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-5",
       "location": "Nguyễn Xí",
-      "timestamp": "2025-11-11T17:12:41.460750Z",
-      "lat": 10.843,
-      "lon": 106.6765
+      "timestamp": "2025-11-27T14:11:55.312132Z",
+      "lat": 10.820118,
+      "lon": 106.704012
     }
   ],
   "30I24265": [
@@ -410,9 +500,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-5",
       "location": "Nguyễn Xí",
-      "timestamp": "2025-11-11T17:12:41.663702Z",
-      "lat": 10.843,
-      "lon": 106.6765
+      "timestamp": "2025-11-27T14:11:55.806247Z",
+      "lat": 10.820118,
+      "lon": 106.704012
     }
   ],
   "30Z4259": [
@@ -422,9 +512,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-5",
       "location": "Nguyễn Xí",
-      "timestamp": "2025-11-11T17:12:42.568990Z",
-      "lat": 10.843,
-      "lon": 106.6765
+      "timestamp": "2025-11-27T14:11:57.630987Z",
+      "lat": 10.820118,
+      "lon": 106.704012
     }
   ],
   "20Z5226": [
@@ -434,9 +524,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-5",
       "location": "Nguyễn Xí",
-      "timestamp": "2025-11-11T17:12:46.955767Z",
-      "lat": 10.843,
-      "lon": 106.6765
+      "timestamp": "2025-11-27T14:12:07.020242Z",
+      "lat": 10.820118,
+      "lon": 106.704012
     }
   ],
   "63A24265": [
@@ -446,9 +536,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-5",
       "location": "Nguyễn Xí",
-      "timestamp": "2025-11-11T17:12:48.657116Z",
-      "lat": 10.843,
-      "lon": 106.6765
+      "timestamp": "2025-11-27T14:12:10.024623Z",
+      "lat": 10.820118,
+      "lon": 106.704012
     }
   ],
   "30Z6296": [
@@ -458,9 +548,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-5",
       "location": "Nguyễn Xí",
-      "timestamp": "2025-11-11T17:12:49.785212Z",
-      "lat": 10.843,
-      "lon": 106.6765
+      "timestamp": "2025-11-27T14:12:11.695934Z",
+      "lat": 10.820118,
+      "lon": 106.704012
     }
   ],
   "30Z4269": [
@@ -470,9 +560,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-5",
       "location": "Nguyễn Xí",
-      "timestamp": "2025-11-11T17:12:51.375492Z",
-      "lat": 10.843,
-      "lon": 106.6765
+      "timestamp": "2025-11-27T14:12:14.823154Z",
+      "lat": 10.820118,
+      "lon": 106.704012
     }
   ],
   "30I26269": [
@@ -482,9 +572,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-5",
       "location": "Nguyễn Xí",
-      "timestamp": "2025-11-11T17:12:58.084291Z",
-      "lat": 10.843,
-      "lon": 106.6765
+      "timestamp": "2025-11-27T14:12:27.477246Z",
+      "lat": 10.820118,
+      "lon": 106.704012
     }
   ],
   "30Z42695": [
@@ -494,9 +584,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-5",
       "location": "Nguyễn Xí",
-      "timestamp": "2025-11-11T17:13:00.384981Z",
-      "lat": 10.843,
-      "lon": 106.6765
+      "timestamp": "2025-11-27T14:12:30.231947Z",
+      "lat": 10.820118,
+      "lon": 106.704012
     }
   ],
   "63A24205": [
@@ -506,9 +596,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-5",
       "location": "Nguyễn Xí",
-      "timestamp": "2025-11-11T17:13:05.105051Z",
-      "lat": 10.843,
-      "lon": 106.6765
+      "timestamp": "2025-11-27T14:12:40.792958Z",
+      "lat": 10.820118,
+      "lon": 106.704012
     }
   ],
   "30Z42654": [
@@ -518,9 +608,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-5",
       "location": "Nguyễn Xí",
-      "timestamp": "2025-11-11T17:13:09.398663Z",
-      "lat": 10.843,
-      "lon": 106.6765
+      "timestamp": "2025-11-27T14:12:49.847733Z",
+      "lat": 10.820118,
+      "lon": 106.704012
     }
   ],
   "30Z4205": [
@@ -530,9 +620,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-5",
       "location": "Nguyễn Xí",
-      "timestamp": "2025-11-11T17:13:11.954565Z",
-      "lat": 10.843,
-      "lon": 106.6765
+      "timestamp": "2025-11-27T14:12:55.021812Z",
+      "lat": 10.820118,
+      "lon": 106.704012
     }
   ],
   "30G09842": [
@@ -542,9 +632,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-5",
       "location": "Nguyễn Xí",
-      "timestamp": "2025-11-11T17:13:19.741876Z",
-      "lat": 10.843,
-      "lon": 106.6765
+      "timestamp": "2025-11-27T14:13:10.068872Z",
+      "lat": 10.820118,
+      "lon": 106.704012
     }
   ],
   "13O60984": [
@@ -554,9 +644,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-5",
       "location": "Nguyễn Xí",
-      "timestamp": "2025-11-11T17:13:21.599155Z",
-      "lat": 10.843,
-      "lon": 106.6765
+      "timestamp": "2025-11-27T14:13:13.866444Z",
+      "lat": 10.820118,
+      "lon": 106.704012
     }
   ],
   "30G0984": [
@@ -566,9 +656,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-5",
       "location": "Nguyễn Xí",
-      "timestamp": "2025-11-11T17:13:22.088498Z",
-      "lat": 10.843,
-      "lon": 106.6765
+      "timestamp": "2025-11-27T14:13:14.857040Z",
+      "lat": 10.820118,
+      "lon": 106.704012
     }
   ],
   "30G09847": [
@@ -578,9 +668,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-5",
       "location": "Nguyễn Xí",
-      "timestamp": "2025-11-11T17:13:25.163946Z",
-      "lat": 10.843,
-      "lon": 106.6765
+      "timestamp": "2025-11-27T14:13:21.848601Z",
+      "lat": 10.820118,
+      "lon": 106.704012
     }
   ],
   "13O6098": [
@@ -590,9 +680,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-5",
       "location": "Nguyễn Xí",
-      "timestamp": "2025-11-11T17:13:27.085229Z",
-      "lat": 10.843,
-      "lon": 106.6765
+      "timestamp": "2025-11-27T14:13:25.377066Z",
+      "lat": 10.820118,
+      "lon": 106.704012
     }
   ],
   "30A5221": [
@@ -602,9 +692,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-5",
       "location": "Nguyễn Xí",
-      "timestamp": "2025-11-11T17:13:33.555600Z",
-      "lat": 10.843,
-      "lon": 106.6765
+      "timestamp": "2025-11-27T14:13:38.307919Z",
+      "lat": 10.820118,
+      "lon": 106.704012
     }
   ],
   "30A5206": [
@@ -614,9 +704,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-5",
       "location": "Nguyễn Xí",
-      "timestamp": "2025-11-11T17:13:35.498731Z",
-      "lat": 10.843,
-      "lon": 106.6765
+      "timestamp": "2025-11-27T14:13:41.276653Z",
+      "lat": 10.820118,
+      "lon": 106.704012
     }
   ],
   "30A6226": [
@@ -626,9 +716,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-5",
       "location": "Nguyễn Xí",
-      "timestamp": "2025-11-11T17:13:37.125335Z",
-      "lat": 10.843,
-      "lon": 106.6765
+      "timestamp": "2025-11-27T14:13:44.634209Z",
+      "lat": 10.820118,
+      "lon": 106.704012
     }
   ],
   "40A5226": [
@@ -638,9 +728,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-5",
       "location": "Nguyễn Xí",
-      "timestamp": "2025-11-11T17:13:39.040356Z",
-      "lat": 10.843,
-      "lon": 106.6765
+      "timestamp": "2025-11-27T14:13:49.438792Z",
+      "lat": 10.820118,
+      "lon": 106.704012
     }
   ],
   "30A5226": [
@@ -650,9 +740,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-5",
       "location": "Nguyễn Xí",
-      "timestamp": "2025-11-11T17:13:39.562235Z",
-      "lat": 10.843,
-      "lon": 106.6765
+      "timestamp": "2025-11-27T14:13:50.402079Z",
+      "lat": 10.820118,
+      "lon": 106.704012
     }
   ],
   "49A5226": [
@@ -662,9 +752,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-5",
       "location": "Nguyễn Xí",
-      "timestamp": "2025-11-11T17:13:41.065956Z",
-      "lat": 10.843,
-      "lon": 106.6765
+      "timestamp": "2025-11-27T14:13:53.450833Z",
+      "lat": 10.820118,
+      "lon": 106.704012
     }
   ],
   "40Z5226": [
@@ -674,9 +764,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-5",
       "location": "Nguyễn Xí",
-      "timestamp": "2025-11-11T17:13:43.816084Z",
-      "lat": 10.843,
-      "lon": 106.6765
+      "timestamp": "2025-11-27T14:13:58.895177Z",
+      "lat": 10.820118,
+      "lon": 106.704012
     }
   ],
   "30A25226": [
@@ -686,9 +776,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-5",
       "location": "Nguyễn Xí",
-      "timestamp": "2025-11-11T17:13:44.431786Z",
-      "lat": 10.843,
-      "lon": 106.6765
+      "timestamp": "2025-11-27T14:14:00.099534Z",
+      "lat": 10.820118,
+      "lon": 106.704012
     }
   ],
   "30Z5220": [
@@ -698,9 +788,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-5",
       "location": "Nguyễn Xí",
-      "timestamp": "2025-11-11T17:13:44.700812Z",
-      "lat": 10.843,
-      "lon": 106.6765
+      "timestamp": "2025-11-27T14:14:00.521546Z",
+      "lat": 10.820118,
+      "lon": 106.704012
     }
   ],
   "30A25220": [
@@ -710,9 +800,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-5",
       "location": "Nguyễn Xí",
-      "timestamp": "2025-11-11T17:13:46.656039Z",
-      "lat": 10.843,
-      "lon": 106.6765
+      "timestamp": "2025-11-27T14:14:05.494159Z",
+      "lat": 10.820118,
+      "lon": 106.704012
     }
   ],
   "57G2261": [
@@ -722,9 +812,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-5",
       "location": "Nguyễn Xí",
-      "timestamp": "2025-11-11T17:13:47.315827Z",
-      "lat": 10.843,
-      "lon": 106.6765
+      "timestamp": "2025-11-27T14:14:06.699540Z",
+      "lat": 10.820118,
+      "lon": 106.704012
     }
   ],
   "59A62261": [
@@ -734,9 +824,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-5",
       "location": "Nguyễn Xí",
-      "timestamp": "2025-11-11T17:13:47.936983Z",
-      "lat": 10.843,
-      "lon": 106.6765
+      "timestamp": "2025-11-27T14:14:07.895445Z",
+      "lat": 10.820118,
+      "lon": 106.704012
     }
   ],
   "40Z5220": [
@@ -746,9 +836,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-5",
       "location": "Nguyễn Xí",
-      "timestamp": "2025-11-11T17:13:48.470930Z",
-      "lat": 10.843,
-      "lon": 106.6765
+      "timestamp": "2025-11-27T14:14:08.836418Z",
+      "lat": 10.820118,
+      "lon": 106.704012
     }
   ],
   "50A5220": [
@@ -758,9 +848,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-5",
       "location": "Nguyễn Xí",
-      "timestamp": "2025-11-11T17:13:50.929440Z",
-      "lat": 10.843,
-      "lon": 106.6765
+      "timestamp": "2025-11-27T14:14:13.126782Z",
+      "lat": 10.820118,
+      "lon": 106.704012
     }
   ],
   "39A5226": [
@@ -770,9 +860,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-5",
       "location": "Nguyễn Xí",
-      "timestamp": "2025-11-11T17:13:52.432667Z",
-      "lat": 10.843,
-      "lon": 106.6765
+      "timestamp": "2025-11-27T14:14:16.696731Z",
+      "lat": 10.820118,
+      "lon": 106.704012
     }
   ],
   "50A5226": [
@@ -782,9 +872,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-5",
       "location": "Nguyễn Xí",
-      "timestamp": "2025-11-11T17:13:52.587558Z",
-      "lat": 10.843,
-      "lon": 106.6765
+      "timestamp": "2025-11-27T14:14:17.076191Z",
+      "lat": 10.820118,
+      "lon": 106.704012
     }
   ],
   "30A5220": [
@@ -794,9 +884,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-5",
       "location": "Nguyễn Xí",
-      "timestamp": "2025-11-11T17:13:54.240857Z",
-      "lat": 10.843,
-      "lon": 106.6765
+      "timestamp": "2025-11-27T14:14:20.393995Z",
+      "lat": 10.820118,
+      "lon": 106.704012
     }
   ],
   "39A5220": [
@@ -806,9 +896,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-5",
       "location": "Nguyễn Xí",
-      "timestamp": "2025-11-11T17:13:54.837113Z",
-      "lat": 10.843,
-      "lon": 106.6765
+      "timestamp": "2025-11-27T14:14:21.591368Z",
+      "lat": 10.820118,
+      "lon": 106.704012
     }
   ],
   "49Z5226": [
@@ -818,9 +908,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-5",
       "location": "Nguyễn Xí",
-      "timestamp": "2025-11-11T17:13:55.915381Z",
-      "lat": 10.843,
-      "lon": 106.6765
+      "timestamp": "2025-11-27T14:14:23.722094Z",
+      "lat": 10.820118,
+      "lon": 106.704012
     }
   ],
   "30A5225": [
@@ -830,9 +920,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-5",
       "location": "Nguyễn Xí",
-      "timestamp": "2025-11-11T17:13:56.255183Z",
-      "lat": 10.843,
-      "lon": 106.6765
+      "timestamp": "2025-11-27T14:14:24.520472Z",
+      "lat": 10.820118,
+      "lon": 106.704012
     }
   ],
   "46A5221": [
@@ -842,9 +932,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-5",
       "location": "Nguyễn Xí",
-      "timestamp": "2025-11-11T17:13:57.573448Z",
-      "lat": 10.843,
-      "lon": 106.6765
+      "timestamp": "2025-11-27T14:14:27.102102Z",
+      "lat": 10.820118,
+      "lon": 106.704012
     }
   ]
 }

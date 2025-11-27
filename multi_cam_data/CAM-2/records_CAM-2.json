@@ -6,9 +6,19 @@
       "vehicle_type": "car",
       "camera_id": "CAM-2",
       "location": "Quang Trung",
-      "timestamp": "2025-11-11T17:06:31.029957Z",
-      "lat": 10.846,
-      "lon": 106.6745
+      "timestamp": "2025-11-27T14:00:25.259807Z",
+      "lat": 10.844394,
+      "lon": 106.640104
+    },
+    {
+      "plate": "30Z5226",
+      "track_id": 17,
+      "vehicle_type": "car",
+      "camera_id": "CAM-2",
+      "location": "Quang Trung",
+      "timestamp": "2025-11-27T14:01:26.038060Z",
+      "lat": 10.844394,
+      "lon": 106.640104
     },
     {
       "plate": "30Z5226",
@@ -16,9 +26,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-2",
       "location": "Quang Trung",
-      "timestamp": "2025-11-11T17:08:00.261619Z",
-      "lat": 10.846,
-      "lon": 106.6745
+      "timestamp": "2025-11-27T14:02:48.248769Z",
+      "lat": 10.844394,
+      "lon": 106.640104
     }
   ],
   "40Z5276": [
@@ -28,9 +38,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-2",
       "location": "Quang Trung",
-      "timestamp": "2025-11-11T17:06:32.098911Z",
-      "lat": 10.846,
-      "lon": 106.6745
+      "timestamp": "2025-11-27T14:00:28.642831Z",
+      "lat": 10.844394,
+      "lon": 106.640104
     }
   ],
   "30Z5276": [
@@ -40,9 +50,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-2",
       "location": "Quang Trung",
-      "timestamp": "2025-11-11T17:06:32.769631Z",
-      "lat": 10.846,
-      "lon": 106.6745
+      "timestamp": "2025-11-27T14:00:29.239783Z",
+      "lat": 10.844394,
+      "lon": 106.640104
     }
   ],
   "30A47265": [
@@ -52,9 +62,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-2",
       "location": "Quang Trung",
-      "timestamp": "2025-11-11T17:06:34.601115Z",
-      "lat": 10.846,
-      "lon": 106.6745
+      "timestamp": "2025-11-27T14:00:30.641809Z",
+      "lat": 10.844394,
+      "lon": 106.640104
     }
   ],
   "30Z4265": [
@@ -64,9 +74,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-2",
       "location": "Quang Trung",
-      "timestamp": "2025-11-11T17:06:35.305029Z",
-      "lat": 10.846,
-      "lon": 106.6745
+      "timestamp": "2025-11-27T14:00:31.205166Z",
+      "lat": 10.844394,
+      "lon": 106.640104
     },
     {
       "plate": "30Z4265",
@@ -74,9 +84,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-2",
       "location": "Quang Trung",
-      "timestamp": "2025-11-11T17:07:35.637642Z",
-      "lat": 10.846,
-      "lon": 106.6745
+      "timestamp": "2025-11-27T14:01:31.650968Z",
+      "lat": 10.844394,
+      "lon": 106.640104
     }
   ],
   "30S4265": [
@@ -86,9 +96,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-2",
       "location": "Quang Trung",
-      "timestamp": "2025-11-11T17:06:35.616555Z",
-      "lat": 10.846,
-      "lon": 106.6745
+      "timestamp": "2025-11-27T14:00:31.553987Z",
+      "lat": 10.844394,
+      "lon": 106.640104
     }
   ],
   "30Z52276": [
@@ -98,9 +108,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-2",
       "location": "Quang Trung",
-      "timestamp": "2025-11-11T17:06:35.865957Z",
-      "lat": 10.846,
-      "lon": 106.6745
+      "timestamp": "2025-11-27T14:00:31.771701Z",
+      "lat": 10.844394,
+      "lon": 106.640104
     }
   ],
   "30A74209": [
@@ -110,9 +120,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-2",
       "location": "Quang Trung",
-      "timestamp": "2025-11-11T17:06:36.328010Z",
-      "lat": 10.846,
-      "lon": 106.6745
+      "timestamp": "2025-11-27T14:00:32.194941Z",
+      "lat": 10.844394,
+      "lon": 106.640104
     }
   ],
   "30S15269": [
@@ -122,9 +132,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-2",
       "location": "Quang Trung",
-      "timestamp": "2025-11-11T17:06:37.024262Z",
-      "lat": 10.846,
-      "lon": 106.6745
+      "timestamp": "2025-11-27T14:00:32.943892Z",
+      "lat": 10.844394,
+      "lon": 106.640104
     }
   ],
   "30B24205": [
@@ -134,9 +144,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-2",
       "location": "Quang Trung",
-      "timestamp": "2025-11-11T17:06:37.765391Z",
-      "lat": 10.846,
-      "lon": 106.6745
+      "timestamp": "2025-11-27T14:00:34.388021Z",
+      "lat": 10.844394,
+      "lon": 106.640104
     }
   ],
   "30B74269": [
@@ -146,9 +156,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-2",
       "location": "Quang Trung",
-      "timestamp": "2025-11-11T17:06:38.486255Z",
-      "lat": 10.846,
-      "lon": 106.6745
+      "timestamp": "2025-11-27T14:00:35.822171Z",
+      "lat": 10.844394,
+      "lon": 106.640104
     }
   ],
   "30Z56276": [
@@ -158,9 +168,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-2",
       "location": "Quang Trung",
-      "timestamp": "2025-11-11T17:06:38.752227Z",
-      "lat": 10.846,
-      "lon": 106.6745
+      "timestamp": "2025-11-27T14:00:36.296936Z",
+      "lat": 10.844394,
+      "lon": 106.640104
     }
   ],
   "30Z4209": [
@@ -170,9 +180,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-2",
       "location": "Quang Trung",
-      "timestamp": "2025-11-11T17:06:39.118639Z",
-      "lat": 10.846,
-      "lon": 106.6745
+      "timestamp": "2025-11-27T14:00:36.669069Z",
+      "lat": 10.844394,
+      "lon": 106.640104
     }
   ],
   "30Z5296": [
@@ -182,9 +192,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-2",
       "location": "Quang Trung",
-      "timestamp": "2025-11-11T17:06:39.374170Z",
-      "lat": 10.846,
-      "lon": 106.6745
+      "timestamp": "2025-11-27T14:00:36.929907Z",
+      "lat": 10.844394,
+      "lon": 106.640104
     }
   ],
   "30B24265": [
@@ -194,9 +204,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-2",
       "location": "Quang Trung",
-      "timestamp": "2025-11-11T17:06:40.489854Z",
-      "lat": 10.846,
-      "lon": 106.6745
+      "timestamp": "2025-11-27T14:00:38.212485Z",
+      "lat": 10.844394,
+      "lon": 106.640104
     }
   ],
   "30Z6276": [
@@ -206,9 +216,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-2",
       "location": "Quang Trung",
-      "timestamp": "2025-11-11T17:06:41.428324Z",
-      "lat": 10.846,
-      "lon": 106.6745
+      "timestamp": "2025-11-27T14:00:39.436130Z",
+      "lat": 10.844394,
+      "lon": 106.640104
     }
   ],
   "30Z62296": [
@@ -218,9 +228,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-2",
       "location": "Quang Trung",
-      "timestamp": "2025-11-11T17:06:42.094112Z",
-      "lat": 10.846,
-      "lon": 106.6745
+      "timestamp": "2025-11-27T14:00:40.292319Z",
+      "lat": 10.844394,
+      "lon": 106.640104
     }
   ],
   "30S24209": [
@@ -230,9 +240,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-2",
       "location": "Quang Trung",
-      "timestamp": "2025-11-11T17:06:42.509677Z",
-      "lat": 10.846,
-      "lon": 106.6745
+      "timestamp": "2025-11-27T14:00:40.940591Z",
+      "lat": 10.844394,
+      "lon": 106.640104
     }
   ],
   "30S24259": [
@@ -242,9 +252,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-2",
       "location": "Quang Trung",
-      "timestamp": "2025-11-11T17:06:43.223236Z",
-      "lat": 10.846,
-      "lon": 106.6745
+      "timestamp": "2025-11-27T14:00:41.813816Z",
+      "lat": 10.844394,
+      "lon": 106.640104
     }
   ],
   "13A24259": [
@@ -254,9 +264,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-2",
       "location": "Quang Trung",
-      "timestamp": "2025-11-11T17:06:44.702797Z",
-      "lat": 10.846,
-      "lon": 106.6745
+      "timestamp": "2025-11-27T14:00:43.575110Z",
+      "lat": 10.844394,
+      "lon": 106.640104
     }
   ],
   "30Z52275": [
@@ -266,9 +276,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-2",
       "location": "Quang Trung",
-      "timestamp": "2025-11-11T17:06:46.362110Z",
-      "lat": 10.846,
-      "lon": 106.6745
+      "timestamp": "2025-11-27T14:00:45.632183Z",
+      "lat": 10.844394,
+      "lon": 106.640104
     }
   ],
   "30A24209": [
@@ -278,9 +288,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-2",
       "location": "Quang Trung",
-      "timestamp": "2025-11-11T17:06:47.475687Z",
-      "lat": 10.846,
-      "lon": 106.6745
+      "timestamp": "2025-11-27T14:00:46.986663Z",
+      "lat": 10.844394,
+      "lon": 106.640104
     }
   ],
   "13A24209": [
@@ -290,9 +300,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-2",
       "location": "Quang Trung",
-      "timestamp": "2025-11-11T17:06:48.607730Z",
-      "lat": 10.846,
-      "lon": 106.6745
+      "timestamp": "2025-11-27T14:00:47.793759Z",
+      "lat": 10.844394,
+      "lon": 106.640104
     }
   ],
   "30I24269": [
@@ -302,9 +312,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-2",
       "location": "Quang Trung",
-      "timestamp": "2025-11-11T17:06:49.983378Z",
-      "lat": 10.846,
-      "lon": 106.6745
+      "timestamp": "2025-11-27T14:00:49.431696Z",
+      "lat": 10.844394,
+      "lon": 106.640104
     }
   ],
   "30I24205": [
@@ -314,9 +324,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-2",
       "location": "Quang Trung",
-      "timestamp": "2025-11-11T17:06:51.272774Z",
-      "lat": 10.846,
-      "lon": 106.6745
+      "timestamp": "2025-11-27T14:00:51.047089Z",
+      "lat": 10.844394,
+      "lon": 106.640104
     }
   ],
   "30I24209": [
@@ -326,9 +336,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-2",
       "location": "Quang Trung",
-      "timestamp": "2025-11-11T17:06:51.846795Z",
-      "lat": 10.846,
-      "lon": 106.6745
+      "timestamp": "2025-11-27T14:00:51.828028Z",
+      "lat": 10.844394,
+      "lon": 106.640104
     }
   ],
   "30Z56296": [
@@ -338,9 +348,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-2",
       "location": "Quang Trung",
-      "timestamp": "2025-11-11T17:06:55.011486Z",
-      "lat": 10.846,
-      "lon": 106.6745
+      "timestamp": "2025-11-27T14:00:55.374043Z",
+      "lat": 10.844394,
+      "lon": 106.640104
     }
   ],
   "13A24269": [
@@ -350,9 +360,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-2",
       "location": "Quang Trung",
-      "timestamp": "2025-11-11T17:06:57.077085Z",
-      "lat": 10.846,
-      "lon": 106.6745
+      "timestamp": "2025-11-27T14:00:57.925141Z",
+      "lat": 10.844394,
+      "lon": 106.640104
     }
   ],
   "30Z5996": [
@@ -362,9 +372,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-2",
       "location": "Quang Trung",
-      "timestamp": "2025-11-11T17:06:57.315309Z",
-      "lat": 10.846,
-      "lon": 106.6745
+      "timestamp": "2025-11-27T14:00:58.234345Z",
+      "lat": 10.844394,
+      "lon": 106.640104
     }
   ],
   "30Z6226": [
@@ -374,9 +384,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-2",
       "location": "Quang Trung",
-      "timestamp": "2025-11-11T17:06:59.659186Z",
-      "lat": 10.846,
-      "lon": 106.6745
+      "timestamp": "2025-11-27T14:01:01.000223Z",
+      "lat": 10.844394,
+      "lon": 106.640104
     }
   ],
   "30Z42565": [
@@ -386,9 +396,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-2",
       "location": "Quang Trung",
-      "timestamp": "2025-11-11T17:07:01.184690Z",
-      "lat": 10.846,
-      "lon": 106.6745
+      "timestamp": "2025-11-27T14:01:02.626788Z",
+      "lat": 10.844394,
+      "lon": 106.640104
     }
   ],
   "30Z52296": [
@@ -398,9 +408,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-2",
       "location": "Quang Trung",
-      "timestamp": "2025-11-11T17:07:02.401408Z",
-      "lat": 10.846,
-      "lon": 106.6745
+      "timestamp": "2025-11-27T14:01:04.170436Z",
+      "lat": 10.844394,
+      "lon": 106.640104
     }
   ],
   "30I24265": [
@@ -410,9 +420,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-2",
       "location": "Quang Trung",
-      "timestamp": "2025-11-11T17:07:02.611648Z",
-      "lat": 10.846,
-      "lon": 106.6745
+      "timestamp": "2025-11-27T14:01:04.499231Z",
+      "lat": 10.844394,
+      "lon": 106.640104
     }
   ],
   "30Z4259": [
@@ -422,9 +432,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-2",
       "location": "Quang Trung",
-      "timestamp": "2025-11-11T17:07:03.897360Z",
-      "lat": 10.846,
-      "lon": 106.6745
+      "timestamp": "2025-11-27T14:01:05.644518Z",
+      "lat": 10.844394,
+      "lon": 106.640104
     }
   ],
   "20Z5226": [
@@ -434,9 +444,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-2",
       "location": "Quang Trung",
-      "timestamp": "2025-11-11T17:07:07.991530Z",
-      "lat": 10.846,
-      "lon": 106.6745
+      "timestamp": "2025-11-27T14:01:10.761931Z",
+      "lat": 10.844394,
+      "lon": 106.640104
     }
   ],
   "63A24265": [
@@ -446,9 +456,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-2",
       "location": "Quang Trung",
-      "timestamp": "2025-11-11T17:07:09.436322Z",
-      "lat": 10.846,
-      "lon": 106.6745
+      "timestamp": "2025-11-27T14:01:12.565606Z",
+      "lat": 10.844394,
+      "lon": 106.640104
     }
   ],
   "30Z6296": [
@@ -458,9 +468,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-2",
       "location": "Quang Trung",
-      "timestamp": "2025-11-11T17:07:10.211628Z",
-      "lat": 10.846,
-      "lon": 106.6745
+      "timestamp": "2025-11-27T14:01:13.641331Z",
+      "lat": 10.844394,
+      "lon": 106.640104
     }
   ],
   "30Z4269": [
@@ -470,9 +480,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-2",
       "location": "Quang Trung",
-      "timestamp": "2025-11-11T17:07:11.668054Z",
-      "lat": 10.846,
-      "lon": 106.6745
+      "timestamp": "2025-11-27T14:01:15.438748Z",
+      "lat": 10.844394,
+      "lon": 106.640104
     }
   ],
   "30I26269": [
@@ -482,9 +492,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-2",
       "location": "Quang Trung",
-      "timestamp": "2025-11-11T17:07:17.709521Z",
-      "lat": 10.846,
-      "lon": 106.6745
+      "timestamp": "2025-11-27T14:01:22.567716Z",
+      "lat": 10.844394,
+      "lon": 106.640104
     }
   ],
   "30Z42695": [
@@ -494,9 +504,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-2",
       "location": "Quang Trung",
-      "timestamp": "2025-11-11T17:07:20.181350Z",
-      "lat": 10.846,
-      "lon": 106.6745
+      "timestamp": "2025-11-27T14:01:24.899863Z",
+      "lat": 10.844394,
+      "lon": 106.640104
     }
   ],
   "63A24205": [
@@ -506,9 +516,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-2",
       "location": "Quang Trung",
-      "timestamp": "2025-11-11T17:07:24.466735Z",
-      "lat": 10.846,
-      "lon": 106.6745
+      "timestamp": "2025-11-27T14:01:30.050969Z",
+      "lat": 10.844394,
+      "lon": 106.640104
     }
   ],
   "30Z42654": [
@@ -518,9 +528,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-2",
       "location": "Quang Trung",
-      "timestamp": "2025-11-11T17:07:28.547142Z",
-      "lat": 10.846,
-      "lon": 106.6745
+      "timestamp": "2025-11-27T14:01:35.185794Z",
+      "lat": 10.844394,
+      "lon": 106.640104
     }
   ],
   "30Z4205": [
@@ -530,9 +540,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-2",
       "location": "Quang Trung",
-      "timestamp": "2025-11-11T17:07:31.079425Z",
-      "lat": 10.846,
-      "lon": 106.6745
+      "timestamp": "2025-11-27T14:01:40.206287Z",
+      "lat": 10.844394,
+      "lon": 106.640104
     }
   ],
   "30G09842": [
@@ -542,9 +552,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-2",
       "location": "Quang Trung",
-      "timestamp": "2025-11-11T17:07:38.226116Z",
-      "lat": 10.846,
-      "lon": 106.6745
+      "timestamp": "2025-11-27T14:01:50.345399Z",
+      "lat": 10.844394,
+      "lon": 106.640104
     }
   ],
   "13O60984": [
@@ -554,9 +564,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-2",
       "location": "Quang Trung",
-      "timestamp": "2025-11-11T17:07:39.904616Z",
-      "lat": 10.846,
-      "lon": 106.6745
+      "timestamp": "2025-11-27T14:01:52.473794Z",
+      "lat": 10.844394,
+      "lon": 106.640104
     }
   ],
   "30G0984": [
@@ -566,9 +576,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-2",
       "location": "Quang Trung",
-      "timestamp": "2025-11-11T17:07:40.387753Z",
-      "lat": 10.846,
-      "lon": 106.6745
+      "timestamp": "2025-11-27T14:01:53.052488Z",
+      "lat": 10.844394,
+      "lon": 106.640104
     }
   ],
   "30G09847": [
@@ -578,9 +588,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-2",
       "location": "Quang Trung",
-      "timestamp": "2025-11-11T17:07:43.063694Z",
-      "lat": 10.846,
-      "lon": 106.6745
+      "timestamp": "2025-11-27T14:01:56.402197Z",
+      "lat": 10.844394,
+      "lon": 106.640104
     }
   ],
   "13O6098": [
@@ -590,9 +600,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-2",
       "location": "Quang Trung",
-      "timestamp": "2025-11-11T17:07:44.806356Z",
-      "lat": 10.846,
-      "lon": 106.6745
+      "timestamp": "2025-11-27T14:01:59.183679Z",
+      "lat": 10.844394,
+      "lon": 106.640104
     }
   ],
   "30A5221": [
@@ -602,9 +612,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-2",
       "location": "Quang Trung",
-      "timestamp": "2025-11-11T17:07:50.970643Z",
-      "lat": 10.846,
-      "lon": 106.6745
+      "timestamp": "2025-11-27T14:02:06.405045Z",
+      "lat": 10.844394,
+      "lon": 106.640104
     }
   ],
   "30A5206": [
@@ -614,9 +624,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-2",
       "location": "Quang Trung",
-      "timestamp": "2025-11-11T17:07:52.345482Z",
-      "lat": 10.846,
-      "lon": 106.6745
+      "timestamp": "2025-11-27T14:02:08.249471Z",
+      "lat": 10.844394,
+      "lon": 106.640104
     }
   ],
   "30A6226": [
@@ -626,9 +636,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-2",
       "location": "Quang Trung",
-      "timestamp": "2025-11-11T17:07:53.834564Z",
-      "lat": 10.846,
-      "lon": 106.6745
+      "timestamp": "2025-11-27T14:02:10.701554Z",
+      "lat": 10.844394,
+      "lon": 106.640104
     }
   ],
   "40A5226": [
@@ -638,9 +648,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-2",
       "location": "Quang Trung",
-      "timestamp": "2025-11-11T17:07:55.630418Z",
-      "lat": 10.846,
-      "lon": 106.6745
+      "timestamp": "2025-11-27T14:02:15.611878Z",
+      "lat": 10.844394,
+      "lon": 106.640104
     }
   ],
   "30A5226": [
@@ -650,9 +660,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-2",
       "location": "Quang Trung",
-      "timestamp": "2025-11-11T17:07:56.140484Z",
-      "lat": 10.846,
-      "lon": 106.6745
+      "timestamp": "2025-11-27T14:02:16.550841Z",
+      "lat": 10.844394,
+      "lon": 106.640104
     }
   ],
   "49A5226": [
@@ -662,9 +672,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-2",
       "location": "Quang Trung",
-      "timestamp": "2025-11-11T17:07:57.435792Z",
-      "lat": 10.846,
-      "lon": 106.6745
+      "timestamp": "2025-11-27T14:02:19.566022Z",
+      "lat": 10.844394,
+      "lon": 106.640104
     }
   ],
   "40Z5226": [
@@ -674,9 +684,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-2",
       "location": "Quang Trung",
-      "timestamp": "2025-11-11T17:07:59.971374Z",
-      "lat": 10.846,
-      "lon": 106.6745
+      "timestamp": "2025-11-27T14:02:25.474480Z",
+      "lat": 10.844394,
+      "lon": 106.640104
     }
   ],
   "30A25226": [
@@ -686,9 +696,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-2",
       "location": "Quang Trung",
-      "timestamp": "2025-11-11T17:08:00.605041Z",
-      "lat": 10.846,
-      "lon": 106.6745
+      "timestamp": "2025-11-27T14:02:26.685140Z",
+      "lat": 10.844394,
+      "lon": 106.640104
     }
   ],
   "30Z5220": [
@@ -698,9 +708,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-2",
       "location": "Quang Trung",
-      "timestamp": "2025-11-11T17:08:00.823668Z",
-      "lat": 10.846,
-      "lon": 106.6745
+      "timestamp": "2025-11-27T14:02:27.070966Z",
+      "lat": 10.844394,
+      "lon": 106.640104
     }
   ],
   "30A25220": [
@@ -710,9 +720,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-2",
       "location": "Quang Trung",
-      "timestamp": "2025-11-11T17:08:02.633818Z",
-      "lat": 10.846,
-      "lon": 106.6745
+      "timestamp": "2025-11-27T14:02:31.506190Z",
+      "lat": 10.844394,
+      "lon": 106.640104
     }
   ],
   "57G2261": [
@@ -722,9 +732,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-2",
       "location": "Quang Trung",
-      "timestamp": "2025-11-11T17:08:03.217344Z",
-      "lat": 10.846,
-      "lon": 106.6745
+      "timestamp": "2025-11-27T14:02:34.502704Z",
+      "lat": 10.844394,
+      "lon": 106.640104
     }
   ],
   "59A62261": [
@@ -734,9 +744,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-2",
       "location": "Quang Trung",
-      "timestamp": "2025-11-11T17:08:04.112641Z",
-      "lat": 10.846,
-      "lon": 106.6745
+      "timestamp": "2025-11-27T14:02:37.238792Z",
+      "lat": 10.844394,
+      "lon": 106.640104
     }
   ],
   "40Z5220": [
@@ -746,9 +756,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-2",
       "location": "Quang Trung",
-      "timestamp": "2025-11-11T17:08:04.583966Z",
-      "lat": 10.846,
-      "lon": 106.6745
+      "timestamp": "2025-11-27T14:02:38.204066Z",
+      "lat": 10.844394,
+      "lon": 106.640104
     }
   ],
   "50A5220": [
@@ -758,9 +768,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-2",
       "location": "Quang Trung",
-      "timestamp": "2025-11-11T17:08:06.622343Z",
-      "lat": 10.846,
-      "lon": 106.6745
+      "timestamp": "2025-11-27T14:02:42.711253Z",
+      "lat": 10.844394,
+      "lon": 106.640104
     }
   ],
   "39A5226": [
@@ -770,9 +780,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-2",
       "location": "Quang Trung",
-      "timestamp": "2025-11-11T17:08:07.896287Z",
-      "lat": 10.846,
-      "lon": 106.6745
+      "timestamp": "2025-11-27T14:02:47.489845Z",
+      "lat": 10.844394,
+      "lon": 106.640104
     }
   ],
   "50A5226": [
@@ -782,9 +792,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-2",
       "location": "Quang Trung",
-      "timestamp": "2025-11-11T17:08:08.019029Z",
-      "lat": 10.846,
-      "lon": 106.6745
+      "timestamp": "2025-11-27T14:02:47.785301Z",
+      "lat": 10.844394,
+      "lon": 106.640104
     }
   ],
   "30A5220": [
@@ -794,9 +804,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-2",
       "location": "Quang Trung",
-      "timestamp": "2025-11-11T17:08:09.472352Z",
-      "lat": 10.846,
-      "lon": 106.6745
+      "timestamp": "2025-11-27T14:02:51.135738Z",
+      "lat": 10.844394,
+      "lon": 106.640104
     }
   ],
   "39A5220": [
@@ -806,9 +816,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-2",
       "location": "Quang Trung",
-      "timestamp": "2025-11-11T17:08:10.074633Z",
-      "lat": 10.846,
-      "lon": 106.6745
+      "timestamp": "2025-11-27T14:02:52.436334Z",
+      "lat": 10.844394,
+      "lon": 106.640104
     }
   ],
   "49Z5226": [
@@ -818,9 +828,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-2",
       "location": "Quang Trung",
-      "timestamp": "2025-11-11T17:08:11.088621Z",
-      "lat": 10.846,
-      "lon": 106.6745
+      "timestamp": "2025-11-27T14:02:54.691205Z",
+      "lat": 10.844394,
+      "lon": 106.640104
     }
   ],
   "30A5225": [
@@ -830,9 +840,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-2",
       "location": "Quang Trung",
-      "timestamp": "2025-11-11T17:08:11.450523Z",
-      "lat": 10.846,
-      "lon": 106.6745
+      "timestamp": "2025-11-27T14:02:55.519449Z",
+      "lat": 10.844394,
+      "lon": 106.640104
     }
   ],
   "46A5221": [
@@ -842,9 +852,9 @@
       "vehicle_type": "car",
       "camera_id": "CAM-2",
       "location": "Quang Trung",
-      "timestamp": "2025-11-11T17:08:12.716115Z",
-      "lat": 10.846,
-      "lon": 106.6745
+      "timestamp": "2025-11-27T14:02:58.008264Z",
+      "lat": 10.844394,
+      "lon": 106.640104
     }
   ]
 }
